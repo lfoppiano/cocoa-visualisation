@@ -6,3 +6,5 @@ languagecodes
 langdetect
 argostranslate
 fasttext-langdetect
+python-dotenv
+pyalex
