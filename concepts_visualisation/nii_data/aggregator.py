@@ -4,13 +4,10 @@ import os
 import sys
 from pathlib import Path
 
-import languagecodes
-from bs4 import BeautifulSoup
-from googletrans import Translator
-from ftlangdetect import detect
-from tqdm import tqdm
 import argostranslate.package
 import argostranslate.translate
+from googletrans import Translator
+from tqdm import tqdm
 
 argostranslate.package.update_package_index()
 available_packages = argostranslate.package.get_available_packages()
