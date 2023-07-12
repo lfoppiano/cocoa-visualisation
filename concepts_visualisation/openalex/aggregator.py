@@ -18,7 +18,7 @@ def aggregate_metadata(input_list):
             tags = record['tags']
             for author in authors:
                 author_id = author["id"].lower()
-                author_name = author["id"].lower()
+                author_name = author["id"].lower().replace(" ", "_")
 
                 if author_id not in [key[0] for key in aggregated.keys()]:
                     aggregated[(author_id, author_name)] = {tag['text']: 1 for tag in tags}
