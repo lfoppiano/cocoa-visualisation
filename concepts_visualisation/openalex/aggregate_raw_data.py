@@ -36,11 +36,12 @@ def aggregate_metadata(input_list):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
-        description="Converter TSV to XML (Grobid training data based on TEI)")
+        description="Aggregate metadata scattered in one publication per file")
 
     parser.add_argument("--input", help="Input file or directory", required=True, type=Path)
     parser.add_argument("--output",
-                        help="Output directory (if omitted, the output will be the same directory/file with different extension)",
+                        help="Output directory (if omitted, the output will be the same directory/file "
+                             "with different extension)",
                         required=False, type=Path, default=None)
     parser.add_argument("--recursive", action="store_true", default=False,
                         help="Process input directory recursively. If input is a file, this parameter is ignored. ")

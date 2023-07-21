@@ -17,10 +17,10 @@ def aggregate(data):
             author_id = author["id"].lower()
             author_name = author["name"].lower() if author["name"] is not None else " "
 
-            if str(author_id+"___"+author_name) not in aggregated.keys():
-                aggregated[str(author_id+"___"+author_name)] = {tag['text']: 1 for tag in tags}
+            if str(author_id + "___" + author_name) not in aggregated.keys():
+                aggregated[str(author_id + "___" + author_name)] = {tag['text']: 1 for tag in tags}
             else:
-                existing_info = aggregated[str(author_id+"___"+author_name)]
+                existing_info = aggregated[str(author_id + "___" + author_name)]
                 for tag in tags:
                     tag_text = tag['text'].lower()
                     if tag_text in existing_info.keys():
@@ -33,7 +33,7 @@ def aggregate(data):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
-        description="Converter TSV to XML (Grobid training data based on TEI)")
+        description="Converts back from CSV to JSON")
 
     parser.add_argument("--input", help="Input file or directory", required=True, type=Path)
 
@@ -41,25 +41,39 @@ if __name__ == '__main__':
 
     input = args.input
 
-
     with open(input) as f:
         df = pd.read_csv(f)
 
     output = []
     for row in range(0, len(df)):
+        if pd.isna(df.loc[row]['authors']):
+            print("Authors are null, skipping!")
+            continue
+
         item = {
-            "id": df.loc[row]['id'],
-            "authors": [{"id": author['id'], "name": author['display_name']} for author in ast.literal_eval(df.loc[row]['authors'])],
-            "tags": [{"text": concept['display_name'].lower()} for concept in ast.literal_eval(df.loc[row]['concepts'])],
+            "authors": ast.literal_eval(df.loc[row]['authors']),
+            "concepts": ast.literal_eval(df.loc[row]['concepts']),
+            "keyterms_T": [
+                {
+                    "display_name": keyterm[0],
+                    "score": keyterm[1]
+                } for keyterm in ast.literal_eval(df.loc[row]['keyterms_T'])],
+            "keyterms_A": [
+                {
+                    "display_name": keyterm[0],
+                    "score": keyterm[1]
+                } for keyterm in ast.literal_eval(df.loc[row]['keyterms_A'])]
         }
-        item['tags'].extend([{"text": keyterm[0]} for keyterm in ast.literal_eval(df.loc[row]['keyterms'])])
+
+        keys = [key for key in df.loc[row].keys() if key not in list(item.keys()) + ['Unnamed: 0.1', 'Unnamed: 0']]
+
+        for key in keys:
+            item[key] = df.loc[row][key]
         output.append(item)
 
-
-    aggregated = aggregate(output)
+    # aggregated = aggregate(output)
 
     with open("output.json", 'w') as fo:
-        json.dump(aggregated, fo)
+        json.dump(output, fo)
 
-
-
+    print("fine")
