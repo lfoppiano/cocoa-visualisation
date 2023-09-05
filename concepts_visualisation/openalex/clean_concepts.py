@@ -71,24 +71,33 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(
         description="Cleanup concepts from battery_data_topics")
 
-    parser.add_argument("--input", help="Input file", required=True, type=Path)
-    parser.add_argument("--output", help="Output directory", required=True, type=Path)
+    parser.add_argument("--input",
+                        help="Input file",
+                        required=True,
+                        type=Path)
+    parser.add_argument("--cache-concepts",
+                        required=False,
+                        default=True,
+                        action="store_true")
+    parser.add_argument("--output",
+                        help="Output directory",
+                        required=True,
+                        type=Path)
 
     args = parser.parse_args()
 
     input = args.input
+    cache_concepts = args.cache_concepts
     output = args.output
 
-
-
-    # for concept in Concepts().get(per_page=200):
-    for page in tqdm(Concepts().paginate(per_page=200, n_max=70000), desc="concept page"):
-        for concept in tqdm(page, desc="Downloading concepts"):
-            id = concept['id']
-            cache_file_path = get_cache_path(id)
-            if not os.path.exists(cache_file_path):
-                with open(cache_file_path, 'w') as fc:
-                    json.dump(concept, fc)
+    if cache_concepts:
+        for page in tqdm(Concepts().paginate(per_page=200, n_max=70000), desc="concept page"):
+            for concept in tqdm(page, desc="Downloading concepts"):
+                id = concept['id']
+                cache_file_path = get_cache_path(id)
+                if not os.path.exists(cache_file_path):
+                    with open(cache_file_path, 'w') as fc:
+                        json.dump(concept, fc)
 
 
 
