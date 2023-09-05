@@ -17,14 +17,12 @@ pyalex.config.api_key = os.environ['OPENALEX_API_KEY']
 
 
 def cleanup_concepts(data):
-    aggregated = {}
-
     for record in tqdm(data, desc="Cleanup"):
-        ## Remove concepts related to battery and ancestors
-        raw_concepts = list(filter(lambda x: x['display_name'] not in GENERIC_CONCEPTS, record['concepts']))
+        # Remove concepts related to battery (including their ancestors)
+        raw_concepts_without_batteries_related = list(filter(lambda x: x['display_name'] not in GENERIC_CONCEPTS, record['concepts']))
 
-        ## Filter ancestors recursively
-        filtered_concepts = cleanup_recursive(raw_concepts, [])
+        # Filter ancestors recursively
+        filtered_concepts = cleanup_recursive(raw_concepts_without_batteries_related, [])
         record['concepts_filtered'] = filtered_concepts
 
     return data
