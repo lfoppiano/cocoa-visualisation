@@ -92,7 +92,7 @@ if __name__ == '__main__':
 
     if cache_concepts:
         for page in tqdm(Concepts().paginate(per_page=200, n_max=70000), desc="concept page"):
-            for concept in tqdm(page, desc="Downloading concepts"):
+            for concept in page:
                 id = concept['id']
                 cache_file_path = get_cache_path(id)
                 if not os.path.exists(cache_file_path):
