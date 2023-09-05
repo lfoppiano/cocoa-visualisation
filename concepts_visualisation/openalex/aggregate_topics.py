@@ -1,10 +1,8 @@
 import argparse
-import ast
 import json
 import os
 from pathlib import Path
 
-import pandas as pd
 from tqdm import tqdm
 
 GENERIC_CONCEPTS = ["Battery (electricity)", "Power (physics)", "Physics", "Thermodynamics", "Quantum mechanics"]
