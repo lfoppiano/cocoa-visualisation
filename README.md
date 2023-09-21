@@ -1,7 +1,27 @@
 # concept-visualisation
 
-## Scripts / data
+## Workflow
 
-- resources/data/openalex/data (original dump, obtained with `fetch.py`)
-- battery_all-KT.csv is converted with `csv_to_json.py` as `battery_data_topics.json`
-- battery_data_topics.json can be cleaned (its concepts) with `clean_concepts.py`
+### Fetch the data from OpenAlex
+
+- Run `fetch.py` 
+  - output in `resources/data/openalex/data`  
+
+
+### Convert CSV from Dieb-san with KeyBERT extracted information
+
+- Run `csv_to_json.py` 
+  - input: `battery_all-KT.csv` 
+  - output: `battery_data_topics_original.json`
+
+### Cleanup data by removing "ancestors concepts"
+
+- Run `clean_concepts.py` 
+  - input: `battery_data_topics_original.json`
+  - output: `battery_data_topics_with_filtered_concepts.json`
+
+### Aggregate topics 
+
+- Run `aggregate_topics.py`
+  - input: `battery_data_topics_with_filtered_concepts.json`
+  - output: `resources/data/openalex/authors_years`
