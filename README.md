@@ -1,4 +1,4 @@
-# Concept-CoAuthors (COCO) visualisation
+# Concept-CoAuthors (COCOA) visualisation
 
 ## Workflow
 
