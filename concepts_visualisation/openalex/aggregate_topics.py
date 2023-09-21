@@ -112,6 +112,9 @@ if __name__ == '__main__':
     for author_id, author_data in tqdm(aggregated.items(), desc="Write"):
         new_data = {author_id: author_data}
         clean_filename = author_id.replace("https://openalex.org/", "").replace("/", "$")
+        if not clean_filename:
+            continue
+
         child_directory_name = clean_filename.split("###")[1][:3]
         child_directory_abs = os.path.join(output, child_directory_name)
         if not os.path.exists(child_directory_abs):
