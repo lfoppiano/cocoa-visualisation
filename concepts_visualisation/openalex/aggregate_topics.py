@@ -5,7 +5,7 @@ from pathlib import Path
 
 from tqdm import tqdm
 
-GENERIC_CONCEPTS = ["Battery (electricity)", "Power (physics)", "Physics", "Thermodynamics", "Quantum mechanics"]
+GENERIC_CONCEPTS_BATTERY = ["Battery (electricity)", "Power (physics)", "Physics", "Thermodynamics", "Quantum mechanics"]
 
 
 def get_author_uniq_key(author):
@@ -31,7 +31,7 @@ def aggregate(data):
 
     for record in tqdm(data, desc="Aggregate"):
         authors = record['authors']
-        concepts = list(filter(lambda x: x['display_name'] not in GENERIC_CONCEPTS, record['concepts']))
+        concepts = list(filter(lambda x: x['display_name'] not in GENERIC_CONCEPTS_BATTERY, record['concepts']))
         keyterms_A = record['keyterms_A']
         keyterms_T = record['keyterms_T']
         year = str(int(record['publication_year']))
@@ -94,7 +94,7 @@ def aggregate(data):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
-        description="Aggregate keywords and concepts of authors and co-authors")
+        description="Aggregate keywords and concepts of authors and co-authors grouping them by years")
 
     parser.add_argument("--input", help="Input file or directory", required=True, type=Path)
     parser.add_argument("--output", help="Output directory", required=True, type=Path)

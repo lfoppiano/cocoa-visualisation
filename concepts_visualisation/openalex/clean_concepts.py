@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 from pyalex import Concepts
 from tqdm import tqdm
 
-from concepts_visualisation.openalex.aggregate_topics import GENERIC_CONCEPTS
+from concepts_visualisation.openalex.aggregate_topics import GENERIC_CONCEPTS_BATTERY
 
 load_dotenv(verbose=True, override=True)
 
@@ -19,7 +19,7 @@ pyalex.config.api_key = os.environ['OPENALEX_API_KEY']
 def cleanup_concepts(data):
     for record in tqdm(data, desc="Cleanup"):
         # Remove concepts related to battery (including their ancestors)
-        raw_concepts_without_batteries_related = list(filter(lambda x: x['display_name'] not in GENERIC_CONCEPTS, record['concepts']))
+        raw_concepts_without_batteries_related = list(filter(lambda x: x['display_name'] not in GENERIC_CONCEPTS_BATTERY, record['concepts']))
 
         # Filter ancestors recursively
         filtered_concepts = cleanup_recursive(raw_concepts_without_batteries_related, [])
