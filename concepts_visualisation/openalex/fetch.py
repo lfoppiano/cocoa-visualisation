@@ -89,8 +89,9 @@ if __name__ == '__main__':
         description="Fetch OpenAlex works")
 
     parser.add_argument("--base-concept",
-                        required=True,
-                        default="C555008776")
+                        required=False,
+                        default="C555008776",
+                        description="OpenAlex base concept. Default: C555008776 (battery)")
     parser.add_argument("--output",
                         help="Output directory. If it does not exists it will be created.",
                         required=True,
@@ -105,6 +106,6 @@ if __name__ == '__main__':
         print("--output should indicate a directory. ")
         sys.exit(-1)
 
-    os.makedirs(output)
+    os.makedirs(output, exist_ok=True)
 
     fetch_openalex_works(base_concept, output)
