@@ -91,7 +91,7 @@ if __name__ == '__main__':
     parser.add_argument("--base-concept",
                         required=False,
                         default="C555008776",
-                        description="OpenAlex base concept. Default: C555008776 (battery)")
+                        help="OpenAlex base concept. Default: C555008776 (battery)")
     parser.add_argument("--output",
                         help="Output directory. If it does not exists it will be created.",
                         required=True,
