@@ -21,7 +21,7 @@ def fetch_openalex_works(concept_id, output_path, per_page=200, n_max=2000000):
     id = 0
     for page in tqdm(pager):
         work_page = []
-        with open(os.path.join(output_path, "data_dump" + str(id) + ".json", 'w')) as fw:
+        with open(os.path.join(output_path, "data_dump" + str(id) + ".json"), 'w') as fw:
             for work in page:
                 output_work = get_work(work)
                 work_page.append(output_work)
