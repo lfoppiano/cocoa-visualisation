@@ -20,6 +20,13 @@
   - input: `battery_data_topics_original.json`
   - output: `battery_data_topics_with_filtered_concepts.json`
 
+### Run keybert 
+- Run `run_keybert.py`
+  - input: `data/openalex/dump`
+  - output: `data/openalex/dump_with_keybert`
+
+[....]
+
 ### Aggregate topics 
 
 - Run `aggregate_topics.py`
