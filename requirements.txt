@@ -9,3 +9,4 @@ fasttext-langdetect
 python-dotenv
 pyalex
 keybert[flair]
+keyphrase-vectorizers
