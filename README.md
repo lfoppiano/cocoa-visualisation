@@ -21,7 +21,7 @@
   - output: `battery_data_topics_with_filtered_concepts.json`
 
 ### Run keybert 
-- Run `run_keybert.py`
+- Run `extract_keywords.py`
   - input: `data/openalex/dump`
   - output: `data/openalex/dump_with_keybert`
 
