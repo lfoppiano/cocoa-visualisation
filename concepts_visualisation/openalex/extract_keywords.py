@@ -79,7 +79,7 @@ if __name__ == '__main__':
 
                 lines.append(line)
 
-        keywords = kw_model.extract_keywords(lines, vectorizer=vectorizer)
+        keywords = kw_model.extract_keywords(" ".join(lines), vectorizer=vectorizer)
         with open(output_file, 'w') as fo:
             json.dump(keywords, fo)
 
