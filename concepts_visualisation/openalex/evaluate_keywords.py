@@ -6,6 +6,7 @@ from sentence_transformers import SentenceTransformer
 from sentence_transformers import util
 from tqdm import tqdm
 
+
 def print_markdown(result_table):
     # Write table headers
     markdown = "|" + "|".join(result_table[0]) + "|" + "\n"
@@ -17,6 +18,7 @@ def print_markdown(result_table):
         markdown += "|" + "|".join(formatted_row) + "|" + "\n"
 
     return markdown
+
 
 def compute_average_similarity(expected_keywords_lower_sorted, predicted_keywords_by_method_lower_sorted):
     ignored_expected = []
@@ -67,6 +69,8 @@ if __name__ == '__main__':
     similarities_keybert = []
     similarities_batteryonlybert = []
     similarities_chatgpt = []
+    similarities_batteryscibert_cased = []
+    similarities_batteryscibert_uncased = []
 
     for directory in tqdm(os.listdir(input_corpus)):
         if document_count >= 100:
@@ -92,6 +96,20 @@ if __name__ == '__main__':
         if len(raw_keywords_batteryonlybert) == 0:
             continue
 
+        file_batteryscibert_cased = os.path.join(input_corpus, directory, directory + ".batteryscibert.json")
+        if not os.path.exists(file_batteryscibert_cased):
+            continue
+        raw_keywords_batteryscibert_cased = json.load(open(file_batteryscibert_cased))
+        if len(raw_keywords_batteryscibert_cased) == 0:
+            continue
+
+        file_batteryscibert_uncased = os.path.join(input_corpus, directory, directory + ".batteryscibert_uncased.json")
+        if not os.path.exists(file_batteryscibert_uncased):
+            continue
+        raw_keywords_batteryscibert_uncased = json.load(open(file_batteryscibert_uncased))
+        if len(raw_keywords_batteryscibert_uncased) == 0:
+            continue
+
         file_chatgpt = os.path.join(input_corpus, directory, directory + ".chatgpt.json")
         if not os.path.exists(file_chatgpt):
             continue
@@ -99,9 +117,11 @@ if __name__ == '__main__':
         if len(raw_keywords_chatgpt) == 0 or 'sorry' in raw_keywords_chatgpt:
             continue
 
-        keywords_collection = [raw_keywords_keybert, raw_keywords_batteryonlybert, raw_keywords_chatgpt]
-        keywords_collection_simple = [[item[0] for item in sublist] if isinstance(sublist[0], list) else sublist for
-                                      sublist in keywords_collection[:2]] + [keywords_collection[2]]
+        keywords_collection = [raw_keywords_keybert, raw_keywords_batteryonlybert, raw_keywords_chatgpt,
+                               raw_keywords_batteryscibert_cased, raw_keywords_batteryscibert_uncased]
+        keywords_collection_simple = [[item[0] for item in sublist] if isinstance(sublist[0], list) else sublist for sublist in keywords_collection[:2]] + [keywords_collection[2]] + [[item[0] for item in sublist] if isinstance(sublist[0], list) else sublist for
+            sublist in keywords_collection[3:]]
+
         max_length = min([len(i) for i in keywords_collection_simple] + [10])
         predicted_keywords = [i[0:max_length] for i in keywords_collection_simple]
 
@@ -111,21 +131,22 @@ if __name__ == '__main__':
             predicted_keywords_by_method_lower_sorted = sorted(
                 [str.lower(item) for item in predicted_keywords_by_method])
 
-            avg_similarity = compute_average_similarity(expected_keywords_lower_sorted, predicted_keywords_by_method_lower_sorted)
+            avg_similarity = compute_average_similarity(expected_keywords_lower_sorted,
+                                                        predicted_keywords_by_method_lower_sorted)
             similarities_by_method_document.append(avg_similarity)
 
         similarities_keybert.append(similarities_by_method_document[0])
         similarities_batteryonlybert.append(similarities_by_method_document[1])
         similarities_chatgpt.append(similarities_by_method_document[2])
+        similarities_batteryscibert_cased.append(similarities_by_method_document[3])
+        similarities_batteryscibert_uncased.append(similarities_by_method_document[4])
         document_count += 1
 
     scores = [["method", "avg. similarity"]]
-    scores.append(["keybert", sum(similarities_keybert)/document_count])
-    scores.append(["batteryonlybert", sum(similarities_batteryonlybert)/document_count])
-    scores.append(["chatgpt", sum(similarities_chatgpt)/document_count])
+    scores.append(["keybert", sum(similarities_keybert) / document_count])
+    scores.append(["batteryonlybert", sum(similarities_batteryonlybert) / document_count])
+    scores.append(["chatgpt", sum(similarities_chatgpt) / document_count])
+    scores.append(["batteryscibert_cased", sum(similarities_batteryscibert_cased) / document_count])
+    scores.append(["batteryscibert_uncased", sum(similarities_batteryscibert_uncased) / document_count])
 
     print(print_markdown(scores))
-
-
-
-
