@@ -4,9 +4,11 @@ lxml
 tqdm
 languagecodes
 langdetect
-argostranslate
+# argostranslate
 fasttext-langdetect
 python-dotenv
 pyalex
 keybert[flair]
 keyphrase-vectorizers
+langchain
+promptlayer
