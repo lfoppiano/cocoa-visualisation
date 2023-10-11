@@ -54,13 +54,10 @@ if __name__ == '__main__':
                 abstracts = [work['abstract'] if 'abstract' in work and work['abstract'] is not None else "" for work in
                              works]
 
-                keywords_abstracts = kw_model.extract_keywords(abstracts,
-                                                               vectorizer=vectorizer,
-                                                               top_n=5)
+                keywords_abstracts = kw_model.extract_keywords(abstracts, vectorizer=vectorizer, top_n=5)
 
                 titles = [work['title'] if 'title' in work and work['title'] is not None else "" for work in works]
-                keywords_titles = kw_model.extract_keywords(titles,
-                                                            vectorizer=vectorizer)
+                keywords_titles = kw_model.extract_keywords(titles, vectorizer=vectorizer)
 
                 for idx, keywords_abstract in enumerate(keywords_abstracts):
                     keyword_title = keywords_titles[idx]
@@ -79,7 +76,7 @@ if __name__ == '__main__':
 
                 lines.append(line)
 
-        keywords = kw_model.extract_keywords(" ".join(lines), vectorizer=vectorizer)
+        keywords = kw_model.extract_keywords(" ".join(lines), vectorizer=vectorizer, top_n=10)
         with open(output_file, 'w') as fo:
             json.dump(keywords, fo)
 

@@ -39,15 +39,17 @@ We extracted the list of <keywords><term></term><.... from the tei.xml files fro
 
 We process the abstracts using the three methods:
 
-> for file in resources/data/openalex/sample_with_keywords/
-*/*.abstract.txt; do echo ${file}; python concepts_visualisation/openalex/extract_keywords.py --input $file --output "${file%.abstract.txt}.keybert.json" ; done
+```bash
+for file in resources/data/openalex/sample_with_keywords/*/*.abstract.txt; do echo ${file}; python concepts_visualisation/openalex/extract_keywords.py --input $file --output "${file%.abstract.txt}.keybert.json" ; done
+```
 
-> for file in resources/data/openalex/sample_with_keywords/
-*/*.abstract.txt; do echo ${file}; python concepts_visualisation/openalex/extract_keywords.py --input $file --output "${file%.abstract.txt}.batteryonlybert.json" --transformer ../embeddings/pre-trained-embeddings/batteryonlybert-cased/ ; done
+```bash
+for file in resources/data/openalex/sample_with_keywords/*/*.abstract.txt; do echo ${file}; python concepts_visualisation/openalex/extract_keywords.py --input $file --output "${file%.abstract.txt}.batteryonlybert.json" --transformer ../embeddings/pre-trained-embeddings/batteryonlybert-cased/ ; done
+```
 
-> for file in resources/data/openalex/sample_with_keywords/
-*/*.abstract.txt; do echo ${file}; python concepts_visualisation/openalex/extract_keywords_llm.py --input $file --output "${file%.abstract.txt}.chatgpt.json"; done
-
+```bash
+for file in resources/data/openalex/sample_with_keywords/*/*.abstract.txt; do echo ${file}; python concepts_visualisation/openalex/extract_keywords_llm.py --input $file --output "${file%.abstract.txt}.chatgpt.json"; done
+```
 
 The structure of the sample is as follow:
 
@@ -66,19 +68,19 @@ We finally process the metrics
 
 > python concepts_visualisation/openalex/evaluate_keywords.py --input resources/data/openalex/sample_with_keywords
 
-Algorithm:
+## Algorithm 1a:
 
 1. Read the 3 files + the expected file
 2. Remove the confidence scores when needed and trim each list to the minimum length between the three extracting methods (e.g. if keybert extracted only 5 and the other extracted 10 keywords, we limit all to the 5 most important keywords)
 3. For each document,
     - for each method:
-      - sort the keywords - search for the most similar one in the expected list (basd on sentence BERT)
-      - sum the similarity score - continue, ignoring the matching expected keyword
+        - sort the keywords - search for the most similar one in the expected list (basd on sentence BERT)
+        - sum the similarity score - continue, ignoring the matching expected keyword
     - calculate average for in the same method
     - sum each average similarity by method
 4. average by the number of documents (100)
 
-Results:
+Results @5 keywords:
 
 | method                 | avg. similarity |
 |------------------------|-----------------|
@@ -88,7 +90,57 @@ Results:
 | batteryscibert_cased   | 0.2978          |
 | batteryscibert_uncased | 0.2382          |
 
-[....]
+Results @10 keywords:
+
+TBA
+
+## Algorithm 1b
+
+Same as Algorithm 1 but without the sorting at the beginning
+
+Results @5 keywords:
+
+| method                 | avg. similarity |
+|------------------------|-----------------|
+| keybert                | 0.3799          |
+| batteryonlybert        | 0.2817          |
+| chatgpt                | 0.3915          |
+| batteryscibert_cased   | 0.2955          |
+| batteryscibert_uncased | 0.2388          |
+
+Results @10 keywords:
+
+| method                 | avg. similarity |
+|------------------------|-----------------|
+| keybert                | 0.2102          |
+| batteryonlybert        | 0.1616          |
+| chatgpt                | 0.2182          |
+| batteryscibert_cased   | 0.1674          |
+| batteryscibert_uncased | 0.1375          |
+
+## Algorithm 2a
+
+Goal: evaluating while expanding the keywords to more granular ones.
+
+Results @5 keywords:
+
+| method                 | avg. similarity |
+|------------------------|-----------------|
+| keybert                | 0.6340          |
+| batteryonlybert        | 0.5063          |
+| chatgpt                | 0.6827          |
+| batteryscibert_cased   | 0.5625          |
+| batteryscibert_uncased | 0.4133          |
+
+Results @10 keywords:
+
+| method                 | avg. similarity |
+|------------------------|-----------------|
+| keybert                | 0.6431          |
+| batteryonlybert        | 0.6063          |
+| chatgpt                | 0.6983          |
+| batteryscibert_cased   | 0.6204          |
+| batteryscibert_uncased | 0.5609          |
 
 ### Aggregate topics
 

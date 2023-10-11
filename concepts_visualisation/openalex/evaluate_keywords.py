@@ -46,6 +46,30 @@ def compute_average_similarity(expected_keywords_lower_sorted, predicted_keyword
     return average_similarity_document
 
 
+def compute_average_similarity_expand_keywords(expected_keywords_lower_sorted,
+                                               predicted_keywords_by_method_lower_sorted):
+    average_similarity_document = 0
+    similarity_count = 0
+    for idp, expected_keyword in enumerate(expected_keywords_lower_sorted):
+        for ide, predicted_keyword in enumerate(predicted_keywords_by_method_lower_sorted):
+            embeddings_e = model.encode(str.lower(expected_keyword),
+                                        convert_to_tensor=True,
+                                        show_progress_bar=False)
+            embeddings_p = model.encode(str.lower(predicted_keyword),
+                                        convert_to_tensor=True,
+                                        show_progress_bar=False)
+
+            cosine_scores = util.cos_sim(embeddings_e, embeddings_p)
+
+            if cosine_scores.item() > 0.5:
+                similarity_count += 1
+                average_similarity_document += cosine_scores.item()
+
+    average_similarity_document = average_similarity_document / similarity_count if similarity_count > 0 else 0.0
+
+    return average_similarity_document
+
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
         description="Evaluate keywords extracted by different methods with the one from the pdf documents")
@@ -82,28 +106,28 @@ if __name__ == '__main__':
         with open(expected_file, 'r') as fi:
             expected_keywords = [str.strip(line) for line in fi]
 
-        file_keybert = os.path.join(input_corpus, directory, directory + ".keybert.json")
+        file_keybert = os.path.join(input_corpus, directory, directory + ".keybert@10.json")
         if not os.path.exists(file_keybert):
             continue
         raw_keywords_keybert = json.load(open(file_keybert))
         if len(raw_keywords_keybert) == 0:
             continue
 
-        file_batteryonlybert = os.path.join(input_corpus, directory, directory + ".batteryonlybert.json")
+        file_batteryonlybert = os.path.join(input_corpus, directory, directory + ".batteryonlybert@10.json")
         if not os.path.exists(file_batteryonlybert):
             continue
         raw_keywords_batteryonlybert = json.load(open(file_batteryonlybert))
         if len(raw_keywords_batteryonlybert) == 0:
             continue
 
-        file_batteryscibert_cased = os.path.join(input_corpus, directory, directory + ".batteryscibert.json")
+        file_batteryscibert_cased = os.path.join(input_corpus, directory, directory + ".batteryscibert_cased@10.json")
         if not os.path.exists(file_batteryscibert_cased):
             continue
         raw_keywords_batteryscibert_cased = json.load(open(file_batteryscibert_cased))
         if len(raw_keywords_batteryscibert_cased) == 0:
             continue
 
-        file_batteryscibert_uncased = os.path.join(input_corpus, directory, directory + ".batteryscibert_uncased.json")
+        file_batteryscibert_uncased = os.path.join(input_corpus, directory, directory + ".batteryscibert_uncased@10.json")
         if not os.path.exists(file_batteryscibert_uncased):
             continue
         raw_keywords_batteryscibert_uncased = json.load(open(file_batteryscibert_uncased))
@@ -119,19 +143,20 @@ if __name__ == '__main__':
 
         keywords_collection = [raw_keywords_keybert, raw_keywords_batteryonlybert, raw_keywords_chatgpt,
                                raw_keywords_batteryscibert_cased, raw_keywords_batteryscibert_uncased]
-        keywords_collection_simple = [[item[0] for item in sublist] if isinstance(sublist[0], list) else sublist for sublist in keywords_collection[:2]] + [keywords_collection[2]] + [[item[0] for item in sublist] if isinstance(sublist[0], list) else sublist for
-            sublist in keywords_collection[3:]]
+        keywords_collection_simple = [[item[0] for item in sublist] if isinstance(sublist[0], list) else sublist for
+                                      sublist in keywords_collection[:2]] + [keywords_collection[2]] + [
+                                         [item[0] for item in sublist] if isinstance(sublist[0], list) else sublist for
+                                         sublist in keywords_collection[3:]]
 
         max_length = min([len(i) for i in keywords_collection_simple] + [10])
         predicted_keywords = [i[0:max_length] for i in keywords_collection_simple]
 
         similarities_by_method_document = []
-        expected_keywords_lower_sorted = sorted([str.lower(item) for item in expected_keywords])
+        expected_keywords_lower_sorted = [str.lower(item) for item in expected_keywords]
         for idp, predicted_keywords_by_method in enumerate(predicted_keywords):
-            predicted_keywords_by_method_lower_sorted = sorted(
-                [str.lower(item) for item in predicted_keywords_by_method])
+            predicted_keywords_by_method_lower_sorted = [str.lower(item) for item in predicted_keywords_by_method]
 
-            avg_similarity = compute_average_similarity(expected_keywords_lower_sorted,
+            avg_similarity = compute_average_similarity_expand_keywords(expected_keywords_lower_sorted,
                                                         predicted_keywords_by_method_lower_sorted)
             similarities_by_method_document.append(avg_similarity)
 
