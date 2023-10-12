@@ -1,0 +1,8343 @@
+[
+  {
+    "id": "oai:irdb.nii.ac.jp:01068:0005686155",
+    "authors": [
+      {
+        "it": "Sonoda, Kenta"
+      },
+      {
+        "eu": "Yamamoto, Muneaki"
+      },
+      {
+        "en": "Tanabe, Tetsuo"
+      },
+      {
+        "en": "Yoshida, Tomoko"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u5149\u89e6\u5a92",
+        "lang": "zh"
+      },
+      {
+        "type": "Other",
+        "text": "\u9178\u5316\u30b0\u30e9\u30d5\u30a7\u30f3",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "CO_2 reduction",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Photocatalyst",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "nano-particulate Ga_2O_3",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Graphene oxide",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:00897:0005686109",
+    "authors": [
+      {
+        "en": "LIU, Tongrui"
+      },
+      {
+        "en": "Liu, Tongrui"
+      },
+      {
+        "zh": "\u4f50\u85e4, \u7531\u5229\u5b50"
+      },
+      {
+        "eu": "Sato, Yuriko"
+      },
+      {
+        "en": "Breaden, Jeremy"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "Chinese international students, higher education, trajectory, career development, Japan, Australia",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:00844:0005686070",
+    "authors": [
+      {
+        "ja": "\u5742\u7530, \u5143\u4e08"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u6df1\u3044\u5b66\u3073",
+        "lang": "zh"
+      },
+      {
+        "type": "Other",
+        "text": "\u4e2d\u5b66\u6821\u6b74\u53f2\u7684\u5206\u91ce",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u6388\u696d\u958b\u767a",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u4e2d\u30fb\u8fd1\u4e16\u79fb\u884c\u671f",
+        "lang": "ja"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:00844:0005686069",
+    "authors": [
+      {
+        "ja": "\u5742\u7530, \u5143\u4e08"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u6df1\u3044\u5b66\u3073",
+        "lang": "zh"
+      },
+      {
+        "type": "Other",
+        "text": "\u4e2d\u30fb\u8fd1\u4e16\u79fb\u884c\u671f",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u6b74\u53f2\u7684\u5206\u91ce",
+        "lang": "ja"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:00831:0005685979",
+    "authors": [
+      {
+        "en": "SABANPAN-YU, Hope"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u5168\u77e5\u306e\u6bcd",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u6bcd\u3068\u3044\u3046\u4e3b\u4f53",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u652f\u914d",
+        "lang": "ja"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:00831:0005685978",
+    "authors": [
+      {
+        "ca": "LABAJO  R., Delilah"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u30d5\u30a3\u30ea\u30d4\u30f3\u4eba",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u79fb\u4f4f\u52b4\u50cd\u8005",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u6b74\u53f2\u7684\u8996\u70b9",
+        "lang": "ja"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:00822:0005685972",
+    "authors": [
+      {
+        "en": "Kazuho, Kobayashi"
+      },
+      {
+        "pt": "Takehiro Higuchi"
+      },
+      {
+        "es": "Seiya, Ueno"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "Swarm Robotics",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Patrolling",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Multi-Robot System",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Hierarchical Control",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Situational Awareness",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01431:0005685969",
+    "authors": [
+      {
+        "ja": "\u30a2\u30eb\u30f4\u30a3\u30f3, \u30b8\u30e7\u30f3\u30bd\u30f3"
+      },
+      {
+        "ja": "\u5ddd\u5d0e, \u826f\u5b5d"
+      }
+    ],
+    "tags": [
+      {
+        "type": "NDC",
+        "text": "016.253"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01431:0005685968",
+    "authors": [
+      {
+        "ja": "\u5ddd\u5d0e, \u826f\u5b5d"
+      }
+    ],
+    "tags": [
+      {
+        "type": "NDC",
+        "text": "016.253"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01431:0005685967",
+    "authors": [
+      {
+        "ja": "\u897f\u6d66, \u5bcc\u7f8e\u5b50"
+      }
+    ],
+    "tags": [
+      {
+        "type": "NDC",
+        "text": "017.4"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01431:0005685966",
+    "authors": [
+      {
+        "ja": "\u5ddd\u5d0e, \u826f\u5b5d"
+      }
+    ],
+    "tags": [
+      {
+        "type": "NDC",
+        "text": "017"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01431:0005685965",
+    "authors": [
+      {
+        "ja": "\u5927\u57ce, \u5584\u76db"
+      }
+    ],
+    "tags": [
+      {
+        "type": "NDC",
+        "text": "013.1"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01431:0005685964",
+    "authors": [
+      {
+        "ja": "\u5ddd\u702c, \u76f4\u4eba"
+      },
+      {
+        "ja": "\u677e\u91ce, \u6e09"
+      },
+      {
+        "ja": "\u9038\u6751, \u88d5"
+      }
+    ],
+    "tags": [
+      {
+        "type": "NDC",
+        "text": "017.71"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01431:0005685963",
+    "authors": [
+      {
+        "ja": "\u6751\u4e0a, \u6cf0\u5b50"
+      },
+      {
+        "ja": "\u5ddd\u702c, \u7dbe\u5b50"
+      }
+    ],
+    "tags": [
+      {
+        "type": "NDC",
+        "text": "375.199"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01368:0005685960",
+    "authors": [
+      {
+        "en": "Watanabe, Toshiaki"
+      },
+      {
+        "en": "Nakajima, Jouchi"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "Bayesian analysis",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "High-frequency data",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Markov chain Monte Carlo",
+        "lang": "it"
+      },
+      {
+        "type": "Other",
+        "text": "Realized volatility",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Stochastic volatility model",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Volatility forecasting",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01368:0005685958",
+    "authors": [
+      {
+        "ja": "\u4e95\u5ddd, \u3061\u3068\u305b",
+        "en": "Ikawa, Chitose"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u8aad\u66f8\u4f1a",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u30bb\u30e9\u30d4\u30fc",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u30c1\u30c3\u30af\u30ea\u30c3\u30c8",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u30df\u30c9\u30eb\u30d6\u30e9\u30a6",
+        "lang": "ja"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01368:0005685957",
+    "authors": [
+      {
+        "ja": "\u67cf\u5d0e, \u9806\u5b50",
+        "en": "Kashiwazaki, Junko"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u83f1\u5ddd\u5e2b\u5ba3",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "\u6c5f\u6238\u521d\u671f\u51fa\u7248\u754c",
+        "lang": "ru"
+      },
+      {
+        "type": "Other",
+        "text": "\u4eac\u90fd\u7248\u5e2b\u5ba3\u98a8\u633f\u7d75",
+        "lang": "ja"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01368:0005685956",
+    "authors": [
+      {
+        "ja": "\u677e\u539f, \u771f",
+        "en": "Matsubara. Makoto"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u660e\u6cbb\u622f\u4f5c",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u8b92\u8b17\u5f8b",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "\u540d\u8a89\u6bc0\u640d\u7f6a",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u30e2\u30c7\u30eb\u5c0f\u8aac",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u5c0f\u65b0\u805e",
+        "lang": "ja"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01368:0005685955",
+    "authors": [
+      {
+        "ja": "\u53cb\u6fa4, \u5b8f\u9686",
+        "en": "Tomozawa, Hirotaka"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u52d5\u8a5e\u6d3e\u751f\u540d\u8a5e",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u5b9a\u51a0\u8a5e",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u9650\u5b9a\u69cb\u9020",
+        "lang": "ja"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01368:0005685952",
+    "authors": [
+      {
+        "en": "Jinnai, Ryo"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "innovation",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "research and development",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "product cycle",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "imitation",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "recursive preference",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "long-run risk",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01368:0005685951",
+    "authors": [
+      {
+        "en": "Jinnai, Ryo"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "news shock",
+        "lang": "de"
+      },
+      {
+        "type": "Other",
+        "text": "inflation",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "monetary policy",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "nominal rigidity",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01364:0005685949",
+    "authors": [
+      {
+        "en": "Niu, Xiaoying"
+      },
+      {
+        "en": "Chen, Lu"
+      },
+      {
+        "en": "Kato, Atsushi"
+      },
+      {
+        "en": "Ito, Hidetaka"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "epigenetics",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "transposons",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "environmental stress",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Arabidopsis thaliana",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "ONSEN",
+        "lang": "en"
+      },
+      {
+        "type": "NDC",
+        "text": "470"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01364:0005685948",
+    "authors": [
+      {
+        "ja": "\u5343\u8449, \u60e0"
+      }
+    ],
+    "tags": [
+      {
+        "type": "NDC",
+        "text": "190"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01364:0005685947",
+    "authors": [
+      {
+        "ja": "\u5289, \u694a"
+      }
+    ],
+    "tags": [
+      {
+        "type": "NDC",
+        "text": "320"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01364:0005685946",
+    "authors": [
+      {
+        "ja": "\u9ed2\u5ddd, \u76f4\u6bc5"
+      }
+    ],
+    "tags": [
+      {
+        "type": "NDC",
+        "text": "320"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01364:0005685945",
+    "authors": [
+      {
+        "ja": "\u5e73\u6fa4, \u5353\u4eba"
+      }
+    ],
+    "tags": [
+      {
+        "type": "NDC",
+        "text": "320"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01364:0005685944",
+    "authors": [
+      {
+        "ja": "\u6a58, \u96c4\u4ecb"
+      }
+    ],
+    "tags": [
+      {
+        "type": "NDC",
+        "text": "320"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01364:0005685943",
+    "authors": [
+      {
+        "ja": "\u5289, \u4e00\u5e06"
+      }
+    ],
+    "tags": [
+      {
+        "type": "NDC",
+        "text": "320"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01364:0005685942",
+    "authors": [
+      {
+        "ja": "\u7530\u6751, \u5584\u4e4b"
+      }
+    ],
+    "tags": [
+      {
+        "type": "NDC",
+        "text": "320"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01364:0005685941",
+    "authors": [
+      {
+        "ja": "\u9234\u6728, \u5c07\u6587"
+      }
+    ],
+    "tags": [
+      {
+        "type": "NDC",
+        "text": "320"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01364:0005685939",
+    "authors": [
+      {
+        "en": "Mameno, Kota"
+      },
+      {
+        "en": "Kubo, Takahiro"
+      },
+      {
+        "en": "Ujiie, Kiyokazu"
+      },
+      {
+        "en": "Shoji, Yasushi"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "Choice experiment",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Conservation marketing",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Eco-label",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Environmentally friendly farming",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Ethical food consumption",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Staple food",
+        "lang": "en"
+      },
+      {
+        "type": "NDC",
+        "text": "610"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01364:0005685938",
+    "authors": [
+      {
+        "en": "Hong, Yifan"
+      },
+      {
+        "en": "Sato, Ryo"
+      },
+      {
+        "en": "Shimizu, Yuki"
+      },
+      {
+        "en": "Matsukuma, Hiraku"
+      },
+      {
+        "en": "Shimizu, Hiroki"
+      },
+      {
+        "en": "Gao, Wei"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "reduction of crosstalk errors",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "multi-axis measurement",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "surface encoder",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Z-directional measuring range",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Michelson-type interferometer",
+        "lang": "en"
+      },
+      {
+        "type": "NDC",
+        "text": "532"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01364:0005685937",
+    "authors": [
+      {
+        "en": "Mori, Nagisa"
+      },
+      {
+        "en": "Arimoto, Azusa"
+      },
+      {
+        "en": "Tadaka, Etsuko"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "mental health",
+        "lang": "id"
+      },
+      {
+        "type": "Other",
+        "text": "mood and anxiety disorders",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "vitality",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "adolescent",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "household environment",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "school and community environment",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "ecological model",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "secondary analysis",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "covariance structure",
+        "lang": "en"
+      },
+      {
+        "type": "NDC",
+        "text": "490"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01364:0005685936",
+    "authors": [
+      {
+        "en": "Watanabe, Hiroki"
+      },
+      {
+        "en": "Sasaki, Kaito"
+      },
+      {
+        "en": "Terada, Tsutomu"
+      },
+      {
+        "en": "Tsukamoto, Masahiko"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "touch interface",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "pressing position recognition",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "shear-force recognition",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "active acoustic sensing",
+        "lang": "en"
+      },
+      {
+        "type": "NDC",
+        "text": "540"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01364:0005685935",
+    "authors": [
+      {
+        "en": "Sasaki, Fumihiro"
+      },
+      {
+        "en": "Yamashita, Yuusuke"
+      },
+      {
+        "en": "Nakano, Satoshi"
+      },
+      {
+        "en": "Ishikawa, Masayori"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "setup error",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "skin marker",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "surface-guided radiation therapy",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "tomotherapy",
+        "lang": "en"
+      },
+      {
+        "type": "NDC",
+        "text": "490"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01364:0005685934",
+    "authors": [
+      {
+        "en": "Nguyen, Tam Thanh"
+      },
+      {
+        "en": "Dwiyanti, Maria Stefanie"
+      },
+      {
+        "en": "Sakaguchi, Shuntaro"
+      },
+      {
+        "en": "Koide, Yohei"
+      },
+      {
+        "en": "Le, Dung Viet"
+      },
+      {
+        "en": "Watanabe, Toshihiro"
+      },
+      {
+        "en": "Kishima, Yuji"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "Mekong Delta",
+        "lang": "sv"
+      },
+      {
+        "type": "Other",
+        "text": "Salinity tolerance",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Rice",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Doc Phung",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "GWAS (genome-wide association study)",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "SES (standard evaluation system)",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Mineral concentrations",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "OsPLGG1",
+        "lang": "en"
+      },
+      {
+        "type": "NDC",
+        "text": "610"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01364:0005685933",
+    "authors": [
+      {
+        "en": "Gu, Yutong"
+      },
+      {
+        "en": "Sherrine, Sherrine"
+      },
+      {
+        "en": "Wei, Weiyi"
+      },
+      {
+        "en": "Li, Xinya"
+      },
+      {
+        "en": "Yuan, Jianan"
+      },
+      {
+        "en": "Todoh, Masahiro"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "American sign language alphabet",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "hand gesture classification",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "sequence recognition",
+        "lang": "en"
+      },
+      {
+        "type": "NDC",
+        "text": "530"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01364:0005685932",
+    "authors": [
+      {
+        "en": "Hirota, Akira"
+      },
+      {
+        "en": "Clement, Jean-Emmanuel"
+      },
+      {
+        "en": "Tanikawa, Satoshi"
+      },
+      {
+        "en": "Nonoyama, Takayuki"
+      },
+      {
+        "en": "Komatsuzaki, Tamiki"
+      },
+      {
+        "en": "Gong, Jian Ping"
+      },
+      {
+        "en": "Tanaka, Shinya"
+      },
+      {
+        "en": "Imajo, Masamichi"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "breast cancer",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "retinoids",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "retinoic acid receptor (RAR)",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "ERK MAP kinase",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "breast cancer subtypes",
+        "lang": "en"
+      },
+      {
+        "type": "NDC",
+        "text": "490"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01364:0005685931",
+    "authors": [
+      {
+        "en": "Shishiuchi, Rikako"
+      },
+      {
+        "en": "Kang, Hyejin"
+      },
+      {
+        "en": "Tagami, Takayoshi"
+      },
+      {
+        "en": "Ueda, Yoshitaka"
+      },
+      {
+        "en": "Lang, Weeranuch"
+      },
+      {
+        "en": "Kimura, Atsuo"
+      },
+      {
+        "en": "Okuyama, Masayuki"
+      }
+    ],
+    "tags": [
+      {
+        "type": "NDC",
+        "text": "610"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01364:0005685930",
+    "authors": [
+      {
+        "en": "Kikuchi, Emi"
+      },
+      {
+        "en": "Inui, Tadashi"
+      },
+      {
+        "en": "Su, Shaoyi"
+      },
+      {
+        "en": "Sato, Yoshiaki"
+      },
+      {
+        "en": "Funahashi, Makoto"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "conditioned taste aversion",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "retrieval",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "bed nucleus of the stria terminalis",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "hM4Di",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "CNO",
+        "lang": "en"
+      },
+      {
+        "type": "NDC",
+        "text": "497"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01364:0005685928",
+    "authors": [
+      {
+        "en": "Jitsuyama, Y."
+      },
+      {
+        "en": "Kita, Y."
+      },
+      {
+        "en": "Arakawa, K."
+      },
+      {
+        "en": "Suzuki, T."
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "distortion",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "slope",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "snow cover",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "stiffness",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "trunk",
+        "lang": "en"
+      },
+      {
+        "type": "NDC",
+        "text": "610"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01364:0005685927",
+    "authors": [
+      {
+        "en": "Yamagishi, Masumi"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "Lilium spp",
+        "lang": "es"
+      },
+      {
+        "type": "Other",
+        "text": "Anthocyanin biosynthesis",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "bHLH2",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Global atmospheric warming",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "microRNA828",
+        "lang": "en"
+      },
+      {
+        "type": "NDC",
+        "text": "610"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01364:0005685926",
+    "authors": [
+      {
+        "ja": "\u99ac, \u9577\u57ce"
+      }
+    ],
+    "tags": [
+      {
+        "type": "NDC",
+        "text": "900"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01364:0005685925",
+    "authors": [
+      {
+        "en": "Kashiwakura, Jun-ichi"
+      },
+      {
+        "en": "Oritani, Kenji"
+      },
+      {
+        "en": "Matsuda, Tadashi"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "signal-transducing adaptor protein-2 (STAP-2)",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "signal transduction",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "immune response",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "T cells",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "T cell antigen receptor (TCR)",
+        "lang": "en"
+      },
+      {
+        "type": "NDC",
+        "text": "464"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01364:0005685924",
+    "authors": [
+      {
+        "ja": "\u52a0\u5ddd, \u771f\u4e8c\u6717"
+      }
+    ],
+    "tags": [
+      {
+        "type": "NDC",
+        "text": "610"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01364:0005685923",
+    "authors": [
+      {
+        "ja": "\u52a0\u5ddd, \u771f\u4e8c\u6717"
+      }
+    ],
+    "tags": [
+      {
+        "type": "NDC",
+        "text": "610"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01364:0005685922",
+    "authors": [
+      {
+        "ja": "\u4f50\u3005\u6728, \u7d14"
+      }
+    ],
+    "tags": [
+      {
+        "type": "NDC",
+        "text": "610"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01364:0005685921",
+    "authors": [
+      {
+        "ja": "\u4f50\u3005\u6728, \u7d14"
+      }
+    ],
+    "tags": [
+      {
+        "type": "NDC",
+        "text": "610"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01364:0005685920",
+    "authors": [
+      {
+        "ja": "\u4f55, \u6881\u68df"
+      }
+    ],
+    "tags": [
+      {
+        "type": "NDC",
+        "text": "610"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01364:0005685919",
+    "authors": [
+      {
+        "ja": "\u4f55, \u6881\u68df"
+      }
+    ],
+    "tags": [
+      {
+        "type": "NDC",
+        "text": "610"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01364:0005685918",
+    "authors": [
+      {
+        "ja": "\u5c71\u969b, \u660e\u5229"
+      }
+    ],
+    "tags": [
+      {
+        "type": "NDC",
+        "text": "900"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01364:0005685917",
+    "authors": [
+      {
+        "ja": "\u5c71\u969b, \u660e\u5229"
+      }
+    ],
+    "tags": [
+      {
+        "type": "NDC",
+        "text": "900"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01364:0005685916",
+    "authors": [
+      {
+        "ja": "\u85e4\u539f, \u4e00\u9053"
+      }
+    ],
+    "tags": [
+      {
+        "type": "NDC",
+        "text": "500"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01364:0005685915",
+    "authors": [
+      {
+        "ja": "\u85e4\u539f, \u4e00\u9053"
+      }
+    ],
+    "tags": [
+      {
+        "type": "NDC",
+        "text": "500"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01364:0005685914",
+    "authors": [
+      {
+        "ja": "\u9f94, \u91d1\u6d6a"
+      }
+    ],
+    "tags": [
+      {
+        "type": "NDC",
+        "text": "900"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01364:0005685913",
+    "authors": [
+      {
+        "ja": "\u9f94, \u91d1\u6d6a"
+      }
+    ],
+    "tags": [
+      {
+        "type": "NDC",
+        "text": "900"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01364:0005685912",
+    "authors": [
+      {
+        "ja": "\u6839\u672c, \u4e00\u5b8f"
+      }
+    ],
+    "tags": [
+      {
+        "type": "NDC",
+        "text": "400"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01364:0005685911",
+    "authors": [
+      {
+        "ja": "\u767d\u4e95, \u5b5d\u4fe1"
+      }
+    ],
+    "tags": [
+      {
+        "type": "NDC",
+        "text": "400"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01364:0005685910",
+    "authors": [
+      {
+        "ja": "\u767d\u4e95, \u5b5d\u4fe1"
+      }
+    ],
+    "tags": [
+      {
+        "type": "NDC",
+        "text": "400"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01364:0005685909",
+    "authors": [
+      {
+        "ja": "\u6210\u7530, \u5065\u592a\u90ce"
+      }
+    ],
+    "tags": [
+      {
+        "type": "NDC",
+        "text": "500"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01364:0005685908",
+    "authors": [
+      {
+        "ja": "\u6210\u7530, \u5065\u592a\u90ce"
+      }
+    ],
+    "tags": [
+      {
+        "type": "NDC",
+        "text": "500"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01364:0005685907",
+    "authors": [
+      {
+        "ja": "\u9f4b\u85e4, \u4fca"
+      }
+    ],
+    "tags": [
+      {
+        "type": "NDC",
+        "text": "500"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01364:0005685906",
+    "authors": [
+      {
+        "en": "Dai, Huang"
+      }
+    ],
+    "tags": [
+      {
+        "type": "NDC",
+        "text": "500"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01364:0005685905",
+    "authors": [
+      {
+        "en": "Dai, Huang"
+      }
+    ],
+    "tags": [
+      {
+        "type": "NDC",
+        "text": "500"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01364:0005685904",
+    "authors": [
+      {
+        "ja": "\u5411\u4e95, \u307e\u3055\u307f"
+      }
+    ],
+    "tags": [
+      {
+        "type": "NDC",
+        "text": "490"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01364:0005685903",
+    "authors": [
+      {
+        "ja": "\u5411\u4e95, \u307e\u3055\u307f"
+      }
+    ],
+    "tags": [
+      {
+        "type": "NDC",
+        "text": "490"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01364:0005685902",
+    "authors": [
+      {
+        "ja": "\u571f\u5c90, \u572d\u4f51"
+      }
+    ],
+    "tags": [
+      {
+        "type": "NDC",
+        "text": "370"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01364:0005685901",
+    "authors": [
+      {
+        "ja": "\u571f\u5c90, \u572d\u4f51"
+      }
+    ],
+    "tags": [
+      {
+        "type": "NDC",
+        "text": "370"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01364:0005685900",
+    "authors": [
+      {
+        "en": "Watari, Hiromi"
+      },
+      {
+        "en": "Kageyama, Hiromu"
+      },
+      {
+        "en": "Masubuchi, Nami"
+      },
+      {
+        "en": "Nakajima, Hiroya"
+      },
+      {
+        "en": "Onodera, Kako"
+      },
+      {
+        "en": "Focia, Pamela J."
+      },
+      {
+        "en": "Oshiro, Takumi"
+      },
+      {
+        "en": "Matsui, Takashi"
+      },
+      {
+        "en": "Kodera, Yoshio"
+      },
+      {
+        "en": "Ogawa, Tomohisa"
+      },
+      {
+        "en": "Yokoyama, Takeshi"
+      },
+      {
+        "en": "Hirayama, Makoto"
+      },
+      {
+        "en": "Hori, Kanji"
+      },
+      {
+        "en": "Freymann, Douglas M."
+      },
+      {
+        "en": "Imai, Misa"
+      },
+      {
+        "en": "Komatsu, Norio"
+      },
+      {
+        "en": "Araki, Marito"
+      },
+      {
+        "en": "Tanaka, Yoshikazu"
+      },
+      {
+        "en": "Sakai, Ryuichi"
+      }
+    ],
+    "tags": [
+      {
+        "type": "NDC",
+        "text": "463"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01364:0005685899",
+    "authors": [
+      {
+        "en": "Amatul-Samahah, Md. Ali"
+      },
+      {
+        "en": "Mohamad, Aslah"
+      },
+      {
+        "en": "Al-Saari, Nurhidayu"
+      },
+      {
+        "en": "Zamri-Saad, Mohd"
+      },
+      {
+        "en": "Azmai, Mohamad Noor Amal"
+      },
+      {
+        "en": "Yusof, Mohd Termizi"
+      },
+      {
+        "en": "Ina-Salwany, Md. Yasin"
+      },
+      {
+        "en": "Tanaka, Mami"
+      },
+      {
+        "en": "Mino, Sayaka"
+      },
+      {
+        "en": "Sawabe, Tomoo"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "Aquaculture",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Vibriosis",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Grouper",
+        "lang": "fr"
+      },
+      {
+        "type": "Other",
+        "text": "Genome",
+        "lang": "it"
+      },
+      {
+        "type": "Other",
+        "text": "Vibrio sp.",
+        "lang": "en"
+      },
+      {
+        "type": "NDC",
+        "text": "660"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01364:0005685898",
+    "authors": [
+      {
+        "en": "Kuroyanagi, Yunato"
+      },
+      {
+        "en": "Tsuchiya, Jiro"
+      },
+      {
+        "en": "Jiang, Chunqi"
+      },
+      {
+        "en": "Mino, Sayaka"
+      },
+      {
+        "en": "Kasai, Hisae"
+      },
+      {
+        "en": "Motooka, Daisuke"
+      },
+      {
+        "en": "Iida, Tetsuya"
+      },
+      {
+        "en": "Satomi, Masataka"
+      },
+      {
+        "en": "Sawabe, Tomoo"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "blue light",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "vibrio parahaemolyticus",
+        "lang": "sv"
+      },
+      {
+        "type": "Other",
+        "text": "ROS",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "RNA-Seq",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "light response",
+        "lang": "en"
+      },
+      {
+        "type": "NDC",
+        "text": "460"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01364:0005685897",
+    "authors": [
+      {
+        "en": "Surugaya, Ryohei"
+      },
+      {
+        "en": "Hasegawa, Yuya"
+      },
+      {
+        "en": "Adachi, Shinji"
+      },
+      {
+        "en": "Ijiri, Shigeho"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "luteinizing hormone",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "maturation-inducing steroids",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "ovulatory competence",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "sturgeon",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "oocyte maturation",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "ovulation",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "teleosts",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "ovulation-related gene",
+        "lang": "en"
+      },
+      {
+        "type": "NDC",
+        "text": "467"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01364:0005685896",
+    "authors": [
+      {
+        "en": "Wang, Di"
+      },
+      {
+        "en": "Li, Chunsheng"
+      },
+      {
+        "en": "Pan, Chuang"
+      },
+      {
+        "en": "Wang, Yueqi"
+      },
+      {
+        "en": "Xiang, Huan"
+      },
+      {
+        "en": "Feng, Yang"
+      },
+      {
+        "en": "Yang, Xianqing"
+      },
+      {
+        "en": "Chen, Shengjun"
+      },
+      {
+        "en": "Zhao, Yongqiang"
+      },
+      {
+        "en": "Wu, Yanyan"
+      },
+      {
+        "en": "Li, Laihao"
+      },
+      {
+        "en": "Kawai, Yuji"
+      },
+      {
+        "en": "Yamazaki, Koji"
+      },
+      {
+        "en": "Yamaki, Shogo"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "Morganella psychrotolerans",
+        "lang": "id"
+      },
+      {
+        "type": "Other",
+        "text": "Oregano essential oil",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Antimicrobial mechanism",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Metabolomics",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Seafood safety",
+        "lang": "en"
+      },
+      {
+        "type": "NDC",
+        "text": "667"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01364:0005685895",
+    "authors": [
+      {
+        "en": "Takahashi, Sayaka"
+      },
+      {
+        "en": "Takada, Shingo"
+      },
+      {
+        "en": "Yamanaka, Hiroki"
+      },
+      {
+        "en": "Masuda, Reiji"
+      },
+      {
+        "en": "Kasai, Akihide"
+      }
+    ],
+    "tags": [
+      {
+        "type": "NDC",
+        "text": "467"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01364:0005685894",
+    "authors": [
+      {
+        "en": "Koguchi, Yunosuke"
+      },
+      {
+        "en": "Tokuhiro, Koki"
+      },
+      {
+        "en": "Ashjian, Carin J."
+      },
+      {
+        "en": "Campbell, Robert G."
+      },
+      {
+        "en": "Yamaguchi, Atsushi"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "Aetideidae",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "sympatric mesopelagic copepods",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "vertical distribution",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "population structure",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "reproduction",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "the Arctic Ocean",
+        "lang": "en"
+      },
+      {
+        "type": "NDC",
+        "text": "485"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01364:0005685893",
+    "authors": [
+      {
+        "en": "Sahashi, Reishi"
+      },
+      {
+        "en": "Nomura, Daiki"
+      },
+      {
+        "en": "Toyota, Takenobu"
+      },
+      {
+        "en": "Tozawa, Manami"
+      },
+      {
+        "en": "Ito, Masato"
+      },
+      {
+        "en": "Wongpan, Pat"
+      },
+      {
+        "en": "Ono, Kazuya"
+      },
+      {
+        "en": "Simizu, Daisuke"
+      },
+      {
+        "en": "Naoki, Kazuhiro"
+      },
+      {
+        "en": "Nosaka, Yuichi"
+      },
+      {
+        "en": "Tamura, Takeshi"
+      },
+      {
+        "en": "Aoki, Shigeru"
+      },
+      {
+        "en": "Ushio, Shuki"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "sea ice",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "snow",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "nutrients",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "remineralization",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "multi-year landfast ice",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "fast ice",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "East Antarctica",
+        "lang": "en"
+      },
+      {
+        "type": "NDC",
+        "text": "452"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01364:0005685892",
+    "authors": [
+      {
+        "en": "Ueno, Hiromichi"
+      },
+      {
+        "en": "Oda, Masato"
+      },
+      {
+        "en": "Yasui, Katsura"
+      },
+      {
+        "en": "Dobashi, Ryo"
+      },
+      {
+        "en": "Mitsudera, Humio"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "Ocean",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Salinity",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Interannual variability",
+        "lang": "en"
+      },
+      {
+        "type": "NDC",
+        "text": "452"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01364:0005685891",
+    "authors": [
+      {
+        "en": "de Bernardi, Cecilia"
+      },
+      {
+        "en": "Edelheim, Johan"
+      },
+      {
+        "en": "Crossley, \u00c9milie"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "User-generated content (UGC)",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "boarding kennel",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "cattery",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "pet hotel",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "tourism enablers",
+        "lang": "ur"
+      },
+      {
+        "type": "NDC",
+        "text": "689"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01364:0005685890",
+    "authors": [
+      {
+        "en": "Rajapaksha, Disanayakage Surakshi Wimangika"
+      }
+    ],
+    "tags": [
+      {
+        "type": "NDC",
+        "text": "610"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01364:0005685889",
+    "authors": [
+      {
+        "ja": "\u5f35, \u57ce\u9298"
+      }
+    ],
+    "tags": [
+      {
+        "type": "NDC",
+        "text": "610"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01364:0005685888",
+    "authors": [
+      {
+        "en": "Futamura, Ryo"
+      },
+      {
+        "en": "Morita, Kentaro"
+      },
+      {
+        "en": "Kanno, Yoichiro"
+      },
+      {
+        "en": "Kumikawa, Shoji"
+      },
+      {
+        "en": "Matsuoka, Yuichi"
+      },
+      {
+        "en": "Okuda, Atsushi"
+      },
+      {
+        "en": "Sugiyama, Hiroshi"
+      },
+      {
+        "en": "Takahashi, Hiroyuki"
+      },
+      {
+        "en": "Uchida, Jiro"
+      },
+      {
+        "en": "Kishida, Osamu"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "Anadromous fish",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Growth period",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Growth rate",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Life history",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Oncorhynchus masou",
+        "lang": "en"
+      },
+      {
+        "type": "NDC",
+        "text": "480"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01364:0005685887",
+    "authors": [
+      {
+        "en": "Kubota, Koji"
+      },
+      {
+        "en": "Endo, Tsubura"
+      },
+      {
+        "en": "Uesugi, Minami"
+      },
+      {
+        "en": "Hayashi, Yuta"
+      },
+      {
+        "en": "Ito, Hajime"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "ball milling",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "carbazole",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "cross-coupling",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "mechanochemistry",
+        "lang": "es"
+      },
+      {
+        "type": "Other",
+        "text": "solid-state reaction",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01364:0005685886",
+    "authors": [
+      {
+        "en": "Kuroda, Masamichi"
+      },
+      {
+        "en": "Fujimoto, Takafumi"
+      },
+      {
+        "en": "Yamaha, Etsuro"
+      },
+      {
+        "en": "Arai, Katsutoshi"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "Clone",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Hybrid",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "PCR-RFLP",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Unisexuality",
+        "lang": "en"
+      },
+      {
+        "type": "NDC",
+        "text": "467"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01364:0005685885",
+    "authors": [
+      {
+        "en": "Uji, Toshiki"
+      },
+      {
+        "en": "Mizuta, Hiroyuki"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "asexual sporulation",
+        "lang": "fr"
+      },
+      {
+        "type": "Other",
+        "text": "Bangiales",
+        "lang": "fr"
+      },
+      {
+        "type": "Other",
+        "text": "heat shock protein 90",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Neopyropia",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "red algae",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "reproduction",
+        "lang": "en"
+      },
+      {
+        "type": "NDC",
+        "text": "474"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01364:0005685884",
+    "authors": [
+      {
+        "en": "Kikuchi, Tatsuya"
+      },
+      {
+        "en": "Onoda, Fumiya"
+      },
+      {
+        "en": "Iwai, Mana"
+      },
+      {
+        "en": "Suzuki, Ryosuke O."
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "Anodizing",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Aluminum nanobowls",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Alumina nanowires",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Contact angle",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Superhydrophobicity",
+        "lang": "en"
+      },
+      {
+        "type": "NDC",
+        "text": "565"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01364:0005685883",
+    "authors": [
+      {
+        "ja": "\u6734, \u54f2\u65f4"
+      }
+    ],
+    "tags": [
+      {
+        "type": "NDC",
+        "text": "467"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01364:0005685882",
+    "authors": [
+      {
+        "ja": "\u6c34\u672c, \u5bdb\u57fa"
+      }
+    ],
+    "tags": [
+      {
+        "type": "NDC",
+        "text": "610"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01354:0005685878",
+    "authors": [
+      {
+        "ja": "\u66fd\u7530, \u5e78\u4e00\u6717"
+      },
+      {
+        "ja": "\u5ddd\u53e3, \u6d69\u592a\u90ce"
+      },
+      {
+        "ja": "\u4e09\u5cf6, \u6df3\u4e00"
+      },
+      {
+        "ja": "\u5927\u67ff, \u51ea\u592e"
+      },
+      {
+        "ja": "\u5e73\u4e0a, \u5c1a\u543e"
+      },
+      {
+        "ja": "\u677e\u6ca2, \u826f\u592a"
+      },
+      {
+        "ja": "\u897f\u6bbf, \u5584\u7531"
+      },
+      {
+        "ja": "\u5c3e\u57a3, \u5948\u7a42"
+      },
+      {
+        "ja": "\u7389\u6728, \u5f70"
+      },
+      {
+        "ja": "\u7247\u5c71, \u899a"
+      },
+      {
+        "ja": "\u9053\u514d, \u548c\u4e45"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u5b66\u6821\u6cd5\u4eba\u5175\u5eab\u533b\u79d1\u5927\u5b66",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u30ea\u30cf\u30d3\u30ea\u30c6\u30fc\u30b7\u30e7\u30f3",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u30bb\u30df\u30ca\u30fc",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u5b9f\u8df5\u5831\u544a",
+        "lang": "ja"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01354:0005685877",
+    "authors": [
+      {
+        "ja": "\u7530\u4e2d, \u5cb3\u7f8e"
+      },
+      {
+        "ja": "\u85e4\u4e95, \u52a0\u90a3\u5b50"
+      },
+      {
+        "ja": "\u77f3\u539f, \u3042\u3084"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u5b66\u5185\u5b9f\u7fd2",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u72b6\u6cc1\u8a2d\u5b9a\u30b7\u30e5\u30df\u30ec\u30fc\u30b7\u30e7\u30f3",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u770b\u8b77\u6559\u80b2",
+        "lang": "zh"
+      },
+      {
+        "type": "Other",
+        "text": "\u5c0f\u5150\u770b\u8b77\u5b66",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u30b3\u30ed\u30ca\u798d",
+        "lang": "ja"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01354:0005685876",
+    "authors": [
+      {
+        "ja": "\u85e4\u4e95, \u52a0\u90a3\u5b50"
+      },
+      {
+        "ja": "\u6962\u6728\u91ce, \u88d5\u7f8e"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u5e7c\u5150",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "\u770b\u8b77\u5e2b\u306e\u8a8d\u8b58",
+        "lang": "zh"
+      },
+      {
+        "type": "Other",
+        "text": "\u691c\u67fb\u30fb\u51e6\u7f6e",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "\u5b50\u3069\u3082\u306e\u7d4c\u9a13",
+        "lang": "ja"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01354:0005685875",
+    "authors": [
+      {
+        "ja": "\u677f\u57a3, \u7dbe\u5b50"
+      },
+      {
+        "ja": "\u795e\ufa11, \u521d\u7f8e"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u6162\u6027\u75be\u60a3",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "\u8a2a\u554f\u770b\u8b77",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "\u9000\u9662",
+        "lang": "zh"
+      },
+      {
+        "type": "Other",
+        "text": "\u9023\u643a\u4e0a\u306e\u56f0\u96e3",
+        "lang": "ja"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01354:0005685874",
+    "authors": [
+      {
+        "ja": "\u9ad8\u6a4b, \u656c\u5b50"
+      },
+      {
+        "ja": "\u9234\u6728, \u656c\u4e00\u90ce"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u5bc4\u9644\u8b1b\u5ea7",
+        "lang": "zh"
+      },
+      {
+        "type": "Other",
+        "text": "\u533b\u7642\u5b89\u5168\u6559\u80b2",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u591a\u8077\u7a2e\u9023\u643a",
+        "lang": "zh"
+      },
+      {
+        "type": "Other",
+        "text": "\u5c02\u9580\u8077\u9023\u643a",
+        "lang": "ja"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01344:0005685869",
+    "authors": [
+      {
+        "ja": "\u5247\u6167"
+      },
+      {
+        "en": "Zehui"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u9053\u9083",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "\u6b62\u89b3\u8a18\u4e2d\u7570\u7fa9",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u5fc3",
+        "lang": "zh"
+      },
+      {
+        "type": "Other",
+        "text": "\u9053",
+        "lang": "zh"
+      },
+      {
+        "type": "Other",
+        "text": "\u5373\u8eab\u6210\u4ecf",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Daosui",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Zhiguan ji zhong yi yi",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "mind",
+        "lang": "hu"
+      },
+      {
+        "type": "Other",
+        "text": "Dao",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "the attainment of Buddhahood in this very body",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01344:0005685868",
+    "authors": [
+      {
+        "ja": "GOLDING,, Corin"
+      },
+      {
+        "en": "Corin, GOLDING,"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "Buddhism",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "exclusion",
+        "lang": "fr"
+      },
+      {
+        "type": "Other",
+        "text": "agotra",
+        "lang": "ca"
+      },
+      {
+        "type": "Other",
+        "text": "icchantika",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Buddhism",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "exclusion",
+        "lang": "fr"
+      },
+      {
+        "type": "Other",
+        "text": "agotra",
+        "lang": "ca"
+      },
+      {
+        "type": "Other",
+        "text": "icchantika",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01344:0005685867",
+    "authors": [
+      {
+        "ja": "KAMARID,, D\u00f6rte"
+      },
+      {
+        "en": "D\u00f6rte, KAMARID,"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "N\u0101g\u0101rjuna",
+        "lang": "lv"
+      },
+      {
+        "type": "Other",
+        "text": "Pa tshab Nyi ma grags",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "*Pr\u0101sa\u1e45gika and *Sv\u0101tantrika",
+        "lang": "lv"
+      },
+      {
+        "type": "Other",
+        "text": "bKa' gdams gsung 'bum",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "M\u016blamadhyamakak\u0101rik\u0101",
+        "lang": "lv"
+      },
+      {
+        "type": "Other",
+        "text": "N\u0101g\u0101rjuna",
+        "lang": "lv"
+      },
+      {
+        "type": "Other",
+        "text": "Pa tshab Nyi ma grags",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "*Pr\u0101sa\u1e45gika and *Sv\u0101tantrika",
+        "lang": "lv"
+      },
+      {
+        "type": "Other",
+        "text": "bKa' gdams gsung 'bum",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "M\u016blamadhyamakak\u0101rik\u0101",
+        "lang": "lv"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01344:0005685866",
+    "authors": [
+      {
+        "ja": "\u5218, \u56ed\u56ed"
+      },
+      {
+        "en": "Yuanyuan, Liu"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u5317\u5b8b\u5358\u523b\u672c",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u300e\u516b\u5341\u83ef\u53b3\u300f",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u83ef\u53b3\u30b0\u30eb\u30fc\u30d7",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u83ef\u53b3\u7d50\u793e",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u520a\u7d4c\u6d3b\u52d5",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "independently block-printed editions During the Northern Song Dynasty",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Huayan Jing in Eighty Scrolls",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "the Huayan Society",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "the publishing activity",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01344:0005685865",
+    "authors": [
+      {
+        "ja": "\u6d45\u91ce, \u5b66"
+      },
+      {
+        "en": "Manabu, Asano"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u8208\u8056\u5bfa\u4e00\u5207\u7d4c",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u300e\u6cd5\u83ef\u8ad6\u300f",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u83e9\u63d0\u6d41\u652f",
+        "lang": "zh"
+      },
+      {
+        "type": "Other",
+        "text": "K\u014dsh\u014d-ji Issai-ky\u014d",
+        "lang": "fr"
+      },
+      {
+        "type": "Other",
+        "text": "Hokkeron",
+        "lang": "nl"
+      },
+      {
+        "type": "Other",
+        "text": "Bodhiruci",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01335:0005685863",
+    "authors": [
+      {
+        "ja": "\u5ddd\u539f, \u6b63\u5f18"
+      },
+      {
+        "en": "KAWAHARA, MasaHiro"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u7269\u4f53\u8996\u899a\u601d\u8003",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u7a7a\u9593\u8996\u899a\u601d\u8003",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u8a00\u8a9e\u601d\u8003",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "Object-visual thinking",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "spatial-visual thinking",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "verbal thinking",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01335:0005685862",
+    "authors": [
+      {
+        "ja": "\u677e\u7530, \u82f1\u5b50"
+      },
+      {
+        "ja": "\u677e\u5ca1, \u548c\u751f"
+      },
+      {
+        "ja": "\u5ca1\u7530, \u6589"
+      },
+      {
+        "sv": "Eiko, Matsuda"
+      },
+      {
+        "fi": "kazuo, Matsuoka"
+      },
+      {
+        "eo": "HitosHi, okada"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u81ea\u9589\u75c7\u30b9\u30da\u30af\u30c8\u30e9\u30e0\u969c\u5bb3",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u5922\u5185\u5bb9\u5206\u6790",
+        "lang": "zh"
+      },
+      {
+        "type": "Other",
+        "text": "\u5922\u306e\u611f\u899a",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u5922\u306e\u611f\u60c5",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u611f\u899a\u7570\u5e38",
+        "lang": "pl"
+      },
+      {
+        "type": "Other",
+        "text": "autism spectrum disorder",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "dream content analysis",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "dream sensations",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "dream emotions",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "paresthesia",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01335:0005685861",
+    "authors": [
+      {
+        "ja": "\u677e\u5ca1, \u548c\u751f"
+      },
+      {
+        "en": "MATSUOKA, Kazuo"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u5bae\u6ca2\u8ce2\u6cbb",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u76f4\u89b3\u50cf",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u5171\u611f\u899a",
+        "lang": "pl"
+      },
+      {
+        "type": "Other",
+        "text": "\u7a7a\u60f3\u50be\u6027",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u30cf\u30a4\u30d1\u30fc\u30d5\u30a1\u30f3\u30bf\u30b8\u30a2",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "Miyazawa Kenji",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "eidetic imagery",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "synesthesia",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "fantasy-proneness",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "hyperphantasia",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01211:0005685812",
+    "authors": [
+      {
+        "ja": "\u5c3e\u5cf6, \u76f4\u6a39"
+      },
+      {
+        "ja": "\u6751\u4e0a, \u5e78\u6cbb"
+      },
+      {
+        "ja": "\u5f8c\u85e4, \u6d69\u4e8c"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u30c7\u30b8\u30bf\u30eb\u753b\u50cf\u76f8\u95a2\u6cd5",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u75b2\u52b4",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "\u4e21\u632f\u308a\u5851\u6027\u57df",
+        "lang": "ja"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01211:0005685809",
+    "authors": [
+      {
+        "ja": "\u4e2d\u7530, \u667a\u4e5f"
+      },
+      {
+        "ja": "\u5185\u6751, \u53cb\u54c9"
+      },
+      {
+        "ja": "\u4e0a\u6751, \u5d07\u675c"
+      },
+      {
+        "ja": "\u5f8c\u85e4, \u6d69\u4e8c"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u30ec\u30fc\u30b6\u30fb\u30a2\u30fc\u30af\u30cf\u30a4\u30d6\u30ea\u30c3\u30c9\u6eb6\u63a5",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u6a2a\u5411\u59ff\u52e2",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u8868\u5f53\u3066\u6750",
+        "lang": "ja"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01211:0005685808",
+    "authors": [
+      {
+        "ja": "\u5965\u5712, \u5065"
+      },
+      {
+        "ja": "\u5927\u9db4, \u5fb9"
+      },
+      {
+        "ja": "\u5ca1\u672c, \u5247\u5b50"
+      },
+      {
+        "ja": "\u5bcc\u6765, \u793c\u6b21"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u6709\u9650\u8981\u7d20\u6cd5",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u5ba4\u5185\u97f3\u5834",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u97f3\u5834\u89e3\u6790",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u96e2\u6563\u5316",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u6f14\u7b97\u30b5\u30fc\u30d0",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u4e26\u5217\u5316",
+        "lang": "ja"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01211:0005685807",
+    "authors": [
+      {
+        "ja": "\u795e\u5d0e, \u4eae"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u5206\u5b50\u8ecc\u9053",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u8ecc\u9053\u8a08\u7b97",
+        "lang": "es"
+      },
+      {
+        "type": "Other",
+        "text": "\u6f14\u7b97\u30b5\u30fc\u30d0",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u5206\u5b50",
+        "lang": "zh"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01211:0005685806",
+    "authors": [
+      {
+        "ja": "\u5b97\u85e4, \u4f38\u6cbb"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u6750\u6599\u79d1\u5b66",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "Materials Science",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "\u4e26\u5217\u8a08\u7b97",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "\u5206\u5b50\u52d5\u529b\u5b66\u6cd5",
+        "lang": "zh"
+      },
+      {
+        "type": "Other",
+        "text": "\u6f14\u7b97\u30b5\u30fc\u30d0",
+        "lang": "ja"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01211:0005685805",
+    "authors": [
+      {
+        "ja": "\u6fa4\u7530, \u745e\u6a39"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u9759\u7684\u967d\u89e3\u6cd5",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "IBM",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "eServer p5",
+        "lang": "es"
+      },
+      {
+        "type": "Other",
+        "text": "\u677f\u6750",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "\u5f3e\u5851\u6027\u89e3\u6790",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01211:0005685803",
+    "authors": [
+      {
+        "ja": "\u6e21\u90e8, \u5584\u9686"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u6f14\u7b97\u30b5\u30fc\u30d0",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u30b3\u30f3\u30d4\u30e5\u30fc\u30bf",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "Linpack\u6027\u80fd",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "SPEC\u6027\u80fd",
+        "lang": "ja"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01211:0005685802",
+    "authors": [
+      {
+        "ja": "\u5357\u91cc, \u8c6a\u5fd7"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u4e26\u5217\u5316",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u6f14\u7b97\u30b5\u30fc\u30d0",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "OpenMP",
+        "lang": "de"
+      },
+      {
+        "type": "Other",
+        "text": "MPI",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01211:0005685800",
+    "authors": [
+      {
+        "ja": "\u5927\u5bae, \u5b66"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u30ef\u30a4\u30e4\u30ec\u30b9\u30fb\u30b3\u30df\u30e5\u30cb\u30b1\u30fc\u30b7\u30e7\u30f3",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "wireless communication",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "\u6642\u9593\u9818\u57df\u89e3\u6790\u6cd5",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "time-domain analysis",
+        "lang": "fr"
+      },
+      {
+        "type": "Other",
+        "text": "FDTD\u6cd5",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "FDTD method",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "PML\u5438\u53ce\u5883\u754c\u6761\u4ef6",
+        "lang": "zh"
+      },
+      {
+        "type": "Other",
+        "text": "PML absorbing boundary condition",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01211:0005685799",
+    "authors": [
+      {
+        "ja": "\u725b\u5cf6, \u6075\u8f14"
+      },
+      {
+        "ja": "\u6c34\u6c38, \u79c0\u6a39"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u7269\u7406\u63a2\u67fb",
+        "lang": "zh"
+      },
+      {
+        "type": "Other",
+        "text": "geophysical exploration",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "\u53cd\u5fa9\u8a08\u7b97",
+        "lang": "zh"
+      },
+      {
+        "type": "Other",
+        "text": "iterative computation",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "\u30b7\u30e5\u30e9\u30f3\u30d9\u30eb\u30b8\u30e3\u30fc\u6cd5",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "schlumberger method",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "3\u6b21\u5143\u6bd4\u62b5\u6297\u69cb\u9020",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "three dimensional resistivity structure",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01211:0005685797",
+    "authors": [
+      {
+        "ja": "\u77f3\u4e95, \u514b\u54c9"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u7d50\u5408\u30b3\u30f3\u30d1\u30af\u30c8\u5dee\u5206\u30b9\u30ad\u30fc\u30e0",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "combined compact difference scheme",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "\u5dee\u5206\u6cd5",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "difference method",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "\u30b9\u30da\u30af\u30c8\u30eb\u6cd5",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "spectral method",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "MAC\u65b9\u6cd5",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "MAC method",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01211:0005685796",
+    "authors": [
+      {
+        "ja": "\u5c0f\u67f3, \u7fa9\u592b"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u8a08\u7b97\u79d1\u5b66",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "computational sciences",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "\u30b7\u30df\u30e5\u30ec\u30fc\u30b7\u30e7\u30f3",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "simulation",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "\u30e2\u30f3\u30c6\u30ab\u30eb\u30ed\u30fb\u30b7\u30df\u30e5\u30ec\u30fc\u30b7\u30e7\u30f3",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "monte carlo simulation",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "\u30e1\u30c8\u30ed\u30dd\u30ea\u30b9\u6cd5",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "metropolis method",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "\u91cf\u5b50\u8ad6\u7684\u624b\u6cd5",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "quantum field theoretical method",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01211:0005685795",
+    "authors": [
+      {
+        "ja": "\u91d1\u5c71, \u5bdb"
+      },
+      {
+        "ja": "\u6749\u672c, \u632f\u4e00\u90ce"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "ADVENTURE_Magnetic",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "\u975e\u7dda\u5f62\u9759\u78c1\u5834\u89e3\u6790",
+        "lang": "zh"
+      },
+      {
+        "type": "Other",
+        "text": "nonlinear magnetostatic analysis",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "\u6e26\u96fb\u6d41\u89e3\u6790",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "eddy current analysis",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "\u53cd\u5fa9\u578b\u9818\u57df\u5206\u5272\u6cd5",
+        "lang": "zh"
+      },
+      {
+        "type": "Other",
+        "text": "iterative domain decomposition method",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "\u968e\u5c64\u578b\u9818\u57df\u5206\u5272\u6cd5",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "hierarchical domain decomposition method",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01211:0005685793",
+    "authors": [
+      {
+        "ja": "\u6e21\u90e8, \u5584\u9686"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "HimenoBMT",
+        "lang": "it"
+      },
+      {
+        "type": "Other",
+        "text": "ShimanoBMT",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "\u81ea\u52d5\u4e26\u5217\u5316",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u5171\u6709\u30e1\u30e2\u30ea\u578b\u4e26\u5217\u8a08\u7b97\u6a5f",
+        "lang": "zh"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01211:0005685792",
+    "authors": [
+      {
+        "ja": "\u5185\u7530, \u5b5d\u7d00"
+      },
+      {
+        "ja": "\u5927\u5c4b, \u88d5\u4e8c"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u98a8\u6cc1\u30b7\u30df\u30e5\u30ec\u30fc\u30bfRIAM-COMPACT",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "Intel Fortan\u30b3\u30f3\u30d1\u30a4\u30e9(v.7.1)",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "Intel Pentium4\u30d7\u30ed\u30bb\u30c3\u30b5",
+        "lang": "fr"
+      },
+      {
+        "type": "Other",
+        "text": "Intel Xeon DP\u30d7\u30ed\u30bb\u30c3\u30b5",
+        "lang": "fr"
+      },
+      {
+        "type": "Other",
+        "text": "Intel Itanium2 DP\u30d7\u30ed\u30bb\u30c3\u30b5",
+        "lang": "fr"
+      },
+      {
+        "type": "Other",
+        "text": "\u30b9\u30ab\u30e9\u30fc\u4e26\u5217\u8a08\u7b97\u6a5f",
+        "lang": "ja"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01186:0005685790",
+    "authors": [
+      {
+        "ja": "\u677f\u6a4b, \u590f\u6a39"
+      },
+      {
+        "en": "Natsuki, Itahashi"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u5c0f\u5b66\u6821",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u5168\u6559\u79d1",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u30a8\u30cd\u30eb\u30ae\u30fc",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u6559\u79d1\u66f8",
+        "lang": "ja"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01173:0005685789",
+    "authors": [
+      {
+        "ja": "\u5c0f\u897f, \u5553\u53f2"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u604b\u611b\u611f\u60c5",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u597d\u610f\u611f\u60c5",
+        "lang": "zh"
+      },
+      {
+        "type": "Other",
+        "text": "\u604b\u611b\u306e\u578b",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u97d3\u56fd",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u65e5\u672c",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u5927\u5b66\u751f",
+        "lang": "ja"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01173:0005685788",
+    "authors": [
+      {
+        "ja": "\u5c0f\u897f, \u5553\u53f2"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u604b\u611b\u611f\u60c5",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u597d\u610f\u611f\u60c5",
+        "lang": "zh"
+      },
+      {
+        "type": "Other",
+        "text": "\u604b\u611b\u306e\u578b",
+        "lang": "ja"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01143:0005685787",
+    "authors": [
+      {
+        "ja": "\u72ec\u7acb\u884c\u653f\u6cd5\u4eba\u56fd\u7acb\u6587\u5316\u8ca1\u6a5f\u69cb\u5948\u826f\u6587\u5316\u8ca1\u7814\u7a76\u6240"
+      },
+      {
+        "en": "Independent Administrative Institution National Institute for Cultural Heritage Nara National Research Institute for Cultural Properties"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u98db\u9ce5\u306e\u8003\u53e4\u5b66",
+        "lang": "zh"
+      },
+      {
+        "type": "Other",
+        "text": "\u98db\u9ce5\u4eac\u8de1\u82d1\u6c60",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u7518\u6a2b\u4e18\u907a\u8de1\u7fa4",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u8607\u6211\u6c0f",
+        "lang": "zh"
+      },
+      {
+        "type": "Other",
+        "text": "\u5927\u5b98\u5927\u5bfa\u8de1",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u77f3\u795e\u907a\u8de1",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u85e4\u539f\u5bae\u5927\u6975\u6bbf\u9662",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u5909\u5f62\u5fcd\u51ac\u5510\u8349\u6587\u8ed2\u5e73\u74e6",
+        "lang": "ja"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01130:0005685784",
+    "authors": [
+      {
+        "ja": "CHIKARAISHI,  Hirotaka"
+      },
+      {
+        "ja": "ASHIKAWA,  Naoko"
+      },
+      {
+        "ja": "GOTO,  Takuya"
+      },
+      {
+        "ja": "HIRANO, Naoki"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "hydrogen production",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "superconducting magnet",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "fusion power plant",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "energy storage",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01130:0005685783",
+    "authors": [
+      {
+        "ja": "OGAWA,  Kunihiro"
+      },
+      {
+        "ja": "ISOBE,  Mitsutaka"
+      },
+      {
+        "ja": "WEISS, C."
+      },
+      {
+        "ja": "GRIESMAYER, E."
+      },
+      {
+        "ja": "SANGAROON, Siriyaporn"
+      },
+      {
+        "ja": "TAKADA, Eiji"
+      },
+      {
+        "ja": "MASUZAKI,  Suguru"
+      },
+      {
+        "ja": "OHTANI,  Hiroaki"
+      },
+      {
+        "ja": "LIAO, Longyong"
+      },
+      {
+        "ja": "TAMAKI, Shingo"
+      },
+      {
+        "ja": "MURATA, Isao"
+      },
+      {
+        "ja": "OSAKABE,  Masaki"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "Plasma diagnostics - charged-particle spectroscopy",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Diamond Detectors",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Neutron detectors (cold, thermal, fast neutrons)",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01129:0005685781",
+    "authors": [
+      {
+        "ja": "\u4e2d\u6fa4, \u5149\u5e73"
+      },
+      {
+        "en": "Kohei, NAKAZAWA"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u4e0e\u90a3\u56fd\u65b9\u8a00",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u52d5\u8a5e",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u6d3b\u7528",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u30a2\u30af\u30bb\u30f3\u30c8\u4ea4\u66ff",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u30a2\u30af\u30bb\u30f3\u30c8\u5909\u5316",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "Yonaguni dialect",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "verb",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "conjugation",
+        "lang": "ca"
+      },
+      {
+        "type": "Other",
+        "text": "tonal alternation",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "tonal change",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01129:0005685780",
+    "authors": [
+      {
+        "ja": "\u5c0f\u78ef, \u82b1\u7d75"
+      },
+      {
+        "ja": "\u5929\u8c37, \u6674\u9999"
+      },
+      {
+        "ja": "\u5c45\u95dc, \u53cb\u91cc\u5b50"
+      },
+      {
+        "ja": "\u81fc\u7530, \u6cf0\u5982"
+      },
+      {
+        "ja": "\u67cf\u91ce, \u548c\u4f73\u5b50"
+      },
+      {
+        "ja": "\u5ddd\u7aef, \u826f\u5b50"
+      },
+      {
+        "ja": "\u7530\u4e2d, \u5f25\u751f"
+      },
+      {
+        "ja": "\u4f1d, \u5eb7\u6674"
+      },
+      {
+        "ja": "\u897f\u5ddd, \u8ce2\u54c9"
+      },
+      {
+        "ja": "\u6e21\u908a, \u53cb\u9999"
+      },
+      {
+        "en": "Hanae, KOISO"
+      },
+      {
+        "en": "Haruka, AMATANI"
+      },
+      {
+        "en": "Yuriko, ISEKI"
+      },
+      {
+        "en": "Yasuyuki, USUDA"
+      },
+      {
+        "en": "Wakako, KASHINO"
+      },
+      {
+        "en": "Yoshiko, KAWABATA"
+      },
+      {
+        "en": "Yayoi, TANAKA"
+      },
+      {
+        "en": "Yasuharu, DEN"
+      },
+      {
+        "en": "Ken'ya, NISHIKAWA"
+      },
+      {
+        "en": "Yuka, WATANABE"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u97f3\u58f0\u30b3\u30fc\u30d1\u30b9",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u65e5\u5e38\u4f1a\u8a71",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u30b3\u30fc\u30d1\u30b9\u8a2d\u8a08",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u30a2\u30ce\u30c6\u30fc\u30b7\u30e7\u30f3",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "spoken corpus",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "everyday conversation",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "corpus design",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "annotation",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01129:0005685779",
+    "authors": [
+      {
+        "ja": "\u897f\u5185, \u6c99\u6075"
+      },
+      {
+        "en": "Sae, NISHIUCHI"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u591a\u7fa9\u6027",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u8a9e\u5f59\u30c6\u30b9\u30c8",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u6587\u6cd5\u30c6\u30b9\u30c8",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u8ad6\u7406\u30c6\u30b9\u30c8",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u73fe\u4ee3\u65e5\u672c\u8a9e",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "polysemy",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "vocabulary test",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "grammar test",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "logical test",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Contemporary Japanese",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01129:0005685778",
+    "authors": [
+      {
+        "ja": "\u4e95\u4f0a, \u83dc\u7a42\u5b50"
+      },
+      {
+        "en": "Nahoko, II"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u63a5\u7d9a\u8868\u73fe",
+        "lang": "vo"
+      },
+      {
+        "type": "Other",
+        "text": "\u6a5f\u80fd\u9818\u57df",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u6bb5\u843d",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "\u6587\u6bb5",
+        "lang": "zh"
+      },
+      {
+        "type": "Other",
+        "text": "\u5185\u90e8\u69cb\u9020",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "connective expression",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "scope",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "formal paragraph",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "logical paragraph",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "internal structure",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01129:0005685777",
+    "authors": [
+      {
+        "ja": "\u4e2d\u4e95, \u967d\u5b50"
+      },
+      {
+        "ja": "\u590f, \u96e8\u4f73"
+      },
+      {
+        "en": "Yoko, NAKAI"
+      },
+      {
+        "en": "Yujia, XIA"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u30ca\u30e9\u30c6\u30a3\u30d6",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u5354\u50cd\u69cb\u7bc9",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "\u8a71\u984c\u5c55\u958b",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "\u30e9\u30dd\u30fc\u30eb\u5f62\u6210",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u30d5\u30a9\u30ed\u30fc\u30a2\u30c3\u30d7\u30fb\u30a4\u30f3\u30bf\u30d3\u30e5\u30fc",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "narrative",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "collaborative construction",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "topic development",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "rapport development",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "follow-up interview",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01129:0005685776",
+    "authors": [
+      {
+        "ja": "\u4f50\u85e4, \u667a\u7167"
+      },
+      {
+        "en": "Tomoaki, SATO"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u6587\u7ae0\u8aad\u89e3",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u8a9e\u7528\u8ad6\u7684\u63a8\u8ad6",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u95a2\u9023\u6027\u7406\u8ad6",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u8868\u51fa\u547d\u984c",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u767a\u5c55",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "text reading",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "relevance theory",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "pragmatic inference",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "proposition expressed",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "development",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01129:0005685775",
+    "authors": [
+      {
+        "ja": "\u5c0f\u677e\u539f, \u54f2\u592a"
+      },
+      {
+        "en": "Tetsuta, KOMATSUBARA"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u52a9\u8a5e",
+        "lang": "es"
+      },
+      {
+        "type": "Other",
+        "text": "\u52a9\u52d5\u8a5e",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u76f4\u55a9",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u69cb\u6587",
+        "lang": "zh"
+      },
+      {
+        "type": "Other",
+        "text": "\u300e\u65e5\u672c\u8a9e\u30ec\u30c8\u30ea\u30c3\u30af\u30b3\u30fc\u30d1\u30b9\u300f",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "joshi",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "jodoshi",
+        "lang": "pt"
+      },
+      {
+        "type": "Other",
+        "text": "simile",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "construction",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "The Corpus of Japanese Figurative Language",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01129:0005685774",
+    "authors": [
+      {
+        "ja": "\u30dd\u30c3\u30da, \u30af\u30ec\u30e1\u30f3\u30b9"
+      },
+      {
+        "en": "Clemens, POPPE"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u65e5\u672c\u8a9e",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u97d3\u56fd\u30fb\u671d\u9bae\u8a9e",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u30a2\u30af\u30bb\u30f3\u30c8",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u5f62\u614b\u69cb\u9020",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u985e\u578b\u8ad6",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "Japanese",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Korean",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "pitch accent",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "morphology",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "typology",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01125:0005685756",
+    "authors": [
+      {
+        "ja": "\u540d\u548c, \u4e00\u6210"
+      },
+      {
+        "ja": "\u5965\u91ce, \u6df3\u4e00"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u30c7\u30fc\u30bf\u6d41\u901a",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u91cd\u529b\u89b3\u6e2c",
+        "lang": "zh"
+      },
+      {
+        "type": "Other",
+        "text": "\u30c7\u30fc\u30bfDOI",
+        "lang": "ja"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01104:0005685755",
+    "authors": [
+      {
+        "ja": "\u677e\u5ddd, \u5bff\u4e5f"
+      },
+      {
+        "en": "\u4e38\u5ca1, \u967d"
+      },
+      {
+        "ja": "\u4e2d\u51fa, \u6587\u5e73"
+      },
+      {
+        "en": "\u6a0b\u53e3, \u79c0"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u7dda\u5f15\u304d\u90fd\u5e02\u8a08\u753b\u533a\u57df",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u975e\u7dda\u5f15\u304d\u90fd\u5e02\u8a08\u753b\u533a\u57df",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u571f\u5730\u5229\u7528\u898f\u5236\u306e\u683c\u5dee\u3068\u89e3\u6d88",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u958b\u767a\u8a31\u53ef\u6761\u4f8b",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "Divided City Planning Area",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Un-divided City Planning Area",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Gap and Solving of Landuse Regulation",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Development Permit Ordinance",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01104:0005685754",
+    "authors": [
+      {
+        "ja": "\u677e\u5ddd, \u5bff\u4e5f"
+      },
+      {
+        "en": "\u4e38\u5ca1, \u967d"
+      },
+      {
+        "ja": "\u4e2d\u51fa, \u6587\u5e73"
+      },
+      {
+        "en": "\u6a0b\u53e3, \u79c0"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u5e02\u8857\u5316\u8abf\u6574\u533a\u57df",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u81ea\u5df1\u7528\u9650\u5b9a\u578b3411\u6761\u4f8b",
+        "lang": "zh"
+      },
+      {
+        "type": "Other",
+        "text": "\u96c6\u7d04\u578b\u90fd\u5e02\u653f\u7b56",
+        "lang": "zh"
+      },
+      {
+        "type": "Other",
+        "text": "Urbanization Control Area",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Ordinance 3411 for limited Development Permit for own private dwelling",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Policy for Compact City",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01104:0005685753",
+    "authors": [
+      {
+        "en": "\u9f4b\u85e4, \u52c7\u8cb4"
+      },
+      {
+        "ja": "\u677e\u5ddd, \u5bff\u4e5f"
+      },
+      {
+        "en": "\u4e38\u5ca1, \u967d"
+      },
+      {
+        "ja": "\u4e2d\u51fa, \u6587\u5e73"
+      },
+      {
+        "en": "\u6a0b\u53e3, \u79c0"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u7acb\u5730\u9069\u6b63\u5316\u8a08\u753b",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u958b\u767a\u8a31\u53ef\u5236\u5ea6",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u90fd\u5e02\u8a08\u753b\u6cd534\u676111\u53f7",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u5e02\u8857\u5316\u8abf\u6574\u533a\u57df\u306e\u62e0\u70b9",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "Urban Facility Location Plan",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Development Permission System",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Article 34-11 of City Planning Law",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Urban Hub of Urbanization Control Area",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01104:0005685752",
+    "authors": [
+      {
+        "ja": "\u6751\u5c71, \u5e83\u5178"
+      },
+      {
+        "ja": "\u677e\u5ddd, \u5bff\u4e5f"
+      },
+      {
+        "ja": "\u4e2d\u51fa, \u6587\u5e73"
+      },
+      {
+        "en": "\u6a0b\u53e3, \u79c0"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u5e02\u8857\u5316\u8abf\u6574\u533a\u57df",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u5730\u533a\u8a08\u753b",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u4e0a\u4f4d\u8a08\u753b",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "Urbanization Control Area",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "District Plan",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Upper Level Plan",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01104:0005685751",
+    "authors": [
+      {
+        "ja": "\u4f50\u85e4, \u62f3\u592a"
+      },
+      {
+        "ja": "\u677e\u5ddd, \u5bff\u4e5f"
+      },
+      {
+        "ja": "\u4e2d\u51fa, \u6587\u5e73"
+      },
+      {
+        "en": "\u6a0b\u53e3, \u79c0"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u5e02\u753a\u6751\u5408\u4f75",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u90fd\u5e02\u8a08\u753b\u533a\u57df",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u571f\u5730\u5229\u7528\u898f\u5236",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u7279\u5b9a\u7528\u9014\u5236\u9650\u5730\u57df",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "Merger of Municipalities",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "City Planning Area",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Land Use Control",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Specific Usage Limitation Area",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01104:0005685750",
+    "authors": [
+      {
+        "ja": "\u91ce\u672c, \u660e\u91cc"
+      },
+      {
+        "en": "\u4e38\u5ca1, \u967d"
+      },
+      {
+        "ja": "\u677e\u5ddd, \u5bff\u4e5f"
+      },
+      {
+        "ja": "\u4e2d\u51fa, \u6587\u5e73"
+      },
+      {
+        "en": "\u6a0b\u53e3, \u79c0"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u4eba\u53e3\u5bc6\u5ea6",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u5e02\u8857\u5316\u533a\u57df",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u540c\u5fc3\u5186",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u90fd\u5e02\u69cb\u9020",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u5c45\u4f4f\u8a98\u5c0e\u533a\u57df",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "Population Density",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Urbanization Promotion Area",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Concentric circle",
+        "lang": "fa"
+      },
+      {
+        "type": "Other",
+        "text": "Urban Structure",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Residential Promotion Area",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01104:0005685749",
+    "authors": [
+      {
+        "ja": "\u6728\u5143, \u4e00\u661f"
+      },
+      {
+        "en": "\u6a0b\u53e3, \u79c0"
+      },
+      {
+        "ja": "\u4e2d\u51fa, \u6587\u5e73"
+      },
+      {
+        "ja": "\u677e\u5ddd, \u5bff\u4e5f"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u307e\u3061\u306a\u304b\u5c45\u4f4f",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "\u65e2\u5b58\u30de\u30f3\u30b7\u30e7\u30f3",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u4eba\u53e3\u4fdd\u6301",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u4e2d\u5fc3\u90e8",
+        "lang": "zh"
+      },
+      {
+        "type": "Other",
+        "text": "\u5730\u65b9\u90fd\u5e02",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "Urban Residence",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Existing Condominiums",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Population Keeping Ability",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Central Area, Local City",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01104:0005685748",
+    "authors": [
+      {
+        "ja": "\u69c7, \u656c\u4ecb"
+      },
+      {
+        "en": "\u6a0b\u53e3, \u79c0"
+      },
+      {
+        "ja": "\u4e2d\u51fa, \u6587\u5e73"
+      },
+      {
+        "ja": "\u677e\u5ddd, \u5bff\u4e5f"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u4f4e\u672a\u5229\u7528\u5730",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u5e73\u9762\u99d0\u8eca\u5834",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u4ed6\u7528\u9014\u8ee2\u63db",
+        "lang": "zh"
+      },
+      {
+        "type": "Other",
+        "text": "\u571f\u5730\u6a29\u5229\u79fb\u52d5",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "Underused land",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Outdoor parking site",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Conversion to other use",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Land ownership transfer",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01104:0005685747",
+    "authors": [
+      {
+        "zh": "\u6797, \u5c1a"
+      },
+      {
+        "en": "\u6a0b\u53e3, \u79c0"
+      },
+      {
+        "ja": "\u4e2d\u51fa, \u6587\u5e73"
+      },
+      {
+        "ja": "\u677e\u5ddd, \u5bff\u4e5f"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u5c4b\u6839\u4ed8\u307e\u3061\u306a\u304b\u5e83\u5834",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u5e73\u65e5\u5229\u7528",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u5229\u7528\u8005\u6570",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u5b63\u7bc0\u5909\u52d5",
+        "lang": "zh"
+      },
+      {
+        "type": "Other",
+        "text": "\u7ba1\u7406\u30fb\u904b\u55b6",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "RoofedTown Plaza",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Weekday Usage",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Number of Uses",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Seasonal Variability",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Management and Operation",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01104:0005685745",
+    "authors": [
+      {
+        "ja": "\u751f\u65b9, \u7fd4\u4e5f"
+      },
+      {
+        "en": "\u6a0b\u53e3, \u79c0"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u30ea\u30be\u30fc\u30c8\u30de\u30f3\u30b7\u30e7\u30f3",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u6e6f\u6ca2\u753a",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u5b9a\u4f4f\u5316",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u5730\u65b9\u79fb\u4f4f",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u5c45\u4f4f\u8005\u50cf",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u5c45\u4f4f\u74b0\u5883",
+        "lang": "ja"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01104:0005685744",
+    "authors": [
+      {
+        "ja": "\u85e4\u672c, \u5927\u8cc0"
+      },
+      {
+        "en": "\u5009\u77e5, \u5fb9"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u7a7a\u9593\u4fa1\u5024",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u9b45\u529b",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u7121\u4eba\u99c5",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u67cf\u5d0e\u5e02",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u30d7\u30ec\u30a4\u30e1\u30a4\u30ad\u30f3\u30b0",
+        "lang": "ja"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01104:0005685743",
+    "authors": [
+      {
+        "fi": "Tominaga, Yoshihide"
+      },
+      {
+        "en": "Okuyama, Toshihiro"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "Wind tunnel experiment",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Threshold wind velocity",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Sparsely distributed gravels",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Surface coarseness",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01104:0005685742",
+    "authors": [
+      {
+        "fi": "Tominaga, Yoshihide"
+      },
+      {
+        "en": "Shirzadi, Mohammadreza"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "CFD modeling",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Thin porous windbreak fence",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Validation",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Porosity",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Porous jump method",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01104:0005685741",
+    "authors": [
+      {
+        "fi": "Tominaga, Yoshihide"
+      },
+      {
+        "en": "Shirzadi, Mohammadreza"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "Wind tunnel",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Turbulent flow",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Pedestrian wind environment",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "High-rise building",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01056:0005685736",
+    "authors": [
+      {
+        "ja": "\u4e95\u51fa, \u548c\u5e0c"
+      },
+      {
+        "ja": "\u6797, \u548c\u5f18"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u5b66\u8853\u8a8c",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u30aa\u30fc\u30d7\u30f3\u30a2\u30af\u30bb\u30b9",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "Predatory Journal",
+        "lang": "es"
+      },
+      {
+        "type": "Other",
+        "text": "\u5224\u65ad\u306e\u89b3\u70b9",
+        "lang": "ja"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01056:0005685735",
+    "authors": [
+      {
+        "en": "Maekawa, Wakako"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "Military expenditure",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "civil war",
+        "lang": "de"
+      },
+      {
+        "type": "Other",
+        "text": "verification mechanism",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "peace agreement",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "negotiated settlement",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01056:0005685734",
+    "authors": [
+      {
+        "en": "Hanaki, Nobuyuki"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "Cognitive ability",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Laboratory experiments",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Strategic environment effect",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01056:0005685733",
+    "authors": [
+      {
+        "en": "Isomura, E.T."
+      },
+      {
+        "en": "Matsukawa, M."
+      },
+      {
+        "en": "Yokota, Y."
+      },
+      {
+        "en": "Tanaka, N."
+      },
+      {
+        "en": "Sugiyama, C."
+      },
+      {
+        "en": "Nohara, K."
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "Velopharyngeal insufficiency",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Palate",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Endoscopy",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Nasopharynx",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Subcutaneous fat",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01056:0005685732",
+    "authors": [
+      {
+        "en": "Notani, Kota"
+      },
+      {
+        "en": "Hayashi, Takahiro"
+      },
+      {
+        "en": "Mori, Naoki"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "nondestructive inspection",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "pipes",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "abnormal sound detection",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "machine learning",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "wireless microphone",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01033:0005685722",
+    "authors": [
+      {
+        "ja": "\u5f8c\u85e4, \u5927\u4e8c\u90ce"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u5b66\u7fd2\u74b0\u5883\u30c7\u30b6\u30a4\u30f3",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u5171\u540c\u30a8\u30fc\u30b8\u30a7\u30f3\u30b7\u30fc",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u63a2\u7a76\u306e\u5171\u540c\u4f53",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u5354\u50cd\u5b66\u7fd2",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u30b0\u30eb\u30fc\u30d7\u30ef\u30fc\u30af",
+        "lang": "ja"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01033:0005685721",
+    "authors": [
+      {
+        "ja": "\u548c\u7530, \u5b66"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u9020\u5f62\u8868\u73fe\u30fb\u56f3\u753b\u5de5\u4f5c\u79d1\u306e\u751f\u6d3b\u79d1\u306e\u6559\u80b2\u8ab2\u7a0b",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u751f\u6d3b\u79d1\u306b\u3088\u308b\u95a2\u9023\u4ed8\u3051\u306e\u5f79\u5272",
+        "lang": "ja"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01033:0005685720",
+    "authors": [
+      {
+        "ja": "\u677e\u5c71, \u90c1\u592b"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u77e5\u7684\u969c\u5bb3\u7279\u5225\u652f\u63f4\u5b66\u6821",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u4e2d\u5b66\u90e8\u751f\u5f92",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u4e2d\u5b66\u90e8\u6559\u54e1",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u81ea\u7acb\u6d3b\u52d5\u306e\u6307\u5c0e",
+        "lang": "ja"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01033:0005685719",
+    "authors": [
+      {
+        "ja": "\u5317\u6751, \u65e9\u77e5\u9999"
+      },
+      {
+        "ja": "\u677e\u5c71, \u90c1\u592b"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u77e5\u7684\u969c\u5bb3\u7279\u5225\u652f\u63f4\u5b66\u6821\u5c0f\u5b66\u90e8\u6559\u54e1",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u65b0\u5165\u5b66\u5150",
+        "lang": "zh"
+      },
+      {
+        "type": "Other",
+        "text": "\u60c5\u5831\u5171\u6709",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u60c5\u5831\u53ce\u96c6",
+        "lang": "ja"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01033:0005685718",
+    "authors": [
+      {
+        "ja": "\u77e2\u91ce, \u88d5\u5b50"
+      },
+      {
+        "ja": "\u677e\u5c71, \u90c1\u592b"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u77e5\u7684\u969c\u5bb3\u7279\u5225\u652f\u63f4\u5b66\u6821",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u5c0f\u5b66\u90e8\u30fb\u4e2d\u5b66\u90e8\u30fb\u9ad8\u7b49\u90e8\u306e\u6559\u54e1",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u5150\u7ae5\u751f\u5f92",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u4ea4\u6d41\u53ca\u3073\u5171\u540c\u5b66\u7fd2",
+        "lang": "ja"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01033:0005685717",
+    "authors": [
+      {
+        "ja": "\u77f3\u9ed2, \u6625\u9999"
+      },
+      {
+        "ja": "\u677e\u5c71, \u90c1\u592b"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u77e5\u7684\u969c\u5bb3\u7279\u5225\u652f\u63f4\u5b66\u6821",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u5c0f\u5b66\u90e8\u30fb\u4e2d\u5b66\u90e8\u30fb\u9ad8\u7b49\u90e8\u306e\u6559\u54e1",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u81ea\u9589\u75c7\u304c\u3042\u308b\u5150\u7ae5\u751f\u5f92",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u4eba\u9593\u95a2\u4fc2\u306e\u5f62\u6210",
+        "lang": "ja"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:00929:0005685712",
+    "authors": [
+      {
+        "ja": "\u67cf\u6728, \u54f2\u4e5f"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u30b3\u30fc\u30d1\u30b9\u5206\u6790",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u5927\u5b66\u5165\u8a66\u30bb\u30f3\u30bf\u30fc\u8a66\u9a1332\u5e74",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u9577\u6587\u8aad\u89e3",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u97d3\u56fd",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u53f0\u6e7e",
+        "lang": "zh"
+      },
+      {
+        "type": "Other",
+        "text": "\u8a9e\u5f59\u7279\u6027",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u6587\u6cd5\u89e3\u6790",
+        "lang": "ja"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:00929:0005685711",
+    "authors": [
+      {
+        "zh": "\u5711\u8feb, \u96c5\u5f66"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u8a00\u8a9e\u5b66",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u5fc3\u7406\u8a00\u8a9e\u5b66",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u8a00\u8a9e\u7372\u5f97",
+        "lang": "ja"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:00921:0005685710",
+    "authors": [
+      {
+        "ja": "\u6751\u5c71, \u8cb4\u4fca"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u6301\u7d9a\u53ef\u80fd\u306a\u89b3\u5149",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u6301\u7d9a\u53ef\u80fd\u6027",
+        "lang": "zh"
+      },
+      {
+        "type": "Other",
+        "text": "\u4ee3\u66ff\u7684\u89b3\u5149",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u9032\u5316\u8ad6\u7684\u89b3\u5149\u5b66",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "COVID-19",
+        "lang": "de"
+      },
+      {
+        "type": "Other",
+        "text": "\u6771\u5317\u5b66\u9662\u5927\u5b66",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "Tohoku Gakuin University",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:00921:0005685709",
+    "authors": [
+      {
+        "ja": "\u6751\u5c71, \u8cb4\u4fca"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u4e2d\u5c0f\u4f01\u696d",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u7af6\u4e89\u529b\u69cb\u7bc9",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "\u751f\u7523\u6280\u8853\u9769\u65b0",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u55b6\u696d\u529b",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u81ea\u52d5\u8eca\u7523\u696d",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u6771\u5317\u5b66\u9662\u5927\u5b66",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "Tohoku Gakuin University",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:00832:0005685681",
+    "authors": [
+      {
+        "ja": "\u4e09\u6d66, \u4f73\u5948"
+      },
+      {
+        "ja": "\u4f50\u585a, \u6b63\u6a39"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u885b\u751f\u610f\u8b58",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "\u885b\u751f\u884c\u52d5",
+        "lang": "zh"
+      },
+      {
+        "type": "Other",
+        "text": "\u74b0\u5883\u5fae\u751f\u7269\u691c\u67fb",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u7d30\u83cc",
+        "lang": "zh"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:00832:0005685680",
+    "authors": [
+      {
+        "ja": "\u4f50\u85e4, \u76f4\u4eba"
+      },
+      {
+        "ja": "\u5bae\u672c, \u771f\u83dc"
+      },
+      {
+        "ja": "\u4e09\u7530, \u68a8\u6c99"
+      },
+      {
+        "ja": "\u6f81\u8c37, \u9855\u4e00"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u30d9\u30a4\u30ba\u7d71\u5408",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u4f53\u578b\u5224\u65ad",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u63d0\u793a\u983b\u5ea6",
+        "lang": "zh"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:00832:0005685679",
+    "authors": [
+      {
+        "ja": "\u4e09\u6d66, \u4f73\u5948"
+      },
+      {
+        "ja": "\u4f50\u585a, \u6b63\u6a39"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u30d6\u30eb\u30fc\u30d9\u30ea\u30fc",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u6297\u9178\u5316\u80fd",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "BAP\u30c6\u30b9\u30c8",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u30a2\u30f3\u30c8\u30b7\u30a2\u30cb\u30f3",
+        "lang": "ja"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:00832:0005685677",
+    "authors": [
+      {
+        "ja": "\u5409\u7530, \u6b53"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u8def\u5bdd",
+        "lang": "zh"
+      },
+      {
+        "type": "Other",
+        "text": "\u5148\u79e6\u6642\u4ee3",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u300e\u5468\u793c\u300f",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u300e\u6625\u79cb\u300f",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u300e\u664f\u5b50\u6625\u79cb\u300f",
+        "lang": "ja"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:00832:0005685674",
+    "authors": [
+      {
+        "ja": "\u5c0f\u6c60, \u9686\u592a"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u30b3\u30de\u9593\u5185\u8a9e",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u8a9e\u308a",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u7269\u8a9e",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u30e1\u30bf\u7269\u8a9e",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u30de\u30f3\u30ac",
+        "lang": "ja"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:00832:0005685673",
+    "authors": [
+      {
+        "ja": "\u77f3\ufa11, \u6bc5"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u9999\u6e2f\u306e\u6559\u80b2",
+        "lang": "zh"
+      },
+      {
+        "type": "Other",
+        "text": "\u5fc3\u7406\u6559\u80b2\u7684\u652f\u63f4",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u591a\u69d8\u306a\u89e3\u6cd5",
+        "lang": "zh"
+      },
+      {
+        "type": "Other",
+        "text": "\u65b9\u7565\u91cd\u8996\u5fd7\u5411",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u8a8d\u77e5\u4e3b\u7fa9\u3068\u884c\u52d5\u4e3b\u7fa9",
+        "lang": "ja"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:00832:0005685672",
+    "authors": [
+      {
+        "ja": "\u5f8c\u85e4, \u548c\u4e5f"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u5c31\u8077\u6d3b\u52d5",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u5c31\u8077\u6d3b\u52d5\u4e0d\u5b89",
+        "lang": "zh"
+      },
+      {
+        "type": "Other",
+        "text": "\u9032\u8def\u6c7a\u5b9a\u81ea\u5df1\u52b9\u529b",
+        "lang": "zh"
+      },
+      {
+        "type": "Other",
+        "text": "\u30ab\u30a6\u30f3\u30bb\u30e9\u30fc\u30d5\u30ea\u30fc",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u30ab\u30a6\u30f3\u30bb\u30ea\u30f3\u30b0",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u30bb \u30eb\u30d5\u30d8\u30eb\u30d7\u30fb\u30d6\u30c3\u30af",
+        "lang": "ja"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:00828:0005685670",
+    "authors": [
+      {
+        "ja": "\u4e0a\u7530, \u4ec1\u5f66",
+        "en": "Ueda, Masahiko",
+        "ja-Kana": "\u30a6\u30a8\u30c0, \u30de\u30b5\u30d2\u30b3"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "Imitation strategies",
+        "lang": "de"
+      },
+      {
+        "type": "Other",
+        "text": "repeated games",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "unbeatable strategies",
+        "lang": "de"
+      },
+      {
+        "type": "Other",
+        "text": "zero-determinant strategies",
+        "lang": "de"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01347:0005685416",
+    "authors": [
+      {
+        "ja": "\u5c71\u7530, \u7d00\u5f66"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u30e9\u30aa\u30b9",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u9996\u76f8\u4ea4\u4ee3",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u30d1\u30f3\u30ab\u30e0",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u30bd\u30fc\u30f3\u30b5\u30a4",
+        "lang": "ja"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01347:0005685415",
+    "authors": [
+      {
+        "ja": "\u77f3\u4e95, \u6b63\u5b50"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u30d5\u30a3\u30ea\u30d4\u30f3",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u79fb\u6c11\u52b4\u50cd\u8005",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u30b3\u30ed\u30ca",
+        "lang": "ja"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01333:0005685414",
+    "authors": [
+      {
+        "en": "Li, Kai"
+      },
+      {
+        "en": "Li, Sheng"
+      },
+      {
+        "de": "Lu, Xugang"
+      },
+      {
+        "it": "Akagi, Masato"
+      },
+      {
+        "en": "Liu, Meng"
+      },
+      {
+        "en": "Zhang, Lin"
+      },
+      {
+        "en": "Zeng, Chang"
+      },
+      {
+        "en": "Wang, Longbiao"
+      },
+      {
+        "en": "Dang, Jianwu"
+      },
+      {
+        "en": "Unoki, Masashi"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "fake audio detection",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "data augmentation",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "McAdams coefficients",
+        "lang": "fr"
+      },
+      {
+        "type": "Other",
+        "text": "speaker anonymization",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01333:0005685413",
+    "authors": [
+      {
+        "en": "Ho, Tuan Vu"
+      },
+      {
+        "en": "Nguyen, Quoc Huy"
+      },
+      {
+        "it": "Akagi, Masato"
+      },
+      {
+        "en": "Unoki, Masashi"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "Speech enhancement",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "vector-quantized variational autoencoder",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "complex Wiener filter",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "noise reduction",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01333:0005685412",
+    "authors": [
+      {
+        "en": "Ho, Tuan Vu"
+      },
+      {
+        "en": "Kobayashi, Maori"
+      },
+      {
+        "it": "Akagi, Masato"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "Voice conversion",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "speech intelligibility",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "professional announcer",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "speech-in-noise",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01247:0005685342",
+    "authors": [
+      {
+        "ja": "\u83ca\u539f, \u6b66\u53f2"
+      },
+      {
+        "ja": "\u30ad\u30af\u30cf\u30e9, \u30bf\u30b1\u30d5\u30df"
+      },
+      {
+        "en": "Kikuhara, Takefumi"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u30ad\u30e3\u30ea\u30a2\u30c7\u30b6\u30a4\u30f3",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u30ad\u30e3\u30ea\u30a2\u6559\u80b2",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u65e5\u672c\u8a9e\u8aad\u89e3\u529b",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u73fe\u4ee3\u6587",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u30c7\u30fc\u30bf\u30b5\u30a4\u30a8\u30f3\u30b9\u30fbAI(\u4eba\u5de5\u77e5\u80fd)",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u30c0\u30a4\u30d0\u30fc\u30b7\u30c6\u30a3",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u6559\u80b2\u54f2\u5b66",
+        "lang": "ja"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01242:0005685338",
+    "authors": [
+      {
+        "ja": "\u5c71\u4e2d, \u592a"
+      },
+      {
+        "en": "Futoshi, Yamanaka"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "377.5",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01242:0005685337",
+    "authors": [
+      {
+        "ja": "\u5fb3\u6c38, \u5065\u592a\u90ce"
+      },
+      {
+        "en": "Kentarou, Tokunaga"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "377.5",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01242:0005685336",
+    "authors": [
+      {
+        "ja": "\u5c71\u6839, \u5927\u4f8d"
+      },
+      {
+        "en": "Taishi, Yamane"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "377.5",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01242:0005685335",
+    "authors": [
+      {
+        "ja": "\u68ee\u6c38, \u525b\u53f8"
+      },
+      {
+        "en": "Takeshi, Morinaga"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "377.5",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01242:0005685334",
+    "authors": [
+      {
+        "ja": "\u677e\u6751, \u548c\u5b63"
+      },
+      {
+        "en": "Kazuki, Matsumura"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "377.5",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01242:0005685333",
+    "authors": [
+      {
+        "ja": "\u4e95\u4e0a, \u9ad8\u5b8f"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "507",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01242:0005685332",
+    "authors": [
+      {
+        "ja": "\u4e45\u4fdd\u7530 , \u5f18"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "507",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01242:0005685331",
+    "authors": [
+      {
+        "ja": "Nosich, Al"
+      },
+      {
+        "ja": "\u5967\u91ce, \u6d0b\u4e00"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "507",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01242:0005685330",
+    "authors": [
+      {
+        "ja": "\u5965\u91ce, \u6d0b\u4e00"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "507",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01242:0005685329",
+    "authors": [
+      {
+        "ja": "\u52dd\u6728, \u6df3"
+      },
+      {
+        "ja": "\u79cb\u5c71, \u79c0\u5178"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "507",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01242:0005685328",
+    "authors": [
+      {
+        "ja": "\u52dd\u6728, \u6df3"
+      },
+      {
+        "ja": "\u79cb\u5c71, \u79c0\u5178"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "507",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01242:0005685327",
+    "authors": [
+      {
+        "ja": "\u86ef\u539f, \u5065\u6cbb"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "507",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01242:0005685326",
+    "authors": [
+      {
+        "ja": "\u5c71\u5f62, \u5e78\u5f66"
+      },
+      {
+        "ja": "\u6c60\u4e0a, \u77e5\u9855"
+      },
+      {
+        "ja": "\u86ef\u539f, \u5065\u6cbb"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "507",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01242:0005685325",
+    "authors": [
+      {
+        "ja": "\u30ea\u30b7\u30c4\u30a3\u30f3"
+      },
+      {
+        "ja": "\u79cb\u5c71, \u79c0\u5178"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "507",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01242:0005685324",
+    "authors": [
+      {
+        "ja": "\u30ea\u30b7\u30c4\u30a3\u30f3"
+      },
+      {
+        "ja": "\u79cb\u5c71, \u79c0\u5178"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "507",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01242:0005685323",
+    "authors": [
+      {
+        "ja": "\u52dd\u6728, \u6df3"
+      },
+      {
+        "ja": "\u79cb\u5c71, \u79c0\u5178"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "507",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01242:0005685322",
+    "authors": [
+      {
+        "ja": "\u52dd\u6728, \u6df3"
+      },
+      {
+        "ja": "\u79cb\u5c71, \u79c0\u5178"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "507",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01242:0005685321",
+    "authors": [
+      {
+        "ja": "\u4e45\u4fdd\u7530 , \u5f18"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "507",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01242:0005685320",
+    "authors": [
+      {
+        "ja": "\u79cb\u5c71, \u79c0\u5178"
+      },
+      {
+        "ja": "\u52dd\u6728, \u6df3"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "507",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01242:0005685319",
+    "authors": [
+      {
+        "ja": "\u5c71\u5f62, \u5e78\u5f66"
+      },
+      {
+        "ja": "\u6c60\u4e0a, \u77e5\u9855"
+      },
+      {
+        "ja": "\u86ef\u539f, \u5065\u6cbb"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "507",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01242:0005685318",
+    "authors": [
+      {
+        "ja": "Hegeler, Frank"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "507",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01242:0005685317",
+    "authors": [
+      {
+        "ja": "\u86ef\u539f, \u5065\u6cbb"
+      },
+      {
+        "ja": "\u5c71\u5f62, \u5e78\u5f66"
+      },
+      {
+        "ja": "\u6c60\u4e0a, \u77e5\u986f"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "507",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01242:0005685316",
+    "authors": [
+      {
+        "ja": "\u30ea\u30b7\u30c4\u30a3\u30f3"
+      },
+      {
+        "ja": "\u79cb\u5c71, \u79c0\u5178"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "507",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01242:0005685315",
+    "authors": [
+      {
+        "ja": "\u4e45\u4fdd\u7530 , \u5f18"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "507",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01242:0005685314",
+    "authors": [
+      {
+        "ja": "\u4e45\u4fdd\u7530 , \u5f18"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "507",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01242:0005685313",
+    "authors": [
+      {
+        "ja": "\u4e45\u4fdd\u7530 , \u5f18"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "507",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01242:0005685312",
+    "authors": [
+      {
+        "ja": "\u4e45\u4fdd\u7530 , \u5f18"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "507",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01242:0005685311",
+    "authors": [
+      {
+        "ja": "\u4e45\u4fdd\u7530 , \u5f18"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "507",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01242:0005685310",
+    "authors": [
+      {
+        "ja": "Hegeler, Frank"
+      },
+      {
+        "ja": "\u79cb\u5c71, \u79c0\u5178"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "507",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01242:0005685309",
+    "authors": [
+      {
+        "ja": "\u4e95\u4e0a, \u9ad8\u5b8f"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "507",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01242:0005685308",
+    "authors": [
+      {
+        "ja": "\u4f0a\u6771, \u7e41"
+      },
+      {
+        "ja": "\u7058\u5149, \u967d"
+      },
+      {
+        "ja": "\u9577\u91ce, \u53f8\u90ce"
+      },
+      {
+        "ja": "\u85e4\u7530, \u660c\u5927"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "507",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01242:0005685307",
+    "authors": [
+      {
+        "ja": "\u4f0a\u6771, \u7e41"
+      },
+      {
+        "ja": "\u5289\u5fd7, \u8dc3"
+      },
+      {
+        "ja": "\u7058\u5149, \u967d"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "507",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01242:0005685306",
+    "authors": [
+      {
+        "ja": "\u4f0a\u6771, \u7e41"
+      },
+      {
+        "ja": "\u9577\u91ce, \u53f8\u90ce"
+      },
+      {
+        "ja": "\u5289\u5fd7, \u8dc3"
+      },
+      {
+        "ja": "\u85e4\u7530, \u660c\u5927"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "507",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01242:0005685305",
+    "authors": [
+      {
+        "ja": "\u9577\u91ce, \u53f8\u90ce"
+      },
+      {
+        "ja": "\u5289\u5fd7, \u8dc3"
+      },
+      {
+        "ja": "\u4f0a\u6771, \u7e41"
+      },
+      {
+        "ja": "\u85e4\u7530, \u660c\u5927"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "507",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01242:0005685304",
+    "authors": [
+      {
+        "ja": "\u7058\u5149, \u967d"
+      },
+      {
+        "ja": "\u5289\u5fd7, \u8dc3"
+      },
+      {
+        "ja": "\u85e4\u7530, \u660c\u5927"
+      },
+      {
+        "ja": "\u4f0a\u6771, \u7e41"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "507",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01242:0005685303",
+    "authors": [
+      {
+        "ja": "\u4f0a\u6771, \u7e41"
+      },
+      {
+        "ja": "\u7058\u5149, \u967d"
+      },
+      {
+        "ja": "\u9577\u91ce, \u53f8\u90ce"
+      },
+      {
+        "ja": "\u85e4\u7530, \u660c\u5927"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "507",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01242:0005685302",
+    "authors": [
+      {
+        "ja": "\u9ad8\u6a4b, \u52dd\u5f66"
+      },
+      {
+        "ja": "\u85e4\u7530, \u660c\u5927"
+      },
+      {
+        "ja": "\u5c0f\u5cf6, \u6b63\u6a39"
+      },
+      {
+        "ja": "\u6751\u7530, \u5065\u53f8"
+      },
+      {
+        "ja": "\u52a0\u85e4, \u5e78\u592b"
+      },
+      {
+        "ja": "\u4f0a\u6771, \u7e41"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "507",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01242:0005685301",
+    "authors": [
+      {
+        "ja": "\u4f0a\u6771, \u7e41"
+      },
+      {
+        "ja": "\u5409\u826f, \u7ae0\u592b"
+      },
+      {
+        "ja": "\u7058\u5149, \u967d"
+      },
+      {
+        "ja": "\u9577\u91ce, \u53f8\u90ce"
+      },
+      {
+        "ja": "\u85e4\u7530, \u660c\u5927"
+      },
+      {
+        "ja": "\u672c\u7530, \u9686\u5fd7"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "507",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01242:0005685300",
+    "authors": [
+      {
+        "ja": "\u4f0a\u6771, \u7e41"
+      },
+      {
+        "ja": "\u5409\u826f, \u7ae0\u592b"
+      },
+      {
+        "ja": "\u9577\u91ce, \u53f8\u90ce"
+      },
+      {
+        "ja": "\u4e45\u5cf6, \u5229\u9686"
+      },
+      {
+        "ja": "\u85e4\u7530, \u660c\u5927"
+      },
+      {
+        "ja": "\u7058\u5149, \u967d"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "507",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01242:0005685299",
+    "authors": [
+      {
+        "ja": "\u4f0a\u6771, \u7e41"
+      },
+      {
+        "ja": "\u4e45\u4fdd\u7530 , \u58eb\u90ce"
+      },
+      {
+        "ja": "\u85e4\u7530, \u660c\u5927"
+      },
+      {
+        "ja": "\u9ed2\u5c71, \u8c4a"
+      },
+      {
+        "ja": "\u4f0a\u85e4, \u61b2\u6cbb"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "507",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01242:0005685298",
+    "authors": [
+      {
+        "ja": "\u5b89\u4e95, \u5e73\u53f8"
+      },
+      {
+        "ja": "\u4e80\u4e95, \u8cb4\u535a"
+      },
+      {
+        "ja": "\u5185\u5c71, \u771f\u4e00\u90ce"
+      },
+      {
+        "ja": "\u4f50\u4f2f, \u5b88\u5f66"
+      },
+      {
+        "ja": "\u9ed2\u7530, \u9f8d\u4e00"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "507",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01242:0005685297",
+    "authors": [
+      {
+        "ja": "\u5b89\u4e95, \u5e73\u53f8"
+      },
+      {
+        "ja": "\u6c34\u8c37, \u5143\u4e00"
+      },
+      {
+        "ja": "\u7530\u6cb3, \u5185\u6d69"
+      },
+      {
+        "ja": "\u9f8d\u5ddd, \u6d69\u8a69"
+      },
+      {
+        "ja": "\u4e80\u4e95, \u8cb4\u535a"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "507",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01242:0005685296",
+    "authors": [
+      {
+        "ja": "\u5c0f\u7530, \u52c7"
+      },
+      {
+        "ja": "\u767d\u77f3, \u548c\u5f66"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "507",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01242:0005685295",
+    "authors": [
+      {
+        "ja": "\u5c0f\u7530, \u52c7"
+      },
+      {
+        "ja": "\u767d\u77f3, \u548c\u5f66"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "507",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01242:0005685294",
+    "authors": [
+      {
+        "ja": "\u5c0f\u7530, \u52c7"
+      },
+      {
+        "ja": "\u767d\u77f3, \u548c\u5f66"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "507",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01242:0005685293",
+    "authors": [
+      {
+        "ja": "\u5c0f\u7530, \u52c7"
+      },
+      {
+        "ja": "\u571f\u4e95 , \u731b\u5fd7"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "507",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01242:0005685292",
+    "authors": [
+      {
+        "ja": "\u5927\u91ce, \u606d\u79c0"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "507",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01242:0005685291",
+    "authors": [
+      {
+        "ja": "\u85e4\u539f, \u548c\u4eba"
+      },
+      {
+        "ja": "\u677e\u5c3e, \u65e5\u51fa\u7537"
+      },
+      {
+        "ja": "\u5ee3\u6c5f, \u54f2\u4e4b"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "507",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01242:0005685290",
+    "authors": [
+      {
+        "ja": "\u85e4\u539f, \u548c\u4eba"
+      },
+      {
+        "ja": "\u677e\u5c3e, \u65e5\u51fa\u7537"
+      },
+      {
+        "ja": "\u5ee3\u6c5f, \u54f2\u4e4b"
+      },
+      {
+        "ja": "\u6d45\u5ddd, \u7267\u592b"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "507",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01242:0005685289",
+    "authors": [
+      {
+        "ja": "\u9ed2\u7fbd, \u5553\u660e"
+      },
+      {
+        "ja": "\u8d8a\u667a, \u5065\u4e4b"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "507",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01242:0005685288",
+    "authors": [
+      {
+        "ja": "\u5ca1\u90e8, \u731b"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "507",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01242:0005685287",
+    "authors": [
+      {
+        "ja": "\u672c\u9593, \u91cc\u898b"
+      },
+      {
+        "ja": "\u4e21\u89d2, \u5149\u7537"
+      },
+      {
+        "ja": "\u4f4d\u5bc4, \u548c\u4e45"
+      },
+      {
+        "ja": "\u677e\u672c, \u4ec1"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "507",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01242:0005685286",
+    "authors": [
+      {
+        "ja": "\u4e09\u4e95, \u5b9c\u4e4b"
+      },
+      {
+        "ja": "\u539f\u7530, \u514b\u8eab"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "507",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01242:0005685285",
+    "authors": [
+      {
+        "ja": "\u4e09\u4e95, \u5b9c\u4e4b"
+      },
+      {
+        "ja": "\u89d2, \u6bc5\u56db\u90ce"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "507",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01242:0005685284",
+    "authors": [
+      {
+        "ja": "\u798f\u5730, \u826f\u5f66"
+      },
+      {
+        "ja": "\u5c0f\u6797, \u4e00\u90ce"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "507",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01242:0005685283",
+    "authors": [
+      {
+        "ja": "\u798f\u5730, \u826f\u5f66"
+      },
+      {
+        "ja": "\u5c0f\u6797, \u4e00\u90ce"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "507",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01242:0005685282",
+    "authors": [
+      {
+        "ja": "\u798f\u5730, \u826f\u5f66"
+      },
+      {
+        "ja": "\u5c0f\u6797, \u4e00\u90ce"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "507",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01242:0005685281",
+    "authors": [
+      {
+        "ja": "J D, Rouse"
+      },
+      {
+        "ja": "K, Furukawa"
+      },
+      {
+        "ja": "K , Sumida"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "507",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01177:0005685279",
+    "authors": [
+      {
+        "en": "Van, Nguyen Duc"
+      },
+      {
+        "en": "Imasawa, Kouichi"
+      },
+      {
+        "de": "Hama, Yukio"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "Autoclaved aerated concrete",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Xonotlite-based lightweight material",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Carbonation",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Tobermorite",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Hydrothermal synthesis condition",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Shrinkage carbonation",
+        "lang": "en"
+      },
+      {
+        "type": "NDC",
+        "text": "511"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01152:0005685245",
+    "authors": [
+      {
+        "ja": "\u5f35, \u5a67\u7995",
+        "en": "ZHANG, Jingyi"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u4e2d\u56fd\u8a9e\u5b66\u7fd2\u610f\u6b32\u5c3a\u5ea6",
+        "lang": "zh"
+      },
+      {
+        "type": "Other",
+        "text": "\u6e2c\u5b9a\u958b\u767a",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u78ba\u8a8d\u7684\u56e0\u5b50\u5206 (confirmatory factor analysis)",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u69cb\u9020\u65b9\u7a0b\u5f0f\u30e2\u30c7\u30ea\u30f3\u30b0 (Structural equation modeling: SEM)",
+        "lang": "ja"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01152:0005685240",
+    "authors": [
+      {
+        "ja": "\u30dc\u30a4\u30af\u30de\u30f3, \u7dcf\u5b50",
+        "en": "BEUCKMANN, Fusako"
+      },
+      {
+        "ja": "\u6839\u672c, \u611b\u5b50",
+        "en": "NEMOTO, Aiko"
+      },
+      {
+        "ja": "\u677e\u4e0b, \u9054\u5f66",
+        "en": "MATSUSHITA, Tatsuhiko"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u30b9\u30d4\u30fc\u30ad\u30f3\u30b0\u30c6\u30b9\u30c8",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u30eb\u30fc\u30d6\u30ea\u30c3\u30af",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u5f01\u5225\u6027",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u30b3\u30e1\u30f3\u30c8\u5206\u6790",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u591a\u76f8\u30e9\u30c3\u30b7\u30e5\u5206\u6790",
+        "lang": "ja"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01152:0005685239",
+    "authors": [
+      {
+        "ja": "\u5468, \u5229",
+        "en": "ZHOU, Li"
+      },
+      {
+        "ja": "\u674e, \u5149\u8d6b",
+        "en": "LI, Guang He"
+      },
+      {
+        "ja": "\u7389\u5ca1, \u8cc0\u6d25\u96c4",
+        "en": "TAMAOKA, Katsuo"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u5bfe\u8a33\u30b3\u30fc\u30d1\u30b9",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "T\u30b9\u30b3\u30a2",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "MI\u30b9\u30b3\u30a2",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "BiT\u30b9\u30b3\u30a2",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "BiMI\u30b9\u30b3\u30a2",
+        "lang": "ja"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01088:0005685220",
+    "authors": [
+      {
+        "ja": "\u8c37, \u660c\u5e78"
+      }
+    ],
+    "tags": [
+      {
+        "type": "NDC",
+        "text": "613"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01088:0005685219",
+    "authors": [
+      {
+        "ja": "\u5ca9\u5d0e, \u5321\u6d0b"
+      }
+    ],
+    "tags": [
+      {
+        "type": "NDC",
+        "text": "489"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01088:0005685218",
+    "authors": [
+      {
+        "zh": "\u99ac, \u51ac\u96ea"
+      }
+    ],
+    "tags": [
+      {
+        "type": "NDC",
+        "text": "645"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01088:0005685217",
+    "authors": [
+      {
+        "en": "Abdou, M. Ahmed"
+      }
+    ],
+    "tags": [
+      {
+        "type": "NDC",
+        "text": "493"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01088:0005685216",
+    "authors": [
+      {
+        "en": "BALDEH, Edrissa"
+      }
+    ],
+    "tags": [
+      {
+        "type": "NDC",
+        "text": "648"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01081:0005685199",
+    "authors": [
+      {
+        "en": "Gan, Maohua"
+      },
+      {
+        "en": "Yucel, Zeynep"
+      },
+      {
+        "en": "Monden, Akito"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "Software defect",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "defect prediction model",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "accuracy measure",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "classification technology",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "empirical software engineering",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01081:0005685184",
+    "authors": [
+      {
+        "en": "Tsuge, Mitsuru"
+      },
+      {
+        "en": "Kodera, Aya"
+      },
+      {
+        "en": "Sumitomo, Hiromi"
+      },
+      {
+        "en": "Araki, Tooru"
+      },
+      {
+        "en": "Yoshida, Ryuichi"
+      },
+      {
+        "en": "Yasui, Kazuya"
+      },
+      {
+        "en": "Sato, Hiroki"
+      },
+      {
+        "en": "Washio, Yosuke"
+      },
+      {
+        "en": "Washio, Kana"
+      },
+      {
+        "en": "Shigehara, Kenji"
+      },
+      {
+        "en": "Yashiro, Masato"
+      },
+      {
+        "en": "Yagi, Takahito"
+      },
+      {
+        "en": "Tsukahara, Hirokazu"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "Neonatal hemochromatosis",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Thalassemia",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Liver transplantation",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Gestational alloimmune liver disease",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Case report",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Hepcidin",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Ineffective erythropoiesis",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Growth differentiation factor-15",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01081:0005685183",
+    "authors": [
+      {
+        "en": "Oda, Kaori"
+      },
+      {
+        "en": "Miyamoto, Satoshi"
+      },
+      {
+        "en": "Kodera, Ryo"
+      },
+      {
+        "en": "Wada, Jun"
+      },
+      {
+        "en": "Shikata, Kenichi"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "Diabetic kidney disease",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Inflammasomes",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Suramin",
+        "lang": "ms"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01081:0005685182",
+    "authors": [
+      {
+        "en": "Cong, Yingnan"
+      },
+      {
+        "en": "Zhu, Chen"
+      },
+      {
+        "en": "Hou, Yufei"
+      },
+      {
+        "en": "Tian, Shuairu"
+      },
+      {
+        "en": "Cai, Xiaojing"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "ESG investment",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "carbon emission",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "carbon productivity",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "regional effect",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "green transition",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01081:0005685181",
+    "authors": [
+      {
+        "en": "Nakano, Yasuhiro"
+      },
+      {
+        "en": "Otsuka, Yuki"
+      },
+      {
+        "en": "Honda, Hiroyuki"
+      },
+      {
+        "en": "Sunada, Naruhiko"
+      },
+      {
+        "en": "Tokumasu, Kazuki"
+      },
+      {
+        "en": "Sakurada, Yasue"
+      },
+      {
+        "en": "Matsuda, Yui"
+      },
+      {
+        "en": "Hasegawa, Toru"
+      },
+      {
+        "en": "Ochi, Kanako"
+      },
+      {
+        "en": "Hagiya, Hideharu"
+      },
+      {
+        "en": "Kataoka, Hitomi"
+      },
+      {
+        "en": "Ueda, Keigo"
+      },
+      {
+        "en": "Otsuka, Fumio"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "dysgeusia",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "dysosmia",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "myalgic encephalomyelitis/chronic fatigue syndrome",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Omicron variant",
+        "lang": "it"
+      },
+      {
+        "type": "Other",
+        "text": "and post COVID-19 condition",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01081:0005685180",
+    "authors": [
+      {
+        "en": "Murata, Atsuo"
+      },
+      {
+        "en": "Doi, Toshihisa"
+      },
+      {
+        "en": "Karwowski, Waldemar"
+      },
+      {
+        "en": "(Life Senior Member, IEEE),"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "Haptic interfaces",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Interference",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Visualization",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Graphical user interfaces",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Target tracking",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Intelligent vehicles",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Vehicle safety",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Speech recognition",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Automotive safety",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "interference of multiple tasks",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "tactile warning",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "voice command",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01081:0005685179",
+    "authors": [
+      {
+        "en": "Esumi, Satoru"
+      },
+      {
+        "en": "Ushio, Soichiro"
+      },
+      {
+        "en": "Zamami, Yoshito"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "Alzheimer's disease",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "polypharmacy",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "drug interactions",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:01081:0005685178",
+    "authors": [
+      {
+        "en": "Seya, Mizuki"
+      },
+      {
+        "en": "Aokage, Toshiyuki"
+      },
+      {
+        "en": "Nojima, Tsuyoshi"
+      },
+      {
+        "en": "Nakao, Atsunori"
+      },
+      {
+        "en": "Naito, Hiromichi"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "Bile pigments",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Emergency and critical care medicine",
+        "lang": "en"
+      },
+      {
+        "type": "Other",
+        "text": "Antioxidant therapy",
+        "lang": "en"
+      }
+    ]
+  },
+  {
+    "id": "oai:irdb.nii.ac.jp:00984:0005685163",
+    "authors": [
+      {
+        "ja": "\u91ce\u5d0e, \u771f\u4e4b\u4ecb"
+      },
+      {
+        "en": "\u82b9\u6fa4, \u6b69\u5f25"
+      },
+      {
+        "ja": "\u5409\u5e73, \u745e\u7a42"
+      },
+      {
+        "ja": "\u85e4\u7530, \u771f\u6d69"
+      },
+      {
+        "ja": "\u5409\u6751, \u793c\u5b50"
+      },
+      {
+        "ja": "\u5927\u6728, \u54f2\u53f2"
+      },
+      {
+        "ja": "\u897f\u57a3, \u6b63\u52dd"
+      }
+    ],
+    "tags": [
+      {
+        "type": "Other",
+        "text": "\u30e6\u30fc\u30b6\u8a8d\u8a3c",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u591a\u8981\u7d20\u8a8d\u8a3c",
+        "lang": "zh"
+      },
+      {
+        "type": "Other",
+        "text": "\u30e6\u30fc\u30b6\u30d6\u30eb\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3",
+        "lang": "ja"
+      },
+      {
+        "type": "Other",
+        "text": "\u7269\u7406\u4e8b\u8c61\u306e\u540c\u6642\u591a\u70b9\u89b3\u6e2c",
+        "lang": "zh"
+      }
+    ]
+  }
+]

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2023-02-02T00:04:46Z</responseDate>
+  <request verb="ListRecords" metadataPrefix="jpcoar_1.0" resumptionToken="63834438363dafe19e1e62">http://irdb.nii.ac.jp/oai</request>
+  <ListRecords>
+    <record>
+      <header>
+        <identifier>oai:irdb.nii.ac.jp:01363:0005679872</identifier>
+        <datestamp>2023-01-18T08:06:58Z</datestamp>
+        <setSpec>irdb</setSpec>
+        <setSpec>1363</setSpec>
+      </header>
+      <metadata>
+        <jpcoar:jpcoar xmlns:jpcoar="https://github.com/JPCOAR/schema/blob/master/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rioxxterms="http://www.rioxx.net/schema/v2.0/rioxxterms/" xmlns:datacite="https://schema.datacite.org/meta/kernel-4/" xmlns:oaire="http://namespace.openaire.eu/schema/oaire/" xmlns:dcndl="http://ndl.go.jp/dcndl/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:schemaLocation="https://github.com/JPCOAR/schema/blob/master/1.0/">
+          <dc:title xml:lang="ja">北海道教育大学大学院高度教職実践専攻 教職大学院10年の歩み : 創立10周年記念誌</dc:title>
+          <dc:publisher>北海道教育大学大学院教育学研究科高度教職実践専攻</dc:publisher>
+          <datacite:date dateType="Created">2022-11-24</datacite:date>
+          <datacite:date dateType="Issued">2019-03</datacite:date>
+          <dc:language>jpn</dc:language>
+          <dc:type rdf:resource="http://purl.org/coar/resource_type/c_6501">departmental bulletin paper</dc:type>
+          <oaire:version rdf:resource="http://purl.org/coar/version/c_970fb48d4fbd8a85">VoR</oaire:version>
+          <jpcoar:identifier identifierType="URI">http://id.nii.ac.jp/1807/00009567/</jpcoar:identifier>
+          <jpcoar:identifier identifierType="DOI">https://doi.org/10.32150/00009567</jpcoar:identifier>
+          <jpcoar:identifierRegistration identifierType="JaLC">10.32150/00009567</jpcoar:identifierRegistration>
+          <jpcoar:sourceIdentifier identifierType="NCID">AA12518533</jpcoar:sourceIdentifier>
+          <jpcoar:sourceIdentifier identifierType="ISSN">2185-9620</jpcoar:sourceIdentifier>
+          <jpcoar:sourceTitle>北海道教育大学大学院高度教職実践専攻研究紀要 : 教職大学院研究紀要</jpcoar:sourceTitle>
+          <jpcoar:volume>9</jpcoar:volume>
+          <jpcoar:pageStart>217</jpcoar:pageStart>
+          <jpcoar:pageEnd>250</jpcoar:pageEnd>
+          <jpcoar:file>
+            <jpcoar:URI label="https://hokkyodai.repo.nii.ac.jp/?action=repository_action_common_download&amp;item_id=9573&amp;item_no=1&amp;attribute_id=13&amp;file_no=1">https://hokkyodai.repo.nii.ac.jp/?action=repository_action_common_download&amp;item_id=9573&amp;item_no=1&amp;attribute_id=13&amp;file_no=1</jpcoar:URI>
+          </jpcoar:file>
+        </jpcoar:jpcoar>
+      </metadata>
+      <about>
+        <provenance xmlns="http://www.openarchives.org/OAI/2.0/provenance" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/provenance http://www.openarchives.org/OAI/2.0/provenance.xsd">
+          <originDescription altered="true" harvestDate="2023-01-18T08:06:58Z">
+            <baseURL>http://hokkyodai.repo.nii.ac.jp/oai</baseURL>
+            <identifier>oai:hokkyodai.repo.nii.ac.jp:00009573</identifier>
+            <datestamp>2022-11-25T05:44:03Z</datestamp>
+            <metadataNamespace>http://irdb.nii.ac.jp/oai</metadataNamespace>
+          </originDescription>
+        </provenance>
+        <irdbProvenance xsi:schemaLocation="http://irdb.nii.ac.jp/oai http://irdb.nii.ac.jp/oai/irdbProvenance.xsd">
+          <repositoryProfileInformation>
+            <name xml:lang="ja">北海道教育大学学術リポジトリ</name>
+            <name xml:lang="en">Hokkaido University of Education Repository</name>
+            <affiliation>
+              <name xml:lang="ja">北海道教育大学</name>
+              <name xml:lang="en">Hokkaido University of Education</name>
+            </affiliation>
+          </repositoryProfileInformation>
+        </irdbProvenance>
+      </about>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:irdb.nii.ac.jp:01363:0005679871</identifier>
+        <datestamp>2023-01-18T08:06:58Z</datestamp>
+        <setSpec>irdb</setSpec>
+        <setSpec>1363</setSpec>
+      </header>
+      <metadata>
+        <jpcoar:jpcoar xmlns:jpcoar="https://github.com/JPCOAR/schema/blob/master/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rioxxterms="http://www.rioxx.net/schema/v2.0/rioxxterms/" xmlns:datacite="https://schema.datacite.org/meta/kernel-4/" xmlns:oaire="http://namespace.openaire.eu/schema/oaire/" xmlns:dcndl="http://ndl.go.jp/dcndl/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:schemaLocation="https://github.com/JPCOAR/schema/blob/master/1.0/">
+          <dc:title xml:lang="ja">義務教育諸学校の諸相 ― 児童自立支援施設への併置　東北六県の事例 ―</dc:title>
+          <jpcoar:creator>
+            <jpcoar:creatorName>阿部, 二郎</jpcoar:creatorName>
+          </jpcoar:creator>
+          <jpcoar:creator>
+            <jpcoar:creatorName>瀬川, 寛予</jpcoar:creatorName>
+          </jpcoar:creator>
+          <dc:publisher>北海道教育大学大学院教育学研究科高度教職実践専攻</dc:publisher>
+          <datacite:date dateType="Created">2022-11-24</datacite:date>
+          <datacite:date dateType="Issued">2019-03</datacite:date>
+          <dc:language>jpn</dc:language>
+          <dc:type rdf:resource="http://purl.org/coar/resource_type/c_6501">departmental bulletin paper</dc:type>
+          <oaire:version rdf:resource="http://purl.org/coar/version/c_970fb48d4fbd8a85">VoR</oaire:version>
+          <jpcoar:identifier identifierType="URI">http://id.nii.ac.jp/1807/00009566/</jpcoar:identifier>
+          <jpcoar:identifier identifierType="DOI">https://doi.org/10.32150/00009566</jpcoar:identifier>
+          <jpcoar:identifierRegistration identifierType="JaLC">10.32150/00009566</jpcoar:identifierRegistration>
+          <jpcoar:sourceIdentifier identifierType="NCID">AA12518533</jpcoar:sourceIdentifier>
+          <jpcoar:sourceIdentifier identifierType="ISSN">2185-9620</jpcoar:sourceIdentifier>
+          <jpcoar:sourceTitle>北海道教育大学大学院高度教職実践専攻研究紀要 : 教職大学院研究紀要</jpcoar:sourceTitle>
+          <jpcoar:volume>9</jpcoar:volume>
+          <jpcoar:pageStart>207</jpcoar:pageStart>
+          <jpcoar:pageEnd>216</jpcoar:pageEnd>
+          <jpcoar:file>
+            <jpcoar:URI label="https://hokkyodai.repo.nii.ac.jp/?action=repository_action_common_download&amp;item_id=9572&amp;item_no=1&amp;attribute_id=13&amp;file_no=1">https://hokkyodai.repo.nii.ac.jp/?action=repository_action_common_download&amp;item_id=9572&amp;item_no=1&amp;attribute_id=13&amp;file_no=1</jpcoar:URI>
+          </jpcoar:file>
+        </jpcoar:jpcoar>
+      </metadata>
+      <about>
+        <provenance xmlns="http://www.openarchives.org/OAI/2.0/provenance" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/provenance http://www.openarchives.org/OAI/2.0/provenance.xsd">
+          <originDescription altered="true" harvestDate="2023-01-18T08:06:58Z">
+            <baseURL>http://hokkyodai.repo.nii.ac.jp/oai</baseURL>
+            <identifier>oai:hokkyodai.repo.nii.ac.jp:00009572</identifier>
+            <datestamp>2022-11-25T05:44:03Z</datestamp>
+            <metadataNamespace>http://irdb.nii.ac.jp/oai</metadataNamespace>
+          </originDescription>
+        </provenance>
+        <irdbProvenance xsi:schemaLocation="http://irdb.nii.ac.jp/oai http://irdb.nii.ac.jp/oai/irdbProvenance.xsd">
+          <repositoryProfileInformation>
+            <name xml:lang="ja">北海道教育大学学術リポジトリ</name>
+            <name xml:lang="en">Hokkaido University of Education Repository</name>
+            <affiliation>
+              <name xml:lang="ja">北海道教育大学</name>
+              <name xml:lang="en">Hokkaido University of Education</name>
+            </affiliation>
+          </repositoryProfileInformation>
+        </irdbProvenance>
+      </about>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:irdb.nii.ac.jp:01363:0005679870</identifier>
+        <datestamp>2023-01-18T08:06:58Z</datestamp>
+        <setSpec>irdb</setSpec>
+        <setSpec>1363</setSpec>
+      </header>
+      <metadata>
+        <jpcoar:jpcoar xmlns:jpcoar="https://github.com/JPCOAR/schema/blob/master/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rioxxterms="http://www.rioxx.net/schema/v2.0/rioxxterms/" xmlns:datacite="https://schema.datacite.org/meta/kernel-4/" xmlns:oaire="http://namespace.openaire.eu/schema/oaire/" xmlns:dcndl="http://ndl.go.jp/dcndl/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:schemaLocation="https://github.com/JPCOAR/schema/blob/master/1.0/">
+          <dc:title xml:lang="ja">小学校における「英語教育」の諸相 ― 青森県の先行実践事例 ―</dc:title>
+          <jpcoar:creator>
+            <jpcoar:creatorName>小谷, 遥奈</jpcoar:creatorName>
+          </jpcoar:creator>
+          <jpcoar:creator>
+            <jpcoar:creatorName>阿部, 二郎</jpcoar:creatorName>
+          </jpcoar:creator>
+          <dc:publisher>北海道教育大学大学院教育学研究科高度教職実践専攻</dc:publisher>
+          <datacite:date dateType="Created">2022-11-24</datacite:date>
+          <datacite:date dateType="Issued">2019-03</datacite:date>
+          <dc:language>jpn</dc:language>
+          <dc:type rdf:resource="http://purl.org/coar/resource_type/c_6501">departmental bulletin paper</dc:type>
+          <oaire:version rdf:resource="http://purl.org/coar/version/c_970fb48d4fbd8a85">VoR</oaire:version>
+          <jpcoar:identifier identifierType="URI">http://id.nii.ac.jp/1807/00009565/</jpcoar:identifier>
+          <jpcoar:identifier identifierType="DOI">https://doi.org/10.32150/00009565</jpcoar:identifier>
+          <jpcoar:identifierRegistration identifierType="JaLC">10.32150/00009565</jpcoar:identifierRegistration>
+          <jpcoar:sourceIdentifier identifierType="NCID">AA12518533</jpcoar:sourceIdentifier>
+          <jpcoar:sourceIdentifier identifierType="ISSN">2185-9620</jpcoar:sourceIdentifier>
+          <jpcoar:sourceTitle>北海道教育大学大学院高度教職実践専攻研究紀要 : 教職大学院研究紀要</jpcoar:sourceTitle>
+          <jpcoar:volume>9</jpcoar:volume>
+          <jpcoar:pageStart>197</jpcoar:pageStart>
+          <jpcoar:pageEnd>206</jpcoar:pageEnd>
+          <jpcoar:file>
+            <jpcoar:URI label="https://hokkyodai.repo.nii.ac.jp/?action=repository_action_common_download&amp;item_id=9571&amp;item_no=1&amp;attribute_id=13&amp;file_no=1">https://hokkyodai.repo.nii.ac.jp/?action=repository_action_common_download&amp;item_id=9571&amp;item_no=1&amp;attribute_id=13&amp;file_no=1</jpcoar:URI>
+          </jpcoar:file>
+        </jpcoar:jpcoar>
+      </metadata>
+      <about>
+        <provenance xmlns="http://www.openarchives.org/OAI/2.0/provenance" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/provenance http://www.openarchives.org/OAI/2.0/provenance.xsd">
+          <originDescription altered="true" harvestDate="2023-01-18T08:06:58Z">
+            <baseURL>http://hokkyodai.repo.nii.ac.jp/oai</baseURL>
+            <identifier>oai:hokkyodai.repo.nii.ac.jp:00009571</identifier>
+            <datestamp>2022-11-25T05:44:03Z</datestamp>
+            <metadataNamespace>http://irdb.nii.ac.jp/oai</metadataNamespace>
+          </originDescription>
+        </provenance>
+        <irdbProvenance xsi:schemaLocation="http://irdb.nii.ac.jp/oai http://irdb.nii.ac.jp/oai/irdbProvenance.xsd">
+          <repositoryProfileInformation>
+            <name xml:lang="ja">北海道教育大学学術リポジトリ</name>
+            <name xml:lang="en">Hokkaido University of Education Repository</name>
+            <affiliation>
+              <name xml:lang="ja">北海道教育大学</name>
+              <name xml:lang="en">Hokkaido University of Education</name>
+            </affiliation>
+          </repositoryProfileInformation>
+        </irdbProvenance>
+      </about>
+    </record>
+    <resumptionToken expirationDate="2023-02-05T00:04:47Z" completeListSize="4005204" cursor="8000">131135740663dafe1f117a0</resumptionToken>
+  </ListRecords>
+</OAI-PMH>
