@@ -1,5 +1,28 @@
 # Concept-CoAuthors (COCOA) visualisation
 
+## Before starting
+
+### Clone / Checkout
+
+```bash
+git lfs install 
+```
+
+### Configuration
+
+Create a file `.env` in the root directory of the project and add any of the following environment variables:
+
+```
+OPENALEX_API_KEY=
+OPENALEX_CONFIG_EMAIL=
+
+HTTP_PROXY=
+HTTPS_PROXY=
+CURL_CA_BUNDLE=
+REQUEST_CA_BUNDLE=
+REQUESTS_CA_BUNDLE=
+```
+
 ## Workflow
 
 ### Fetch the data from OpenAlex
@@ -33,7 +56,7 @@ We collect the data from the structure created by article_dataset_builder:
 
 > find data -type f -name "*.xml" -exec grep -q '<keywords>' {} \; -exec dirname {} \; | sort -u | xargs -I {} cp -r {} /Users/lfoppiano/development/projects/concepts-visualisation/resources/data/openalex/sample_with_keywords/
 
-We extracted the list of <keywords><term></term><.... from the tei.xml files from Grobid.
+We extracted the list of `<keywords><term></term><....` from the tei.xml files from Grobid.
 
 > command to be added
 
