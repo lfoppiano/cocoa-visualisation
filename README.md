@@ -54,7 +54,9 @@ Compute an evaluation between different extraction methods with the keywords ext
 
 We collect the data from the structure created by article_dataset_builder:
 
-> find data -type f -name "*.xml" -exec grep -q '<keywords>' {} \; -exec dirname {} \; | sort -u | xargs -I {} cp -r {} /Users/lfoppiano/development/projects/concepts-visualisation/resources/data/openalex/sample_with_keywords/
+```bash
+find data -type f -name "*.xml" -exec grep -q '<keywords>' {} \; -exec dirname {} \; | sort -u | xargs -I {} cp -r {} /Users/lfoppiano/development/projects/concepts-visualisation/resources/data/openalex/sample_with_keywords/
+```
 
 We extracted the list of `<keywords><term></term><....` from the tei.xml files from Grobid.
 
