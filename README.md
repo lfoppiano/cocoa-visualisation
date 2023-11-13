@@ -214,7 +214,7 @@ Results @10 keywords:
 
 ### Top results
 
-We re-evaluated using abstracts from OpenAlex, and algorithm 2a over extraction of 10 keywords.  
+We re-evaluated using abstracts from OpenAlex, and algorithm 2 over extraction of 10 keywords.  
 
 | method                 | avg. similarity  |
 |------------------------|------------------|
