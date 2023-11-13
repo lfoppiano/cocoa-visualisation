@@ -54,7 +54,7 @@ if __name__ == '__main__':
                 abstracts = [work['abstract'] if 'abstract' in work and work['abstract'] is not None else "" for work in
                              works]
 
-                keywords_abstracts = kw_model.extract_keywords(abstracts, vectorizer=vectorizer, top_n=5)
+                keywords_abstracts = kw_model.extract_keywords(abstracts, vectorizer=vectorizer, top_n=10)
 
                 titles = [work['title'] if 'title' in work and work['title'] is not None else "" for work in works]
                 keywords_titles = kw_model.extract_keywords(titles, vectorizer=vectorizer)
