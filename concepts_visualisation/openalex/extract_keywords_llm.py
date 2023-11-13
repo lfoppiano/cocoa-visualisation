@@ -1,5 +1,5 @@
 import dotenv
-from langchain.chat_models import PromptLayerChatOpenAI
+from langchain.chat_models import PromptLayerChatOpenAI, ChatOpenAI
 from langchain.prompts import ChatPromptTemplate, HumanMessagePromptTemplate, SystemMessagePromptTemplate, \
     PromptTemplate
 from langchain.schema import OutputParserException
@@ -12,25 +12,20 @@ from typing import List
 from langchain.output_parsers import PydanticOutputParser
 from pydantic import BaseModel
 
-
 PROMPT_TEMPLATE_CHAT_SYSTEM = """Use the following pieces of context to answer the users question. 
 If you don't know the answer, just say that you don't know, don't try to make up an answer.
 ----------------\n{text}"""
 PROMPT_TEMPLATE_USER = """Extract a list of 10 keywords sorted by importance."""
 
-chat_prompt_layer = PromptLayerChatOpenAI(model_name="gpt-3.5-turbo",
-                                          frequency_penalty=0.1,
-                                          temperature=0,
-                                          return_pl_id=True,
-                                          pl_tags=["chatgpt"],
-                                          )
+lc_chatgpt = ChatOpenAI(model_name="gpt-3.5-turbo",
+                        frequency_penalty=0.1,
+                        temperature=0)
 
-chat4_prompt_layer = PromptLayerChatOpenAI(model_name="gpt-4",
-                                           frequency_penalty=0.1,
-                                           temperature=0,
-                                           return_pl_id=True,
-                                           pl_tags=["gpt4"],
-                                           )
+lc_gpt4 = ChatOpenAI(model_name="gpt-4",
+                     frequency_penalty=0.1,
+                     temperature=0
+                     )
+
 
 def get_prompt(user_template, format_instructions=None, hints=None) -> ChatPromptTemplate:
     system_message_prompt = SystemMessagePromptTemplate.from_template(PROMPT_TEMPLATE_CHAT_SYSTEM)
@@ -95,6 +90,7 @@ def _parse_json(response, llm, output_parser):
 
     return parsed_output
 
+
 class ListOfKeywordsOutputParser(BaseModel):
     keywords: List[str]
 
@@ -138,12 +134,9 @@ if __name__ == '__main__':
     output_file = args.output
     model = args.model
 
-
-    llm = chat_prompt_layer
+    llm = lc_chatgpt
     if model == "gpt4":
-        llm = chat4_prompt_layer
-
-    llm.pl_tags.append("keyword")
+        llm = lc_gpt4
 
     lines = []
     with open(input_file, 'r') as input_file_text:
