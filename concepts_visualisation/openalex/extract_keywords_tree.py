@@ -31,7 +31,7 @@ if __name__ == '__main__':
     counter = 0
     path_list = []
     path_list_grouped = []
-    for root, dirs, files in os.walk(input_dir):
+    for root, dirs, files in tqdm(os.walk(input_dir), desc="Scanning filesystem"):
         # Manage to create the directories
         for dir in dirs:
             abs_path_dir = os.path.join(root, dir)
@@ -61,7 +61,7 @@ if __name__ == '__main__':
         path_list_grouped.append(path_list)
 
     accumulated_files = []
-    for group in tqdm(path_list_grouped):
+    for group in tqdm(path_list_grouped, desc="Extracting keywords"):
         batch_output_file = []
         batch_content = []
         for input_path, output_path in group:
