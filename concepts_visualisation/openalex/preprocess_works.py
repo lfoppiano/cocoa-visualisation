@@ -19,11 +19,13 @@ pyalex.config.api_key = os.environ['OPENALEX_API_KEY']
 def cleanup_concepts(data):
     for record in tqdm(data, desc="Cleanup"):
         # Remove concepts related to battery (including their ancestors)
-        raw_concepts_without_batteries_related = list(filter(lambda x: x['display_name'] not in GENERIC_CONCEPTS_BATTERY, record['concepts']))
+        raw_concepts_without_batteries_related = list(
+            filter(lambda x: x['display_name'] not in GENERIC_CONCEPTS_BATTERY or x['score'] == 0.0,
+                   record['concepts']))
 
         # Filter ancestors recursively
         filtered_concepts = cleanup_recursive(raw_concepts_without_batteries_related, [])
-        record['concepts_filtered'] = filtered_concepts
+        record['concepts'] = filtered_concepts
 
     return data
 
@@ -41,7 +43,7 @@ def cleanup_recursive(concepts, cleaned_concepts, cache=".tmp"):
     # level = current_concept['level']
 
     cache_file_path = get_cache_path(id, cache)
-    if os.path.exists(cache_file_path):
+    if os.path.exists(cache_file_path) and os.path.getsize(cache_file_path) > 0:
         with open(cache_file_path, 'r') as fc:
             remote_data_concept = json.load(fc)
     else:
@@ -69,13 +71,17 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(
         description="Cleanup concepts from battery_data_topics")
 
-    parser.add_argument("--input",
-                        help="Input file",
+    parser.add_argument("--input-corpus",
+                        help="Input corpus, normally in a directly starting with 'dump'",
                         required=True,
                         type=Path)
+    parser.add_argument("--from-year",
+                        help="Filter from year (included)",
+                        default=1990,
+                        required=False)
     parser.add_argument("--cache-concepts",
                         required=False,
-                        default=True,
+                        default=False,
                         action="store_true")
     parser.add_argument("--output",
                         help="Output directory",
@@ -84,9 +90,12 @@ if __name__ == '__main__':
 
     args = parser.parse_args()
 
-    input = args.input
+    input_corpus = args.input_corpus
     cache_concepts = args.cache_concepts
-    output = args.output
+    output_dir = args.output
+    from_year = args.from_year
+
+    os.makedirs(output_dir, exist_ok=True)
 
     if cache_concepts:
         for page in tqdm(Concepts().paginate(per_page=200, n_max=70000), desc="concept page"):
@@ -97,12 +106,13 @@ if __name__ == '__main__':
                     with open(cache_file_path, 'w') as fc:
                         json.dump(concept, fc)
 
+    for filename in tqdm(os.listdir(input_corpus)):
+        with open(os.path.join(input_corpus, filename)) as dump_file:
+            works = json.load(dump_file)
 
+        filtered_works = list(filter(lambda w: 'publication_year' in w and w['publication_year'] >= from_year, works))
 
-    with open(input, 'r') as fp:
-        data = json.load(fp)
+        processed_works = cleanup_concepts(filtered_works)
 
-    processed_records = cleanup_concepts(data)
-
-    with open(output, 'w') as fo:
-        json.dump(processed_records, fo)
+        with(open(os.path.join(output_dir, Path(filename).stem + ".json"), 'w')) as fo:
+            json.dump(processed_works, fo)

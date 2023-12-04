@@ -161,7 +161,8 @@ if __name__ == '__main__':
                 new_data = False
 
                 for work in tqdm(works, desc="Document"):
-                    abstract = work['abstract'] if 'abstract' in work and work['abstract'] is not None else ""
+                    if works['abstracts']:
+                        abstract = work['abstract'] if 'abstract' in work and work['abstract'] is not None else ""
                     if abstract and 'keyterms_A' not in work:
                         try:
                             keywords_abstract = extract_keywords(abstract, llm, top_n=10)

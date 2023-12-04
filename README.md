@@ -1,14 +1,14 @@
 # Concept-CoAuthors (COCOA) visualisation
 
-## Table of content 
+## Table of content
+
 - [Before starting](#before-starting)
 - [Workflow](#workflow)
 - [Keyword extraction evaluation](#keyword-extraction-evaluation-)
-  + [Algorithm 1a](#algorithm-1a) 
-  + [Algorithm 1b](#algorithm-1b)
-  + [Algorithm 2](#algorithm-2)
-  + [Top results](#top-results)
-
+    + [Algorithm 1a](#algorithm-1a)
+    + [Algorithm 1b](#algorithm-1b)
+    + [Algorithm 2](#algorithm-2)
+    + [Top results](#top-results)
 
 ## Before starting
 
@@ -37,8 +37,43 @@ REQUESTS_CA_BUNDLE=
 
 ### Fetch the data from OpenAlex
 
-- Run `fetch.py`
-    - output in `resources/data/openalex/data`
+```shell
+fetch.py --output resources/openalex/data/dump 
+```
+
+- output in `resources/openalex/data/dump`
+
+### Preprocess works
+
+- Filter out works that have been published before 1990
+- Cleanup concepts (it requires to fetch concepts from the OpenAlex API, or from a cache):
+  - removes "ancestors concepts"
+  - removes "Batteries and ancestors"
+  - removes concepts with score = 0.0
+
+```shell
+preprocess_works.py --input-corpus resources/openalex/data/dump_filtered_by_year --output resources/openalex/data/dump_cleaned_concepts
+````
+ - input in `resources/openalex/data/dump`
+ - output in `resouces/openalex/data/dump_preprocessed`
+
+### Get author aggregated information
+Intially, we planned to aggregate by author, and sort the aggregation by number of publications, however this will duplicate a lot of data and will make impossible to manage. 
+Instead, we extract author information aggregated all over the papers.
+The author information are then sorted by publication and the top 10000 are returned. 
+The format of each author is as follow: `author_id###name_surname: number of publications`
+
+```shell
+get_author_info.py --input-corpus .... --output  
+```
+
+
+----- 
+### Cleanup data by removing "ancestors concepts"
+
+- Run `clean_concepts.py`
+    - input: `resources/openalex/data/dump_filtered_by_years`
+    - output: `resources/openalex/data/dump_cleaned_concepts`
 
 ### Convert CSV from Dieb-san with KeyBERT extracted information
 
@@ -46,19 +81,21 @@ REQUESTS_CA_BUNDLE=
     - input: `battery_all-KT.csv`
     - output: `battery_data_topics_original.json`
 
-### Cleanup data by removing "ancestors concepts"
-
-- Run `clean_concepts.py`
-    - input: `battery_data_topics_original.json`
-    - output: `battery_data_topics_with_filtered_concepts.json`
-
 ### Run keybert
 
 - Run `extract_keywords.py`
     - input: `data/openalex/dump`
     - output: `data/openalex/dump_with_keybert`
 
-### Evaluate keywords
+### Aggregate topics
+
+- Run `aggregate_topics.py`
+    - input: `battery_data_topics_with_filtered_concepts.json`
+    - output: `resources/data/openalex/authors_years`
+
+## Keyword extraction evaluation
+
+### Data preparation
 
 Compute an evaluation between different extraction methods with the keywords extracted from the PDF document. We use https://github.com/kermitt2/article_dataset_builder to download and process documents with grobid. We provide article_dataset_builder with the list of deduplicated DOIS: [dois_openalex.sorted.uniqe.txt](resources%2Fdata%2Fopenalex%2Fdata_contamination%2Fdois_openalex.sorted.uniqe.txt)
 
@@ -105,23 +142,13 @@ We finally process the metrics
 
 Results are reported [here](#keyword-extraction-evaluation-).
 
-### Aggregate topics
-
-- Run `aggregate_topics.py`
-    - input: `battery_data_topics_with_filtered_concepts.json`
-    - output: `resources/data/openalex/authors_years`
-
-
-
-## Keyword extraction evaluation 
-
 ### Algorithm 1a:
 
 1. Read the 3 files + the expected file
 2. Remove the confidence scores when needed and trim each list to the minimum length between the three extracting methods (e.g. if keybert extracted only 5 and the other extracted 10 keywords, we limit all to the 5 most important keywords)
 3. For each document,
     - for each method:
-        - sort the keywords 
+        - sort the keywords
         - search for the most similar one in the expected list (basd on sentence BERT)
         - sum the similarity score - continue, ignoring the matching expected keyword
     - calculate average for in the same method
@@ -140,7 +167,7 @@ Results @5 keywords:
 
 Results @10 keywords:
 
-N/A The algorithm was fixed because we realised that the sorting was penalising possible matches. 
+N/A The algorithm was fixed because we realised that the sorting was penalising possible matches.
 
 ### Algorithm 1b
 
@@ -184,13 +211,12 @@ Goal: evaluating while expanding the keywords
 2. Remove the confidence scores when needed and trim each list to the minimum length between the three extracting methods (e.g. if keybert extracted only 5 and the other extracted 10 keywords, we limit all to the 5 most important keywords)
 3. For each document:
     - for each expected keyword:
-        - get similarity with each predicted keyword 
-        - filter similarities > 0.5 
-        - sum the cosine similarity 
+        - get similarity with each predicted keyword
+        - filter similarities > 0.5
+        - sum the cosine similarity
     - calculate average for in the same method
     - sum each average similarity by method
 4. average by the number of documents (100)
-
 
 Results @5 keywords:
 
@@ -214,13 +240,13 @@ Results @10 keywords:
 
 ### Top results
 
-We re-evaluated using abstracts from OpenAlex, and algorithm 2 over extraction of 10 keywords.  
+We re-evaluated using abstracts from OpenAlex, and algorithm 2 over extraction of 10 keywords.
 
-| method                 | avg. similarity  |
-|------------------------|------------------|
-| chatgpt                | 0.6781           |
-| batteryscibert_cased   | 0.6698           |
-| batteryonlybert        | 0.6677           |
-| keybert                | 0.6665           |
-| batteryscibert_uncased | 0.5423           |
+| method                 | avg. similarity |
+|------------------------|-----------------|
+| chatgpt                | 0.6781          |
+| batteryscibert_cased   | 0.6698          |
+| batteryonlybert        | 0.6677          |
+| keybert                | 0.6665          |
+| batteryscibert_uncased | 0.5423          |
 
