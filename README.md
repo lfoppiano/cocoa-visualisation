@@ -63,8 +63,10 @@ Instead, we extract author information aggregated all over the papers.
 The author information are then sorted by publication and the top 10000 are returned. 
 The format of each author is as follow: `author_id###name_surname: number of publications`
 
+We can supply an additional file to keep in the selection Openalex IDs from a list. 
+
 ```shell
-get_author_info.py --input-corpus .... --output  
+get_author_info.py --input-corpus .... --output ... --author-list ...  
 ```
 
 
