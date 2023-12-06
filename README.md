@@ -46,7 +46,7 @@ fetch.py --output resources/openalex/data/dump
 ### Preprocess works
 
 - Filter out works that have been published before 1990
-- Cleanup concepts (it requires to fetch concepts from the OpenAlex API, or from a cache):
+- Cleanup concepts (it requires to fetch concepts from the OpenAlex API, or from a cache, which is already stored in `openalex/data/cache_concepts`):
   - removes "ancestors concepts"
   - removes "Batteries and ancestors"
   - removes concepts with score = 0.0
