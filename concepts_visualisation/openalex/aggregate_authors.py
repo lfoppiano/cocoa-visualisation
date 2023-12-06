@@ -149,8 +149,10 @@ if __name__ == '__main__':
             "2010-2023": works_2010_2023
         }
         author_id = "https://openalex.org/" + author_dir
+        author_openalex_id = "https://openalex.org/" + str.capitalize(author_dir).split("###")[0]
         author = {
             "id": author_dir,
+            "openalex_id": author_openalex_id,
             "publications": author_list[author_id],
             "publications_first_author": 0,
             "works": works
@@ -165,6 +167,9 @@ if __name__ == '__main__':
 
             with open(work_abs_dir, 'r') as fo:
                 work = json.load(fo)
+
+            author_obj = list(filter(lambda w: w['id'] == author_openalex_id, work['authors']))[0]
+            author['orcid'] = author_obj['orcid']
 
             publication_year = work['publication_year'] if 'publication_year' in work else 0
 
