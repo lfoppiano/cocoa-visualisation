@@ -68,7 +68,22 @@ We can supply an additional file to keep in the selection Openalex IDs from a li
 ```shell
 get_author_info.py --input-corpus .... --output ... --author-list ...  
 ```
+ - input: `resouces/openalex/data/dump_preprocessed`
+ - output: `resources/openalex/data/author_info_aggregated/authors_aggregated_top10000_by_publications.json`
 
+### Aggregate data by authors 
+each records (author) should have: 
+1. publication grouped by period 1990-1999, 2000-2009, 2009-2023
+2. total publication number 
+3. total publication by first authors
+
+```shell
+aggregate_authors.py --input-corpus ... --input-authors  --output  
+```
+
+ - input `resources/openalex/data/dump_cleaned_concepts` 
+ - input-authors `resources/openalex/data/author_info_aggregated/authors_aggregated_top10000_by_publications.json`
+ - output `resources/openalex/data/aggregated_by_authors`
 
 ----- 
 ### Cleanup data by removing "ancestors concepts"
