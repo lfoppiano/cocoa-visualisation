@@ -88,9 +88,12 @@ The output will be one file for each period + one file for publication dates out
 ### Extract keywords with keyLLM + keyBERT 
 
 ```shell
-keyword/extract_keywords_keyllm.py
+keyword/extract_keywords_keyllm.py --input-corpus ... --output-dir 
 ```
 
+```shell
+keyword/extract_keywords_keyllm.py --input-json  a_json_file.json --output-dir output_json_file.json 
+```
 
 
 ### Aggregate data by authors
