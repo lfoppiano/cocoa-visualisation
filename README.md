@@ -69,10 +69,33 @@ We can supply an additional file to keep in the selection Openalex IDs from a li
 get_author_info.py --input-corpus .... --output ... --author-list ...  
 ```
  - input: `resouces/openalex/data/dump_preprocessed`
+ - author-list: `resources/openalex/data/author_info_aggregated/to_be_added.txt` (diff between Dieb-san list of prominent people in batteries and list of authors from the script)
  - output: `resources/openalex/data/author_info_aggregated/authors_aggregated_top10000_by_publications.json`
 
-### Aggregate data by authors 
-each records (author) should have: 
+### Aggregate publications by period
+This task aims to output three files with publications, for each of the three periods. 
+This should be performed before aggregating by authors as it will make the keyword extraction much simpler and efficient. 
+Currently aggregating by author will duplicate the works, keyword extraction will not be efficient. 
+
+```shell
+aggregate_by_periods.py --input-corpus ... --output ...  
+```
+ - input: `resouces/openalex/data/dump_preprocessed`
+ - output `resouces/openalex/data/dump_by_periods`
+
+The output will be one file for each period + one file for publication dates outside this period 
+
+### Extract keywords with keyLLM + keyBERT 
+
+```shell
+keyword/extract_keywords_keyllm.py
+```
+
+
+
+### Aggregate data by authors
+
+Each records (author) should have: 
 1. publication grouped by period 1990-1999, 2000-2009, 2009-2023
 2. total publication number 
 3. total publication by first authors
