@@ -7,7 +7,6 @@ from pathlib import Path
 import dotenv
 import openai
 from keybert.llm import OpenAI
-from keyphrase_vectorizers import KeyphraseCountVectorizer
 
 dotenv.load_dotenv(override=True)
 
@@ -16,7 +15,7 @@ from sentence_transformers import SentenceTransformer
 from tqdm import tqdm
 
 client = openai.OpenAI()
-lc_chatgpt = OpenAI(client, model="gpt-3.5-turbo")
+lc_chatgpt = OpenAI(client, model="gpt-3.5-turbo", chat=True)
 
 
 # lc_chatgpt = PromptLayerChatOpenAI(model_name="gpt-3.5-turbo",
@@ -30,24 +29,24 @@ lc_chatgpt = OpenAI(client, model="gpt-3.5-turbo")
 #                      temperature=0
 #                      )
 
-def process_single(input_file, output_file):
+def process_single(input_file, output_file, model):
     with open(input_file) as dump_file:
         works = json.load(dump_file)
 
     abstracts = [work['abstract'] if 'abstract' in work and work['abstract'] is not None else "" for work in
                  works]
     embeddings_abstracts = model.encode(abstracts, convert_to_tensor=True)
-    keywords_abstracts = kw_model.extract_keywords(abstracts, embeddings=embeddings_abstracts, threshold=0.9)
+    keywords_abstracts = kw_model.extract_keywords(abstracts, embeddings=embeddings_abstracts, threshold=0.5)
 
     titles = [work['title'] if 'title' in work and work['title'] is not None else "" for work in works]
     embeddings_titles = model.encode(titles, convert_to_tensor=True)
-    keywords_titles = kw_model.extract_keywords(titles, embeddings=embeddings_titles, threshold=0.9)
+    keywords_titles = kw_model.extract_keywords(titles, embeddings=embeddings_titles, threshold=0.5)
 
     for idx, keywords_abstract in enumerate(keywords_abstracts):
         keyword_title = keywords_titles[idx]
 
-        works[idx]["keyterms_T"] = keyword_title
-        works[idx]["keyterms_A"] = keywords_abstract
+        works[idx]["keyterms_T"] = keyword_title[:2]
+        works[idx]["keyterms_A"] = keywords_abstract[:10]
 
     with(open(output_file, 'w')) as fo:
         json.dump(works, fo)
@@ -95,8 +94,8 @@ if __name__ == '__main__':
     if input_corpus and output_dir:
         for filename in tqdm(os.listdir(input_corpus)):
             input_file = os.path.join(input_corpus, filename)
-            output_file = os.path.join(output_dir, Path(filename).stem + ".keybert.json")
-            process_single(input_file, output_file)
+            output_file = os.path.join(output_dir, Path(filename).stem + ".json")
+            process_single(input_file, output_file, model)
     elif input_text and output_text:
         lines = []
         with open(input_text, 'r') as input_file_text:
@@ -113,7 +112,7 @@ if __name__ == '__main__':
         if not os.path.exists(input_json):
             print("Input file does not exits. ")
             sys.exit(-1)
-        process_single(input_json, output_json)
+        process_single(input_json, output_json, model)
     else:
         print(
             "The parameters should be --input-corpus + --output_dir or --input-text + --output-text or --input-json + --output-json")

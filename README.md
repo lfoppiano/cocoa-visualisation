@@ -77,8 +77,10 @@ This task aims to output three files with publications, for each of the three pe
 This should be performed before aggregating by authors as it will make the keyword extraction much simpler and efficient. 
 Currently aggregating by author will duplicate the works, keyword extraction will not be efficient. 
 
+The batch size will determine the number of works for each of the output files.  
+
 ```shell
-aggregate_by_periods.py --input-corpus ... --output ...  
+aggregate_by_periods.py --input-corpus ... --output ...  --batch-size ... 
 ```
  - input: `resouces/openalex/data/dump_preprocessed`
  - output `resouces/openalex/data/dump_by_periods`
