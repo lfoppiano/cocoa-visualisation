@@ -6,9 +6,6 @@ from pathlib import Path
 
 from tqdm import tqdm
 
-GENERIC_CONCEPTS_BATTERY = ["Battery (electricity)", "Power (physics)", "Physics", "Thermodynamics",
-                            "Quantum mechanics"]
-
 
 def get_author_uniq_key(author):
     author_id = author["id"].lower()
@@ -63,15 +60,15 @@ def aggregate(data, aggregated={}):
                 #
                 #     author_obj += 1
 
-                    # if get_author_uniq_key(co_author) in existing_info_author["co_authors"].keys():
-                    #     existing_info_author["co_authors"][get_author_uniq_key(co_author)] += 1
-                    # else:
-                    #     existing_info_author["co_authors"][get_author_uniq_key(co_author)] = 1
+                # if get_author_uniq_key(co_author) in existing_info_author["co_authors"].keys():
+                #     existing_info_author["co_authors"][get_author_uniq_key(co_author)] += 1
+                # else:
+                #     existing_info_author["co_authors"][get_author_uniq_key(co_author)] = 1
 
-                    # if 'publications' in existing_info_author:
-                    #     existing_info_author['publications'] += 1
-                    # else:
-                    #     existing_info_author['publications'] = 1
+                # if 'publications' in existing_info_author:
+                #     existing_info_author['publications'] += 1
+                # else:
+                #     existing_info_author['publications'] = 1
     return aggregated
 
 
@@ -82,7 +79,8 @@ if __name__ == '__main__':
     parser.add_argument("--input-corpus", help="Input directory containing the dumps", required=True, type=Path)
     parser.add_argument("--output", help="Output directory where the aggregation will be saved", required=True,
                         type=Path)
-    parser.add_argument("--author-list", help="File containing a list of authors to be kept in the final output", required=False,
+    parser.add_argument("--author-list", help="File containing a list of authors to be kept in the final output",
+                        required=False,
                         type=Path, default=None)
 
     args = parser.parse_args()
@@ -107,18 +105,18 @@ if __name__ == '__main__':
         aggregated_sorted = OrderedDict(sorted(aggregated.items(), key=lambda item: item[1], reverse=True))
         aggregated_top_10000 = dict(list(aggregated_sorted.items())[:10000])
 
-
     if author_list:
         for author_id in author_list:
             if author_id not in excluded:
-                if len(list(filter(lambda item: item[0].startswith(str.lower(author_id)), aggregated_top_10000.items()))) == 0:
-                    item_to_be_added = list(filter(lambda item: item[0].startswith(str.lower(author_id)), aggregated_sorted.items()))
+                if len(list(filter(lambda item: item[0].startswith(str.lower(author_id)),
+                                   aggregated_top_10000.items()))) == 0:
+                    item_to_be_added = list(
+                        filter(lambda item: item[0].startswith(str.lower(author_id)), aggregated_sorted.items()))
                     if len(item_to_be_added) > 0:
                         aggregated_top_10000[item_to_be_added[0][0]] = item_to_be_added[0][1]
                         excluded.append(author_id)
                     else:
                         print("Item {} is not found.".format(author_id))
-
 
     with(open(os.path.join(output_dir, "authors_aggregated_top10000_by_publications.json"), 'w')) as fo:
         json.dump(aggregated_top_10000, fo)
