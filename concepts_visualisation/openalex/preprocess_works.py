@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 from pyalex import Concepts
 from tqdm import tqdm
 
-from concepts_visualisation.openalex.aggregate_topics import GENERIC_CONCEPTS_BATTERY
+from concepts_visualisation.openalex.aggregate_authors import GENERIC_CONCEPTS_BATTERY
 
 load_dotenv(verbose=True, override=True)
 
@@ -24,8 +24,8 @@ def cleanup_concepts(data):
                    record['concepts']))
 
         # Filter ancestors recursively
-        filtered_concepts = cleanup_recursive(raw_concepts_without_batteries_related, [])
-        record['concepts'] = filtered_concepts
+        # filtered_concepts = cleanup_recursive(raw_concepts_without_batteries_related, [])
+        record['concepts'] = raw_concepts_without_batteries_related
 
     return data
 
@@ -97,14 +97,14 @@ if __name__ == '__main__':
 
     os.makedirs(output_dir, exist_ok=True)
 
-    if cache_concepts:
-        for page in tqdm(Concepts().paginate(per_page=200, n_max=70000), desc="concept page"):
-            for concept in page:
-                id = concept['id']
-                cache_file_path = get_cache_path(id)
-                if not os.path.exists(cache_file_path):
-                    with open(cache_file_path, 'w') as fc:
-                        json.dump(concept, fc)
+    # if cache_concepts:
+    #     for page in tqdm(Concepts().paginate(per_page=200, n_max=70000), desc="concept page"):
+    #         for concept in page:
+    #             id = concept['id']
+    #             cache_file_path = get_cache_path(id)
+    #             if not os.path.exists(cache_file_path):
+    #                 with open(cache_file_path, 'w') as fc:
+    #                     json.dump(concept, fc)
 
     for filename in tqdm(os.listdir(input_corpus)):
         with open(os.path.join(input_corpus, filename)) as dump_file:

@@ -5,8 +5,7 @@ from pathlib import Path
 
 from tqdm import tqdm
 
-GENERIC_CONCEPTS_BATTERY = ["Battery (electricity)", "Power (physics)", "Physics", "Thermodynamics",
-                            "Quantum mechanics"]
+GENERIC_CONCEPTS_BATTERY = ["Battery (electricity)"]
 
 
 def get_author_uniq_key(author):
