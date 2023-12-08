@@ -15,7 +15,7 @@ pyalex.config.email = os.environ['OPENALEX_CONFIG_EMAIL']
 pyalex.config.api_key = os.environ['OPENALEX_API_KEY']
 
 
-def fetch_openalex_works(concept_id, output_path, per_page=200, n_max=2000000):
+def fetch_openalex_works(concept_id, output_path, per_page=200, n_max=2000000, original=False):
     pager = Works().filter(concept={"id": "https://openalex.org/" + concept_id}).paginate(per_page=per_page,
                                                                                           n_max=n_max)
     id = 0
@@ -23,7 +23,10 @@ def fetch_openalex_works(concept_id, output_path, per_page=200, n_max=2000000):
         work_page = []
         with open(os.path.join(output_path, "data_dump" + str(id) + ".json"), 'w') as fw:
             for work in page:
-                output_work = get_work(work)
+                if original:
+                    output_work = work
+                else:
+                    output_work = get_work(work)
                 work_page.append(output_work)
 
             json.dump(work_page, fw)
@@ -96,6 +99,10 @@ if __name__ == '__main__':
                         help="Output directory. If it does not exists it will be created.",
                         required=True,
                         type=Path)
+    parser.add_argument("--original",
+                        help="Save the original records from openalex",
+                        required=False,
+                        default=False)
 
     args = parser.parse_args()
 
@@ -108,4 +115,4 @@ if __name__ == '__main__':
 
     os.makedirs(output, exist_ok=True)
 
-    fetch_openalex_works(base_concept, output)
+    fetch_openalex_works(base_concept, output, original=args.original)
