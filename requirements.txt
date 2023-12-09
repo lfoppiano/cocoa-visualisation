@@ -5,7 +5,7 @@ tqdm
 languagecodes
 langdetect
 # argostranslate
-fasttext-langdetect
+# fasttext-langdetect
 python-dotenv
 pyalex
 keybert[flair]
