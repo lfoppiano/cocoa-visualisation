@@ -84,7 +84,8 @@ if __name__ == '__main__':
         for filename in tqdm(os.listdir(input_corpus)):
             input_file = os.path.join(input_corpus, filename)
             output_file = os.path.join(output_dir, Path(filename).stem + ".json")
-            process_single(input_file, output_file, model)
+            if not os.path.exists(output_file):
+                process_single(input_file, output_file, model)
     elif input_text and output_text:
         lines = []
         with open(input_text, 'r') as input_file_text:
