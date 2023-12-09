@@ -15,19 +15,8 @@ from sentence_transformers import SentenceTransformer
 from tqdm import tqdm
 
 client = openai.OpenAI()
-lc_chatgpt = OpenAI(client, model="gpt-3.5-turbo", chat=True)
+chatgpt = OpenAI(client, model="gpt-3.5-turbo", chat=True)
 
-
-# lc_chatgpt = PromptLayerChatOpenAI(model_name="gpt-3.5-turbo",
-#                                    frequency_penalty=0.1,
-#                                    temperature=0,
-#                                    return_pl_id=True,
-#                                    pl_tags=["chatgpt", "concepts"])
-#
-# lc_gpt4 = ChatOpenAI(model_name="gpt-4",
-#                      frequency_penalty=0.1,
-#                      temperature=0
-#                      )
 
 def process_single(input_file, output_file, model):
     with open(input_file) as dump_file:
@@ -88,7 +77,7 @@ if __name__ == '__main__':
     input_text = args.input_text
     output_text = args.output_text
 
-    kw_model = KeyLLM(llm=lc_chatgpt)
+    kw_model = KeyLLM(llm=chatgpt)
     model = SentenceTransformer('all-MiniLM-L6-v2')
 
     if input_corpus and output_dir:
