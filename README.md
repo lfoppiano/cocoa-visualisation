@@ -57,10 +57,10 @@ preprocess_works.py --input-corpus resources/openalex/data/dump_filtered_by_year
  - output in `resouces/openalex/data/dump_preprocessed`
 
 ### Get author aggregated information
-Intially, we planned to aggregate by author, and sort the aggregation by number of publications, however this will duplicate a lot of data and will make impossible to manage. 
+Initially, we planned to aggregate by author, and sort the aggregation by number of publications, however this will duplicate a lot of data and will make impossible to manage. 
 Instead, we extract author information aggregated all over the papers.
 The author information are then sorted by publication and the top 10000 are returned. 
-The format of each author is as follow: `author_id###name_surname: number of publications`
+The format of each author is as follows: `author_id###name_surname: number of publications`
 
 We can supply an additional file to keep in the selection Openalex IDs from a list. 
 
