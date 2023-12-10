@@ -10,7 +10,7 @@ def dump_files(works_list, output, name, batch_size=500):
     tmp_work = []
     seq = 1
     counter = 1
-    for work in works_list:
+    for work in tqdm(works_list, desc="Writing works"):
         tmp_work.append(work)
         if counter % batch_size == 0:
             with open(os.path.join(output, f"{name}.{seq}.json"), 'w') as fo:
@@ -44,7 +44,7 @@ if __name__ == '__main__':
     works_2010_2023 = []
     works_other = []
 
-    for filename in tqdm(os.listdir(input_corpus)):
+    for filename in tqdm(os.listdir(input_corpus), desc="Reading works"):
         with open(os.path.join(input_corpus, filename)) as dump_file:
             works = json.load(dump_file)
 
