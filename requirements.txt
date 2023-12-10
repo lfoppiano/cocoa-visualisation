@@ -2,8 +2,7 @@
 BeautifulSoup4
 lxml
 tqdm
-languagecodes
-langdetect
+# languagecodes
 # argostranslate
 # fasttext-langdetect
 python-dotenv
@@ -14,3 +13,4 @@ langchain
 promptlayer
 httpcore==0.15.0
 httpx==0.23.0
+openai
