@@ -20,7 +20,7 @@ def cleanup_concepts(data):
     for record in tqdm(data, desc="Cleanup"):
         # Remove concepts related to battery (including their ancestors)
         raw_concepts_without_batteries_related = list(
-            filter(lambda x: x['display_name'] not in GENERIC_CONCEPTS_BATTERY or x['score'] == 0.0,
+            filter(lambda x: x['display_name'] not in GENERIC_CONCEPTS_BATTERY or x['score'] > 0.0,
                    record['concepts']))
 
         # Filter ancestors recursively
