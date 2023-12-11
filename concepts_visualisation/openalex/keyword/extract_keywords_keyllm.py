@@ -2,6 +2,7 @@ import argparse
 import json
 import os
 import sys
+from math import ceil
 from pathlib import Path
 
 import dotenv
@@ -22,23 +23,27 @@ def process_single(input_file, output_file, model):
     with open(input_file) as dump_file:
         works = json.load(dump_file)
 
+    works = process_works(works, model)
+
+    with(open(output_file, 'w')) as fo:
+        json.dump(works, fo)
+
+
+def process_works(works, model):
     abstracts = [work['abstract'] if 'abstract' in work and work['abstract'] is not None else "" for work in
                  works]
     embeddings_abstracts = model.encode(abstracts, convert_to_tensor=True)
     keywords_abstracts = kw_model.extract_keywords(abstracts, embeddings=embeddings_abstracts, threshold=0.5)
-
     titles = [work['title'] if 'title' in work and work['title'] is not None else "" for work in works]
     embeddings_titles = model.encode(titles, convert_to_tensor=True)
     keywords_titles = kw_model.extract_keywords(titles, embeddings=embeddings_titles, threshold=0.5)
-
     for idx, keywords_abstract in enumerate(keywords_abstracts):
         keyword_title = keywords_titles[idx]
 
         works[idx]["keyterms_T"] = keyword_title[:2]
         works[idx]["keyterms_A"] = keywords_abstract[:10]
 
-    with(open(output_file, 'w')) as fo:
-        json.dump(works, fo)
+    return works
 
 
 if __name__ == '__main__':
@@ -85,7 +90,29 @@ if __name__ == '__main__':
             input_file = os.path.join(input_corpus, filename)
             output_file = os.path.join(output_dir, Path(filename).stem + ".json")
             if not os.path.exists(output_file):
-                process_single(input_file, output_file, model)
+                with open(input_file) as dump_file:
+                    works = json.load(dump_file)
+                try:
+                    works = process_works(works, model)
+
+                    with(open(output_file, 'w')) as fo:
+                        json.dump(works, fo)
+                except Exception as e:
+                    print(f"File {input_file} could not be processed. Split in 2.")
+                    middle = ceil(len(works)/2)
+                    works_tmp = works[0:middle]
+                    works1 = process_works(works_tmp, model)
+                    output_file = os.path.join(output_dir, Path(filename).stem + "1.json")
+                    with(open(output_file, 'w')) as fo:
+                        json.dump(works1, fo)
+
+                    works_tmp = works[middle:]
+                    works2 = process_works(works_tmp, model)
+                    output_file = os.path.join(output_dir, Path(filename).stem + "2.json")
+                    with(open(output_file, 'w')) as fo:
+                        json.dump(works2, fo)
+
+
     elif input_text and output_text:
         lines = []
         with open(input_text, 'r') as input_file_text:
