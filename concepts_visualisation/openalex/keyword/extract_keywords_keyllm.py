@@ -89,28 +89,32 @@ if __name__ == '__main__':
         for filename in tqdm(os.listdir(input_corpus)):
             input_file = os.path.join(input_corpus, filename)
             output_file = os.path.join(output_dir, Path(filename).stem + ".json")
-            if not os.path.exists(output_file):
-                with open(input_file) as dump_file:
-                    works = json.load(dump_file)
-                try:
-                    works = process_works(works, model)
+            if os.path.exists(output_file):
+                continue
 
-                    with(open(output_file, 'w')) as fo:
-                        json.dump(works, fo)
-                except Exception as e:
-                    print(f"File {input_file} could not be processed. Split in 2.")
-                    middle = ceil(len(works)/2)
-                    works_tmp = works[0:middle]
-                    works1 = process_works(works_tmp, model)
-                    output_file = os.path.join(output_dir, Path(filename).stem + "1.json")
-                    with(open(output_file, 'w')) as fo:
-                        json.dump(works1, fo)
+            with open(input_file) as dump_file:
+                works = json.load(dump_file)
+            try:
+                works = process_works(works, model)
 
-                    works_tmp = works[middle:]
-                    works2 = process_works(works_tmp, model)
-                    output_file = os.path.join(output_dir, Path(filename).stem + "2.json")
-                    with(open(output_file, 'w')) as fo:
-                        json.dump(works2, fo)
+                with(open(output_file, 'w')) as fo:
+                    json.dump(works, fo)
+            except Exception as e:
+                print(f"File {input_file} could not be processed. Skip it.")
+                continue
+
+                # middle = ceil(len(works)/2)
+                # works_tmp = works[0:middle]
+                # works1 = process_works(works_tmp, model)
+                # output_file = os.path.join(output_dir, Path(filename).stem + "1.json")
+                # with(open(output_file, 'w')) as fo:
+                #     json.dump(works1, fo)
+                #
+                # works_tmp = works[middle:]
+                # works2 = process_works(works_tmp, model)
+                # output_file = os.path.join(output_dir, Path(filename).stem + "2.json")
+                # with(open(output_file, 'w')) as fo:
+                #     json.dump(works2, fo)
 
 
     elif input_text and output_text:
