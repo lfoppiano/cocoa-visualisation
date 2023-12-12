@@ -88,14 +88,17 @@ The output will be one file for each period + one file for publication dates out
 
 ### Extract keywords with keyLLM + keyBERT 
 
+There are two options to run the keyword extraction, by corpus directory 
 ```shell
 keyword/extract_keywords_keyllm.py --input-corpus ... --output-dir 
 ```
 
+or by single input/ output file
 ```shell
 keyword/extract_keywords_keyllm.py --input-json  a_json_file.json --output-dir output_json_file.json 
 ```
 
+In any case the requests are batched to process them in parallel, however if the batch size is too large, the process might fail due to the context window limitation in chatgpt
 
 ### Aggregate data by authors
 
@@ -103,6 +106,60 @@ Each records (author) should have:
 1. publication grouped by period 1990-1999, 2000-2009, 2009-2023
 2. total publication number 
 3. total publication by first authors
+
+Example output format: 
+
+```json
+{
+  "author1": {
+    "nb_publications": 111,
+    "1990-2000": {
+      "nb_publications": 12,
+      "nb_publications_corresp_author": 111,
+      "nb_publications_first_author": 1,
+      "non_first_author": {
+        "concepts": {
+          "concept1": {
+            "freq": 123,
+            "avg_confidence_score": 0.8
+          }
+        },
+        "keywords": {
+          "keyword1": {
+            "freq": 123,
+            "avg_confidence_score": 0.8
+          }
+        },
+        "co_authors": {
+          "co_author_id1": 1,
+          "co_author_id2": 33
+        }
+      },
+      "first_author": {
+        "concepts": {
+          "concept1": {
+            "freq": 123,
+            "avg_confidence_score": 0.8
+          }
+        },
+        "keywords": {
+          "keyword1": {
+            "freq": 123,
+            "avg_confidence_score": 0.8
+          }
+        },
+        "co_authors": {
+          "co_author_id1": 1,
+          "co_author_id2": 33
+        }
+      }
+    },
+    "2001-2010": {
+      ...
+    }
+  }
+}
+```
 
 ```shell
 aggregate_authors.py --input-corpus ... --input-authors  --output  
