@@ -155,8 +155,6 @@ if __name__ == '__main__':
         author = {
             "id": author_dir,
             "openalex_id": author_openalex_id,
-            "publications": author_list[author_id],
-            "publications_first_author": 0,
             "periods": works
         }
         authors[author_id] = author
@@ -190,6 +188,15 @@ if __name__ == '__main__':
         works["1990-1999"] = process_period(works_1990_1999, author_openalex_id)
         works["2000-2009"] = process_period(works_2000_2009, author_openalex_id)
         works["2010-2023"] = process_period(works_2010_2023, author_openalex_id)
+
+        author["nb_publications_corresp_author"] = sum(
+            [works[key]['nb_publications_corresp_author'] for key in works.keys()])
+        author["nb_publications_first_author"] = sum(
+            [works[key]['nb_publications_first_author'] for key in works.keys()])
+        author["nb_publications_not_first_author"] = sum(
+            [works[key]['nb_publications_not_first_author'] for key in works.keys()])
+        author["nb_publications"] = author["nb_publications_corresp_author"] + author["nb_publications_first_author"] + \
+                                    author["nb_publications_not_first_author"]
 
     with open(os.path.join(output, "authors.json"), 'w') as fo:
         json.dump(authors, fo)
