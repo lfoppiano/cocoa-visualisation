@@ -82,23 +82,29 @@ def process_period(works_1990_1999, author_openalex_id):
             "concepts": {},
             "keywords": {},
             "co_authors": {}
-        }
+        },
+        "publications": []
     }
     for work in works_1990_1999:
         struct['nb_publications'] += 1
+        struct['publications'].append(work['id'])
 
         # First author
         if len(work['authors']) == 1 or work['authors'][0]['id'] == author_openalex_id:
             struct['nb_publications_first_author'] += 1
             process_concepts(work['concepts'], struct['first_author']['concepts'])
-            process_keywords(work['keyterms_T'], struct['first_author']['keywords'])
-            process_keywords(work['keyterms_A'], struct['first_author']['keywords'])
+            if 'title' in work and work['title']:
+                process_keywords(work['keyterms_T'], struct['first_author']['keywords'])
+            if 'abstract' in work and work["abstract"] and work['abstract'] != "Abstract": # Workaround against ceder
+                process_keywords(work['keyterms_A'], struct['first_author']['keywords'])
             process_coauthors(work['authors'], author_openalex_id, struct['first_author']['co_authors'])
         else:
             struct['nb_publications_not_first_author'] += 1
             process_concepts(work['concepts'], struct['non_first_author']['concepts'])
-            process_keywords(work['keyterms_T'], struct['non_first_author']['keywords'])
-            process_keywords(work['keyterms_A'], struct['non_first_author']['keywords'])
+            if 'title' in work and work['title']:
+                process_keywords(work['keyterms_T'], struct['non_first_author']['keywords'])
+            if 'abstract' in work and work["abstract"] and work['abstract'] != "Abstract": # Workaround against ceder
+                process_keywords(work['keyterms_A'], struct['non_first_author']['keywords'])
             process_coauthors(work['authors'], author_openalex_id, struct['non_first_author']['co_authors'])
 
     calculate_avg(struct)
@@ -199,4 +205,4 @@ if __name__ == '__main__':
                                     author["nb_publications_not_first_author"]
 
     with open(os.path.join(output, "authors.json"), 'w') as fo:
-        json.dump(authors, fo)
+        json.dump(authors, fo, indent=4)
