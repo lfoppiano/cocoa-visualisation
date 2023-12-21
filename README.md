@@ -161,6 +161,8 @@ Example output format:
 }
 ```
 
+python -m concepts_visualisation.openalex.aggregate_authors --input-corpus resources/openalex/data2/dump_with_keyllm/ --input-authors resources/openalex/data2/author_info_aggregated/authors_aggregated_top10000_by_publications.json --output resources/openalex/data2/aggregated_by_authors/ 
+
 ```shell
 aggregate_authors.py --input-corpus ... --input-authors  --output  
 ```
