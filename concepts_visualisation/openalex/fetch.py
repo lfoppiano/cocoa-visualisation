@@ -12,7 +12,6 @@ from tqdm import tqdm
 load_dotenv()
 
 pyalex.config.email = os.environ['OPENALEX_CONFIG_EMAIL']
-pyalex.config.api_key = os.environ['OPENALEX_API_KEY']
 
 
 def fetch_openalex_works(concept_id, output_path, per_page=200, n_max=2000000, original=False):

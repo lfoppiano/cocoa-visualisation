@@ -31,6 +31,8 @@ def aggregate(data, aggregated={}):
         # year = str(int(record['publication_year']))
 
         for author in authors:
+            if 'id' not in author or not author['id']:
+                continue
             author_uniq_key = get_author_uniq_key(author)
             if str(author_uniq_key) not in aggregated.keys():
                 # author_obj = 0

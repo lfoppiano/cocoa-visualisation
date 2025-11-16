@@ -54,7 +54,7 @@ fetch.py --output resources/openalex/data/dump
 preprocess_works.py --input-corpus resources/openalex/data/dump_filtered_by_year --output resources/openalex/data/dump_cleaned_concepts
 ````
  - input in `resources/openalex/data/dump`
- - output in `resouces/openalex/data/dump_preprocessed`
+ - output in `resources/openalex/data/dump_preprocessed`
 
 ### Get author aggregated information
 Initially, we planned to aggregate by author, and sort the aggregation by number of publications, however this will duplicate a lot of data and will make impossible to manage. 

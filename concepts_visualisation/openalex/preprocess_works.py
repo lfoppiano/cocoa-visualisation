@@ -13,7 +13,6 @@ from concepts_visualisation.openalex.aggregate_authors import GENERIC_CONCEPTS_B
 load_dotenv(verbose=True, override=True)
 
 pyalex.config.email = os.environ['OPENALEX_CONFIG_EMAIL']
-pyalex.config.api_key = os.environ['OPENALEX_API_KEY']
 
 
 def cleanup_concepts(data):
@@ -110,7 +109,7 @@ if __name__ == '__main__':
         with open(os.path.join(input_corpus, filename)) as dump_file:
             works = json.load(dump_file)
 
-        filtered_works = list(filter(lambda w: 'publication_year' in w and w['publication_year'] >= from_year, works))
+        filtered_works = list(filter(lambda w: 'publication_year' in w and w['publication_year'] and w['publication_year'] >= from_year, works))
 
         processed_works = cleanup_concepts(filtered_works)
 
