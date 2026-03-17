@@ -4,9 +4,9 @@
 
 - [Before starting](#before-starting)
 - [Running the Pipeline](#running-the-pipeline)
-    + [Core Data Pipeline](#core-data-pipeline)
-    + [Author Profiling Pipeline](#author-profiling-pipeline)
-    + [Utility Scripts](#utility-scripts)
+    + [1. Dataset Collection](#1-dataset-collection)
+    + [2. Author Research Output Vector DB](#2-author-research-output-vector-db)
+    + [3. Knowledge Graph Construction](#3-knowledge-graph-construction)
 - [Keyword Extraction](#keyword-extraction)
     + [Methods](#methods)
     + [Evaluation](#evaluation)
@@ -47,7 +47,7 @@ flowchart TD
     B -->|preprocess_works| C[dump_preprocessed/]
     C -->|aggregate_author_info| D[author_info_aggregated/]
     C -->|aggregate_by_periods| E[dump_by_periods/]
-    C -->|extract_keywords_keyllm| F[dump_with_keywords/]
+    E -->|extract_keywords_keyllm| F[dump_with_keywords/]
     F -->|aggregate_authors| G[aggregated_by_authors/]
     D -->|input| G
     F -->|extract_term_frequencies| H[author_profiles/]
@@ -56,9 +56,9 @@ flowchart TD
     H -->|visualize_word_clouds| I[author_profiles/word_cloud/]
 ```
 
-### Core Data Pipeline
+### 1. Dataset Collection
 
-#### 1. Fetch the data from OpenAlex
+#### 1.1 Fetch the data from OpenAlex
 
 ```shell
 python -m concepts_visualisation.openalex.fetch_works --base-concept C555008776 --output resources/openalex/data/dump
@@ -66,7 +66,7 @@ python -m concepts_visualisation.openalex.fetch_works --base-concept C555008776 
 
 - output in `resources/openalex/data/dump`
 
-#### 2. Preprocess works
+#### 1.2 Preprocess works
 
 - Filter out works that have been published before 1990
 - Cleanup concepts (it requires fetching concepts from the OpenAlex API, or from a cache, which is already stored in `openalex/data/cache_concepts`):
@@ -80,7 +80,7 @@ python -m concepts_visualisation.openalex.preprocess_works --input-corpus resour
 - input in `resources/openalex/data/dump`
 - output in `resources/openalex/data/dump_preprocessed`
 
-#### 3. Get author aggregated information
+#### 1.3 Get author aggregated information
 
 Initially, we planned to aggregate by author, and sort the aggregation by number of publications, however this will duplicate a lot of data and will make impossible to manage.
 Instead, we extract author information aggregated all over the papers.
@@ -94,10 +94,10 @@ python -m concepts_visualisation.openalex.aggregate_author_info --input-corpus r
 ```
 
 - input: `resources/openalex/data/dump_preprocessed`
-- author-list: `resources/openalex/data/author_info_aggregated/to_be_added.txt` (diff between Dieb-san list of prominent people in batteries and list of authors from the script)
+- author-list: `resources/openalex/data/author_info_aggregated/to_be_added.txt` (diff between curated list of prominent researchers in batteries and list of authors from the script)
 - output: `resources/openalex/data/author_info_aggregated/authors_aggregated_top10000_by_publications.json`
 
-#### 4. Aggregate publications by period
+#### 1.4 Aggregate publications by period
 
 This task aims to output three files with publications, for each of the three periods.
 This should be performed before aggregating by authors as it will make the keyword extraction much simpler and efficient.
@@ -114,7 +114,7 @@ python -m concepts_visualisation.openalex.aggregate_by_periods --input-corpus re
 
 The output will be one file for each period + one file for publication dates outside this period
 
-#### 5. Extract keywords with KeyLLM + KeyBERT
+#### 1.5 Extract keywords with KeyLLM + KeyBERT
 
 There are two options to run the keyword extraction, by corpus directory:
 
@@ -130,7 +130,9 @@ python -m concepts_visualisation.openalex.keyword.extract_keywords_keyllm --inpu
 
 In any case the requests are batched to process them in parallel, however if the batch size is too large, the process might fail due to the context window limitation in chatgpt.
 
-#### 6. Aggregate data by authors
+### 2. Author Research Output Vector DB
+
+#### 2.1 Aggregate data by authors
 
 Each record (author) should have:
 1. publications grouped by period 1990-1999, 2000-2009, 2010-2023
@@ -199,11 +201,7 @@ python -m concepts_visualisation.openalex.aggregate_authors --input-corpus resou
 - input-authors: `resources/openalex/data/author_info_aggregated/authors_aggregated_top10000_by_publications.json`
 - output: `resources/openalex/data/aggregated_by_authors`
 
-### Author Profiling Pipeline
-
-This pipeline builds author profiles from keyword/concept frequencies, generates author vectors, computes pairwise similarity, and produces word cloud visualizations.
-
-#### 1. Extract concept/keyword frequencies from works
+#### 2.2 Extract concept/keyword frequencies from works
 
 ```shell
 python -m concepts_visualisation.openalex.extract_term_frequencies \
@@ -214,7 +212,7 @@ python -m concepts_visualisation.openalex.extract_term_frequencies \
 - input: `resources/openalex/data/dump_with_keyllm`
 - output: `resources/openalex/data/author_profiles` (produces `merged_terms.json` among other files)
 
-#### 2. Build author vectors
+#### 2.3 Build author vectors
 
 ```shell
 python -m concepts_visualisation.openalex.make_author_vectors \
@@ -227,7 +225,7 @@ python -m concepts_visualisation.openalex.make_author_vectors \
 - input-authors: `resources/openalex/data/aggregated_by_authors/authors.json`
 - output: `resources/openalex/data/author_profiles/author_vectors.json`
 
-#### 3. Compute author similarity
+#### 2.4 Compute author similarity
 
 ```shell
 python -m concepts_visualisation.openalex.compute_similarity \
@@ -238,7 +236,9 @@ python -m concepts_visualisation.openalex.compute_similarity \
 - input: `resources/openalex/data/author_profiles/author_vectors.json`
 - output: `resources/openalex/data/author_profiles/complete_authors.json`
 
-#### 4. Generate word cloud visualizations
+### 3. Knowledge Graph Construction
+
+#### 3.1 Generate word cloud visualizations
 
 ```shell
 python -m concepts_visualisation.openalex.visualize_word_clouds \
@@ -248,17 +248,6 @@ python -m concepts_visualisation.openalex.visualize_word_clouds \
 
 - input: `resources/openalex/data/author_profiles/author_vectors.json`
 - output: `resources/openalex/data/author_profiles/word_cloud/`
-
-### Utility Scripts
-
-#### Convert CSV from Dieb-san with KeyBERT extracted information
-
-```shell
-python -m concepts_visualisation.openalex.convert_csv_to_json
-```
-
-- input: `battery_all-KT.csv`
-- output: `battery_data_topics_original.json`
 
 ## Keyword Extraction
 
