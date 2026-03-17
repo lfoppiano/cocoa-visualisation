@@ -10,12 +10,11 @@ pyalex
 keybert[flair]
 keyphrase-vectorizers
 langchain
-promptlayer
-httpcore==0.15.0
-httpx==0.23.0
 openai
 inflect<7
 scikit-learn
+scipy
+pandas
 wordcloud
 matplotlib
 numpy

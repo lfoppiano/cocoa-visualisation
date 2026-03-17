@@ -41,12 +41,27 @@ REQUESTS_CA_BUNDLE=
 
 ## Running the Pipeline
 
+```mermaid
+flowchart TD
+    A[OpenAlex API] -->|fetch_works| B[dump/]
+    B -->|preprocess_works| C[dump_preprocessed/]
+    C -->|aggregate_author_info| D[author_info_aggregated/]
+    C -->|aggregate_by_periods| E[dump_by_periods/]
+    C -->|extract_keywords_keyllm| F[dump_with_keywords/]
+    F -->|aggregate_authors| G[aggregated_by_authors/]
+    D -->|input| G
+    F -->|extract_term_frequencies| H[author_profiles/]
+    G -->|make_author_vectors| H
+    H -->|compute_similarity| H
+    H -->|visualize_word_clouds| I[author_profiles/word_cloud/]
+```
+
 ### Core Data Pipeline
 
 #### 1. Fetch the data from OpenAlex
 
 ```shell
-python -m concepts_visualisation.openalex.fetch --base-concept C555008776 --output resources/openalex/data/dump
+python -m concepts_visualisation.openalex.fetch_works --base-concept C555008776 --output resources/openalex/data/dump
 ```
 
 - output in `resources/openalex/data/dump`
@@ -75,7 +90,7 @@ The format of each author is as follows: `author_id###name_surname: number of pu
 We can supply an additional file to keep in the selection Openalex IDs from a list.
 
 ```shell
-python -m concepts_visualisation.openalex.get_author_info --input-corpus resources/openalex/data/dump_preprocessed --output resources/openalex/data/author_info_aggregated/authors_aggregated_top10000_by_publications.json --author-list resources/openalex/data/author_info_aggregated/to_be_added.txt
+python -m concepts_visualisation.openalex.aggregate_author_info --input-corpus resources/openalex/data/dump_preprocessed --output resources/openalex/data/author_info_aggregated/authors_aggregated_top10000_by_publications.json --author-list resources/openalex/data/author_info_aggregated/to_be_added.txt
 ```
 
 - input: `resources/openalex/data/dump_preprocessed`
@@ -239,7 +254,7 @@ python -m concepts_visualisation.openalex.visualize_word_clouds \
 #### Convert CSV from Dieb-san with KeyBERT extracted information
 
 ```shell
-python -m concepts_visualisation.openalex.csv_to_json
+python -m concepts_visualisation.openalex.convert_csv_to_json
 ```
 
 - input: `battery_all-KT.csv`
