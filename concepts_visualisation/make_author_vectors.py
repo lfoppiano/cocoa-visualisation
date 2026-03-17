@@ -5,7 +5,7 @@ import re
 import numpy as np
 from tqdm import tqdm
 
-from concepts_visualisation.openalex.utils import process_key
+from concepts_visualisation.utils import process_key
 
 PERIOD_ORDER = ["2010-2023", "2000-2009", "1990-1999"]
 

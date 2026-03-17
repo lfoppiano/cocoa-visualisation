@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 from pyalex import Concepts
 from tqdm import tqdm
 
-from concepts_visualisation.openalex.aggregate_authors import GENERIC_CONCEPTS_BATTERY
+from concepts_visualisation.aggregate_authors import GENERIC_CONCEPTS_BATTERY
 
 load_dotenv(verbose=True, override=True)
 

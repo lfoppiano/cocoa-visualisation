@@ -61,7 +61,7 @@ flowchart TD
 #### 1.1 Fetch the data from OpenAlex
 
 ```shell
-python -m concepts_visualisation.openalex.fetch_works --base-concept C555008776 --output resources/openalex/data/dump
+python -m concepts_visualisation.fetch_works --base-concept C555008776 --output resources/openalex/data/dump
 ```
 
 - output in `resources/openalex/data/dump`
@@ -74,7 +74,7 @@ python -m concepts_visualisation.openalex.fetch_works --base-concept C555008776 
   - removes concepts with a score = 0.0
 
 ```shell
-python -m concepts_visualisation.openalex.preprocess_works --input-corpus resources/openalex/data/dump --output resources/openalex/data/dump_preprocessed
+python -m concepts_visualisation.preprocess_works --input-corpus resources/openalex/data/dump --output resources/openalex/data/dump_preprocessed
 ```
 
 - input in `resources/openalex/data/dump`
@@ -90,7 +90,7 @@ The format of each author is as follows: `author_id###name_surname: number of pu
 We can supply an additional file to keep in the selection Openalex IDs from a list.
 
 ```shell
-python -m concepts_visualisation.openalex.aggregate_author_info --input-corpus resources/openalex/data/dump_preprocessed --output resources/openalex/data/author_info_aggregated/authors_aggregated_top10000_by_publications.json --author-list resources/openalex/data/author_info_aggregated/to_be_added.txt
+python -m concepts_visualisation.aggregate_author_info --input-corpus resources/openalex/data/dump_preprocessed --output resources/openalex/data/author_info_aggregated/authors_aggregated_top10000_by_publications.json --author-list resources/openalex/data/author_info_aggregated/to_be_added.txt
 ```
 
 - input: `resources/openalex/data/dump_preprocessed`
@@ -106,7 +106,7 @@ Currently aggregating by author will duplicate the works, keyword extraction wil
 The batch size will determine the number of works for each of the output files.
 
 ```shell
-python -m concepts_visualisation.openalex.aggregate_by_periods --input-corpus resources/openalex/data/dump_preprocessed --output resources/openalex/data/dump_by_periods --batch-size 1000
+python -m concepts_visualisation.aggregate_by_periods --input-corpus resources/openalex/data/dump_preprocessed --output resources/openalex/data/dump_by_periods --batch-size 1000
 ```
 
 - input: `resources/openalex/data/dump_preprocessed`
@@ -119,13 +119,13 @@ The output will be one file for each period + one file for publication dates out
 There are two options to run the keyword extraction, by corpus directory:
 
 ```shell
-python -m concepts_visualisation.openalex.keyword.extract_keywords_keyllm --input-corpus resources/openalex/data/dump_preprocessed --output-dir resources/openalex/data/dump_with_keywords
+python -m concepts_visualisation.keyword.extract_keywords_keyllm --input-corpus resources/openalex/data/dump_preprocessed --output-dir resources/openalex/data/dump_with_keywords
 ```
 
 or by single input/output file:
 
 ```shell
-python -m concepts_visualisation.openalex.keyword.extract_keywords_keyllm --input-json a_json_file.json --output-json output_json_file.json
+python -m concepts_visualisation.keyword.extract_keywords_keyllm --input-json a_json_file.json --output-json output_json_file.json
 ```
 
 In any case the requests are batched to process them in parallel, however if the batch size is too large, the process might fail due to the context window limitation in chatgpt.
@@ -194,7 +194,7 @@ Example output format:
 ```
 
 ```shell
-python -m concepts_visualisation.openalex.aggregate_authors --input-corpus resources/openalex/data/dump_with_keyllm --input-authors resources/openalex/data/author_info_aggregated/authors_aggregated_top10000_by_publications.json --output resources/openalex/data/aggregated_by_authors
+python -m concepts_visualisation.aggregate_authors --input-corpus resources/openalex/data/dump_with_keyllm --input-authors resources/openalex/data/author_info_aggregated/authors_aggregated_top10000_by_publications.json --output resources/openalex/data/aggregated_by_authors
 ```
 
 - input-corpus: `resources/openalex/data/dump_with_keyllm/`
@@ -204,7 +204,7 @@ python -m concepts_visualisation.openalex.aggregate_authors --input-corpus resou
 #### 2.2 Extract concept/keyword frequencies from works
 
 ```shell
-python -m concepts_visualisation.openalex.extract_term_frequencies \
+python -m concepts_visualisation.extract_term_frequencies \
   --input-corpus resources/openalex/data/dump_with_keyllm \
   --output-dir resources/openalex/data/author_profiles
 ```
@@ -215,7 +215,7 @@ python -m concepts_visualisation.openalex.extract_term_frequencies \
 #### 2.3 Build author vectors
 
 ```shell
-python -m concepts_visualisation.openalex.make_author_vectors \
+python -m concepts_visualisation.make_author_vectors \
   --input-terms resources/openalex/data/author_profiles/merged_terms.json \
   --input-authors resources/openalex/data/aggregated_by_authors/authors.json \
   --output-json resources/openalex/data/author_profiles/author_vectors.json
@@ -228,7 +228,7 @@ python -m concepts_visualisation.openalex.make_author_vectors \
 #### 2.4 Compute author similarity
 
 ```shell
-python -m concepts_visualisation.openalex.compute_similarity \
+python -m concepts_visualisation.compute_similarity \
   --input-author-vectors resources/openalex/data/author_profiles/author_vectors.json \
   --output-json resources/openalex/data/author_profiles/complete_authors.json
 ```
@@ -241,7 +241,7 @@ python -m concepts_visualisation.openalex.compute_similarity \
 #### 3.1 Generate word cloud visualizations
 
 ```shell
-python -m concepts_visualisation.openalex.visualize_word_clouds \
+python -m concepts_visualisation.visualize_word_clouds \
   --input-author-vectors resources/openalex/data/author_profiles/author_vectors.json \
   --output-dir resources/openalex/data/author_profiles/word_cloud
 ```
@@ -278,15 +278,15 @@ We extracted the list of `<keywords><term></term><....` from the tei.xml files f
 We process the abstracts using the three methods:
 
 ```bash
-for file in resources/openalex/data/sample_with_keywords/*/*.abstract.openalex.txt; do echo ${file}; python -m concepts_visualisation.openalex.keyword.extract_keywords --input $file --output "${file%.abstract.openalex.txt}.keybert.json" ; done
+for file in resources/openalex/data/sample_with_keywords/*/*.abstract.openalex.txt; do echo ${file}; python -m concepts_visualisation.keyword.extract_keywords --input $file --output "${file%.abstract.openalex.txt}.keybert.json" ; done
 ```
 
 ```bash
-for file in resources/openalex/data/sample_with_keywords/*/*.abstract.openalex.txt; do echo ${file}; python -m concepts_visualisation.openalex.keyword.extract_keywords --input $file --output "${file%.abstract.openalex.txt}.batteryonlybert.json" --transformer ../embeddings/pre-trained-embeddings/batteryonlybert-cased/ ; done
+for file in resources/openalex/data/sample_with_keywords/*/*.abstract.openalex.txt; do echo ${file}; python -m concepts_visualisation.keyword.extract_keywords --input $file --output "${file%.abstract.openalex.txt}.batteryonlybert.json" --transformer ../embeddings/pre-trained-embeddings/batteryonlybert-cased/ ; done
 ```
 
 ```bash
-for file in resources/openalex/data/sample_with_keywords/*/*.abstract.openalex.txt; do echo ${file}; python -m concepts_visualisation.openalex.keyword.extract_keywords_llm --input $file --output "${file%.abstract.openalex.txt}.chatgpt.json"; done
+for file in resources/openalex/data/sample_with_keywords/*/*.abstract.openalex.txt; do echo ${file}; python -m concepts_visualisation.keyword.extract_keywords_llm --input $file --output "${file%.abstract.openalex.txt}.chatgpt.json"; done
 ```
 
 The structure of the sample is as follow:
@@ -305,7 +305,7 @@ The structure of the sample is as follow:
 We finally process the metrics:
 
 ```shell
-python -m concepts_visualisation.openalex.keyword.evaluate_keywords --input-corpus resources/openalex/data/sample_with_keywords
+python -m concepts_visualisation.keyword.evaluate_keywords --input-corpus resources/openalex/data/sample_with_keywords
 ```
 
 #### Algorithm 1a

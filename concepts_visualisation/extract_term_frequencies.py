@@ -2,7 +2,7 @@ import argparse
 import json
 import os
 
-from concepts_visualisation.openalex.utils import process_key
+from concepts_visualisation.utils import process_key
 
 CONCEPT_EXCLUDE_LIST = ["power (physics)"]
 
