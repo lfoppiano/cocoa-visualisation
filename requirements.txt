@@ -14,3 +14,8 @@ promptlayer
 httpcore==0.15.0
 httpx==0.23.0
 openai
+inflect<7
+scikit-learn
+wordcloud
+matplotlib
+numpy

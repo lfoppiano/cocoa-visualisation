@@ -127,7 +127,8 @@ if __name__ == '__main__':
         if len(raw_keywords_batteryscibert_cased) == 0:
             continue
 
-        file_batteryscibert_uncased = os.path.join(input_corpus, directory, directory + ".batteryscibert_uncased@10.json")
+        file_batteryscibert_uncased = os.path.join(input_corpus, directory,
+                                                   directory + ".batteryscibert_uncased@10.json")
         if not os.path.exists(file_batteryscibert_uncased):
             continue
         raw_keywords_batteryscibert_uncased = json.load(open(file_batteryscibert_uncased))
@@ -156,8 +157,9 @@ if __name__ == '__main__':
         for idp, predicted_keywords_by_method in enumerate(predicted_keywords):
             predicted_keywords_by_method_lower_sorted = [str.lower(item) for item in predicted_keywords_by_method]
 
-            avg_similarity = compute_average_similarity_expand_keywords(expected_keywords_lower_sorted,
-                                                        predicted_keywords_by_method_lower_sorted)
+            avg_similarity = compute_average_similarity_expand_keywords(
+                expected_keywords_lower_sorted,
+                predicted_keywords_by_method_lower_sorted)
             similarities_by_method_document.append(avg_similarity)
 
         similarities_keybert.append(similarities_by_method_document[0])

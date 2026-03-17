@@ -3,19 +3,25 @@
 ## Table of content
 
 - [Before starting](#before-starting)
-- [Workflow](#workflow)
-- [Keyword extraction evaluation](#keyword-extraction-evaluation-)
-    + [Algorithm 1a](#algorithm-1a)
-    + [Algorithm 1b](#algorithm-1b)
-    + [Algorithm 2](#algorithm-2)
-    + [Top results](#top-results)
+- [Running the Pipeline](#running-the-pipeline)
+    + [Core Data Pipeline](#core-data-pipeline)
+    + [Author Profiling Pipeline](#author-profiling-pipeline)
+    + [Utility Scripts](#utility-scripts)
+- [Keyword Extraction](#keyword-extraction)
+    + [Methods](#methods)
+    + [Evaluation](#evaluation)
+        * [Data preparation](#data-preparation)
+        * [Algorithm 1a](#algorithm-1a)
+        * [Algorithm 1b](#algorithm-1b)
+        * [Algorithm 2](#algorithm-2)
+        * [Top results](#top-results)
 
 ## Before starting
 
 ### Clone / Checkout
 
 ```bash
-git lfs install 
+git lfs install
 ```
 
 ### Configuration
@@ -33,17 +39,19 @@ REQUEST_CA_BUNDLE=
 REQUESTS_CA_BUNDLE=
 ```
 
-## Workflow
+## Running the Pipeline
 
-### Fetch the data from OpenAlex
+### Core Data Pipeline
+
+#### 1. Fetch the data from OpenAlex
 
 ```shell
-fetch.py --output resources/openalex/data/dump 
+python -m concepts_visualisation.openalex.fetch --base-concept C555008776 --output resources/openalex/data/dump
 ```
 
 - output in `resources/openalex/data/dump`
 
-### Preprocess works
+#### 2. Preprocess works
 
 - Filter out works that have been published before 1990
 - Cleanup concepts (it requires fetching concepts from the OpenAlex API, or from a cache, which is already stored in `openalex/data/cache_concepts`):
@@ -51,63 +59,70 @@ fetch.py --output resources/openalex/data/dump
   - removes concepts with a score = 0.0
 
 ```shell
-preprocess_works.py --input-corpus resources/openalex/data/dump_filtered_by_year --output resources/openalex/data/dump_cleaned_concepts
-````
- - input in `resources/openalex/data/dump`
- - output in `resources/openalex/data/dump_preprocessed`
+python -m concepts_visualisation.openalex.preprocess_works --input-corpus resources/openalex/data/dump --output resources/openalex/data/dump_preprocessed
+```
 
-### Get author aggregated information
-Initially, we planned to aggregate by author, and sort the aggregation by number of publications, however this will duplicate a lot of data and will make impossible to manage. 
+- input in `resources/openalex/data/dump`
+- output in `resources/openalex/data/dump_preprocessed`
+
+#### 3. Get author aggregated information
+
+Initially, we planned to aggregate by author, and sort the aggregation by number of publications, however this will duplicate a lot of data and will make impossible to manage.
 Instead, we extract author information aggregated all over the papers.
-The author information are then sorted by publication and the top 10000 are returned. 
+The author information are then sorted by publication and the top 10000 are returned.
 The format of each author is as follows: `author_id###name_surname: number of publications`
 
-We can supply an additional file to keep in the selection Openalex IDs from a list. 
+We can supply an additional file to keep in the selection Openalex IDs from a list.
 
 ```shell
-get_author_info.py --input-corpus .... --output ... --author-list ...  
+python -m concepts_visualisation.openalex.get_author_info --input-corpus resources/openalex/data/dump_preprocessed --output resources/openalex/data/author_info_aggregated/authors_aggregated_top10000_by_publications.json --author-list resources/openalex/data/author_info_aggregated/to_be_added.txt
 ```
- - input: `resouces/openalex/data/dump_preprocessed`
- - author-list: `resources/openalex/data/author_info_aggregated/to_be_added.txt` (diff between Dieb-san list of prominent people in batteries and list of authors from the script)
- - output: `resources/openalex/data/author_info_aggregated/authors_aggregated_top10000_by_publications.json`
 
-### Aggregate publications by period
-This task aims to output three files with publications, for each of the three periods. 
-This should be performed before aggregating by authors as it will make the keyword extraction much simpler and efficient. 
-Currently aggregating by author will duplicate the works, keyword extraction will not be efficient. 
+- input: `resources/openalex/data/dump_preprocessed`
+- author-list: `resources/openalex/data/author_info_aggregated/to_be_added.txt` (diff between Dieb-san list of prominent people in batteries and list of authors from the script)
+- output: `resources/openalex/data/author_info_aggregated/authors_aggregated_top10000_by_publications.json`
 
-The batch size will determine the number of works for each of the output files.  
+#### 4. Aggregate publications by period
+
+This task aims to output three files with publications, for each of the three periods.
+This should be performed before aggregating by authors as it will make the keyword extraction much simpler and efficient.
+Currently aggregating by author will duplicate the works, keyword extraction will not be efficient.
+
+The batch size will determine the number of works for each of the output files.
 
 ```shell
-aggregate_by_periods.py --input-corpus ... --output ...  --batch-size ... 
+python -m concepts_visualisation.openalex.aggregate_by_periods --input-corpus resources/openalex/data/dump_preprocessed --output resources/openalex/data/dump_by_periods --batch-size 1000
 ```
- - input: `resouces/openalex/data/dump_preprocessed`
- - output `resouces/openalex/data/dump_by_periods`
 
-The output will be one file for each period + one file for publication dates outside this period 
+- input: `resources/openalex/data/dump_preprocessed`
+- output: `resources/openalex/data/dump_by_periods`
 
-### Extract keywords with keyLLM + keyBERT 
+The output will be one file for each period + one file for publication dates outside this period
 
-There are two options to run the keyword extraction, by corpus directory 
+#### 5. Extract keywords with KeyLLM + KeyBERT
+
+There are two options to run the keyword extraction, by corpus directory:
+
 ```shell
-keyword/extract_keywords_keyllm.py --input-corpus ... --output-dir 
+python -m concepts_visualisation.openalex.keyword.extract_keywords_keyllm --input-corpus resources/openalex/data/dump_preprocessed --output-dir resources/openalex/data/dump_with_keywords
 ```
 
-or by single input/ output file
+or by single input/output file:
+
 ```shell
-keyword/extract_keywords_keyllm.py --input-json  a_json_file.json --output-dir output_json_file.json 
+python -m concepts_visualisation.openalex.keyword.extract_keywords_keyllm --input-json a_json_file.json --output-json output_json_file.json
 ```
 
-In any case the requests are batched to process them in parallel, however if the batch size is too large, the process might fail due to the context window limitation in chatgpt
+In any case the requests are batched to process them in parallel, however if the batch size is too large, the process might fail due to the context window limitation in chatgpt.
 
-### Aggregate data by authors
+#### 6. Aggregate data by authors
 
-Each records (author) should have: 
-1. publication grouped by period 1990-1999, 2000-2009, 2009-2023
-2. total publication number 
-3. total publication by first authors
+Each record (author) should have:
+1. publications grouped by period 1990-1999, 2000-2009, 2010-2023
+2. total publication number
+3. total publications by first authors
 
-Example output format: 
+Example output format:
 
 ```json
 {
@@ -161,44 +176,88 @@ Example output format:
 }
 ```
 
-python -m concepts_visualisation.openalex.aggregate_authors --input-corpus resources/openalex/data2/dump_with_keyllm/ --input-authors resources/openalex/data2/author_info_aggregated/authors_aggregated_top10000_by_publications.json --output resources/openalex/data2/aggregated_by_authors/ 
-
 ```shell
-aggregate_authors.py --input-corpus ... --input-authors  --output  
+python -m concepts_visualisation.openalex.aggregate_authors --input-corpus resources/openalex/data/dump_with_keyllm --input-authors resources/openalex/data/author_info_aggregated/authors_aggregated_top10000_by_publications.json --output resources/openalex/data/aggregated_by_authors
 ```
 
- - input `resources/openalex/data/dump_cleaned_concepts` 
- - input-authors `resources/openalex/data/author_info_aggregated/authors_aggregated_top10000_by_publications.json`
- - output `resources/openalex/data/aggregated_by_authors`
+- input-corpus: `resources/openalex/data/dump_with_keyllm/`
+- input-authors: `resources/openalex/data/author_info_aggregated/authors_aggregated_top10000_by_publications.json`
+- output: `resources/openalex/data/aggregated_by_authors`
 
------ 
-### Cleanup data by removing "ancestors concepts"
+### Author Profiling Pipeline
 
-- Run `clean_concepts.py`
-    - input: `resources/openalex/data/dump_filtered_by_years`
-    - output: `resources/openalex/data/dump_cleaned_concepts`
+This pipeline builds author profiles from keyword/concept frequencies, generates author vectors, computes pairwise similarity, and produces word cloud visualizations.
 
-### Convert CSV from Dieb-san with KeyBERT extracted information
+#### 1. Extract concept/keyword frequencies from works
 
-- Run `csv_to_json.py`
-    - input: `battery_all-KT.csv`
-    - output: `battery_data_topics_original.json`
+```shell
+python -m concepts_visualisation.openalex.extract_term_frequencies \
+  --input-corpus resources/openalex/data/dump_with_keyllm \
+  --output-dir resources/openalex/data/author_profiles
+```
 
-### Run keybert
+- input: `resources/openalex/data/dump_with_keyllm`
+- output: `resources/openalex/data/author_profiles` (produces `merged_terms.json` among other files)
 
-- Run `extract_keywords.py`
-    - input: `data/openalex/dump`
-    - output: `data/openalex/dump_with_keybert`
+#### 2. Build author vectors
 
-### Aggregate topics
+```shell
+python -m concepts_visualisation.openalex.make_author_vectors \
+  --input-terms resources/openalex/data/author_profiles/merged_terms.json \
+  --input-authors resources/openalex/data/aggregated_by_authors/authors.json \
+  --output-json resources/openalex/data/author_profiles/author_vectors.json
+```
 
-- Run `aggregate_topics.py`
-    - input: `battery_data_topics_with_filtered_concepts.json`
-    - output: `resources/data/openalex/authors_years`
+- input-terms: `resources/openalex/data/author_profiles/merged_terms.json`
+- input-authors: `resources/openalex/data/aggregated_by_authors/authors.json`
+- output: `resources/openalex/data/author_profiles/author_vectors.json`
 
-## Keyword extraction evaluation
+#### 3. Compute author similarity
 
-### Data preparation
+```shell
+python -m concepts_visualisation.openalex.compute_similarity \
+  --input-author-vectors resources/openalex/data/author_profiles/author_vectors.json \
+  --output-json resources/openalex/data/author_profiles/complete_authors.json
+```
+
+- input: `resources/openalex/data/author_profiles/author_vectors.json`
+- output: `resources/openalex/data/author_profiles/complete_authors.json`
+
+#### 4. Generate word cloud visualizations
+
+```shell
+python -m concepts_visualisation.openalex.visualize_word_clouds \
+  --input-author-vectors resources/openalex/data/author_profiles/author_vectors.json \
+  --output-dir resources/openalex/data/author_profiles/word_cloud
+```
+
+- input: `resources/openalex/data/author_profiles/author_vectors.json`
+- output: `resources/openalex/data/author_profiles/word_cloud/`
+
+### Utility Scripts
+
+#### Convert CSV from Dieb-san with KeyBERT extracted information
+
+```shell
+python -m concepts_visualisation.openalex.csv_to_json
+```
+
+- input: `battery_all-KT.csv`
+- output: `battery_data_topics_original.json`
+
+## Keyword Extraction
+
+### Methods
+
+The project supports multiple extraction approaches:
+- **Basic KeyBERT**: `keyword/extract_keywords.py`
+- **LLM-powered**: `keyword/extract_keywords_llm.py`
+- **KeyLLM integration**: `keyword/extract_keywords_keyllm.py`
+- **Tree-based extraction**: `keyword/extract_keywords_tree.py`
+
+### Evaluation
+
+#### Data preparation
 
 Compute an evaluation between different extraction methods with the keywords extracted from the PDF document. We use https://github.com/kermitt2/article_dataset_builder to download and process documents with grobid. We provide article_dataset_builder with the list of deduplicated DOIS: [dois_openalex.sorted.uniqe.txt](resources%2Fdata%2Fopenalex%2Fdata_contamination%2Fdois_openalex.sorted.uniqe.txt)
 
@@ -215,23 +274,23 @@ We extracted the list of `<keywords><term></term><....` from the tei.xml files f
 We process the abstracts using the three methods:
 
 ```bash
-for file in resources/openalex/data/sample_with_keywords/*/*.abstract.openalex.txt; do echo ${file}; python concepts_visualisation/openalex/extract_keywords.py --input $file --output "${file%.abstract.openalex.txt}.keybert.json" ; done
+for file in resources/openalex/data/sample_with_keywords/*/*.abstract.openalex.txt; do echo ${file}; python -m concepts_visualisation.openalex.keyword.extract_keywords --input $file --output "${file%.abstract.openalex.txt}.keybert.json" ; done
 ```
 
 ```bash
-for file in resources/openalex/data/sample_with_keywords/*/*.abstract.openalex.txt; do echo ${file}; python concepts_visualisation/openalex/extract_keywords.py --input $file --output "${file%.abstract.openalex.txt}.batteryonlybert.json" --transformer ../embeddings/pre-trained-embeddings/batteryonlybert-cased/ ; done
+for file in resources/openalex/data/sample_with_keywords/*/*.abstract.openalex.txt; do echo ${file}; python -m concepts_visualisation.openalex.keyword.extract_keywords --input $file --output "${file%.abstract.openalex.txt}.batteryonlybert.json" --transformer ../embeddings/pre-trained-embeddings/batteryonlybert-cased/ ; done
 ```
 
 ```bash
-for file in resources/openalex/data/sample_with_keywords/*/*.abstract.openalex.txt; do echo ${file}; python concepts_visualisation/openalex/extract_keywords_llm.py --input $file --output "${file%.abstract.openalex.txt}.chatgpt.json"; done
+for file in resources/openalex/data/sample_with_keywords/*/*.abstract.openalex.txt; do echo ${file}; python -m concepts_visualisation.openalex.keyword.extract_keywords_llm --input $file --output "${file%.abstract.openalex.txt}.chatgpt.json"; done
 ```
 
 The structure of the sample is as follow:
 
 - corpus
     + file1
-        + file1.abstract.txt: Abtract
-        + file1.batteryonlybert.json:: keywords extracted by batteryonlybert-cased
+        + file1.abstract.txt: Abstract
+        + file1.batteryonlybert.json: keywords extracted by batteryonlybert-cased
         + file1.keybert.json: keywords extracted by keybert
         + file1.chatgpt.json: keywords extracted by chatgpt
         + file1.keywords.txt: the expected keywords
@@ -239,20 +298,20 @@ The structure of the sample is as follow:
     + file2
         + ....
 
-We finally process the metrics
+We finally process the metrics:
 
-> python concepts_visualisation/openalex/evaluate_keywords.py --input resources/data/openalex/sample_with_keywords
+```shell
+python -m concepts_visualisation.openalex.keyword.evaluate_keywords --input-corpus resources/openalex/data/sample_with_keywords
+```
 
-Results are reported [here](#keyword-extraction-evaluation-).
-
-### Algorithm 1a:
+#### Algorithm 1a
 
 1. Read the 3 files + the expected file
 2. Remove the confidence scores when needed and trim each list to the minimum length between the three extracting methods (e.g. if keybert extracted only 5 and the other extracted 10 keywords, we limit all to the 5 most important keywords)
 3. For each document,
     - for each method:
         - sort the keywords
-        - search for the most similar one in the expected list (basd on sentence BERT)
+        - search for the most similar one in the expected list (based on sentence BERT)
         - sum the similarity score - continue, ignoring the matching expected keyword
     - calculate average for in the same method
     - sum each average similarity by method
@@ -272,15 +331,15 @@ Results @10 keywords:
 
 N/A The algorithm was fixed because we realised that the sorting was penalising possible matches.
 
-### Algorithm 1b
+#### Algorithm 1b
 
-**TLDR**: Same as Algorithm 1 but without the sorting at the beginning
+**TLDR**: Same as Algorithm 1a but without the sorting at the beginning
 
 1. Read the 3 files + the expected file
 2. Remove the confidence scores when needed and trim each list to the minimum length between the three extracting methods (e.g. if keybert extracted only 5 and the other extracted 10 keywords, we limit all to the 5 most important keywords)
 3. For each document,
     - for each method:
-        - search for the most similar one in the expected list (basd on sentence BERT)
+        - search for the most similar one in the expected list (based on sentence BERT)
         - sum the similarity score - continue, ignoring the matching expected keyword
     - calculate average for in the same method
     - sum each average similarity by method
@@ -306,7 +365,7 @@ Results @10 keywords:
 | batteryonlybert        | 0.1616          |
 | batteryscibert_uncased | 0.1375          |
 
-### Algorithm 2
+#### Algorithm 2
 
 Goal: evaluating while expanding the keywords
 
@@ -341,7 +400,7 @@ Results @10 keywords:
 | batteryonlybert        | 0.6063          |
 | batteryscibert_uncased | 0.5609          |
 
-### Top results
+#### Top results
 
 We re-evaluated using abstracts from OpenAlex, and algorithm 2 over extraction of 10 keywords.
 
@@ -352,4 +411,3 @@ We re-evaluated using abstracts from OpenAlex, and algorithm 2 over extraction o
 | batteryonlybert        | 0.6677          |
 | keybert                | 0.6665          |
 | batteryscibert_uncased | 0.5423          |
-
