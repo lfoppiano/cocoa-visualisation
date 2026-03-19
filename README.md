@@ -7,6 +7,8 @@
     + [1. Dataset Collection](#1-dataset-collection)
     + [2. Author Research Output Vector DB](#2-author-research-output-vector-db)
     + [3. Knowledge Graph Construction](#3-knowledge-graph-construction)
+        * [3.1 Generate word cloud visualizations](#31-generate-word-cloud-visualizations)
+        * [3.2 RDF Generation](#32-rdf-generation)
 - [Keyword Extraction](#keyword-extraction)
     + [Methods](#methods)
     + [Evaluation](#evaluation)
@@ -54,6 +56,11 @@ flowchart TD
     G -->|make_author_vectors| H
     H -->|compute_similarity| H
     H -->|visualize_word_clouds| I[author_profiles/word_cloud/]
+    H -->|authors_rdf| J[rdf/]
+    H -->|author_to_author_rdf| J
+    H -->|author_term_relationship| J
+    C -->|concepts_rdf| J
+    C -->|papers_rdf| J
 ```
 
 ### 1. Dataset Collection
@@ -248,6 +255,78 @@ python -m concepts_visualisation.visualize_word_clouds \
 
 - input: `resources/openalex/data/author_profiles/author_vectors.json`
 - output: `resources/openalex/data/author_profiles/word_cloud/`
+
+#### 3.2 RDF Generation
+
+The following scripts convert pipeline outputs into RDF/Turtle files for knowledge graph construction. All outputs go to `resources/rdf/`.
+
+##### 3.2.1 Authors RDF
+
+Generates RDF triples for authors including name, ORCID, publication counts, and affiliation. Affiliation is derived from the most frequent institution across an author's works in the dump.
+
+```shell
+python -m concepts_visualisation.rdf.authors_rdf \
+  --input-json resources/openalex/data/author_profiles/complete_authors.json \
+  --input-corpus resources/openalex/data/dump_preprocessed \
+  --output resources/rdf/authors_graph.ttl
+```
+
+- input-json: `resources/openalex/data/author_profiles/complete_authors.json`
+- input-corpus (optional): `resources/openalex/data/dump_preprocessed` (used for affiliation data)
+- output: `resources/rdf/authors_graph.ttl`
+
+##### 3.2.2 Author-to-Author Similarity RDF
+
+Generates RDF triples representing the top-N most similar authors for each author, along with their matching concept/term.
+
+```shell
+python -m concepts_visualisation.rdf.author_to_author_rdf \
+  --input-json resources/openalex/data/author_profiles/complete_authors.json \
+  --output resources/rdf/author_to_author_graph.ttl
+```
+
+- input: `resources/openalex/data/author_profiles/complete_authors.json`
+- output: `resources/rdf/author_to_author_graph.ttl`
+- `--top-n` (default: 5): number of similar authors per author
+
+##### 3.2.3 Author-Term Relationship RDF
+
+Generates RDF triples linking each author to their top 20 terms (concepts/keywords), sorted by score.
+
+```shell
+python -m concepts_visualisation.rdf.author_term_relationship \
+  --input-json resources/openalex/data/author_profiles/complete_authors.json \
+  --output resources/rdf/author_term_graph.ttl
+```
+
+- input: `resources/openalex/data/author_profiles/complete_authors.json`
+- output: `resources/rdf/author_term_graph.ttl`
+
+##### 3.2.4 Concepts RDF
+
+Generates RDF triples for all unique concepts found across works in the dump, including OpenAlex and Wikidata identifiers.
+
+```shell
+python -m concepts_visualisation.rdf.concepts_rdf \
+  --input-corpus resources/openalex/data/dump_preprocessed \
+  --output resources/rdf/concepts_graph.ttl
+```
+
+- input: `resources/openalex/data/dump_preprocessed`
+- output: `resources/rdf/concepts_graph.ttl`
+
+##### 3.2.5 Papers RDF
+
+Generates RDF triples for all unique papers found in the dump, including title, DOI, publication year/date, and (when available) open access status and publisher.
+
+```shell
+python -m concepts_visualisation.rdf.papers_rdf \
+  --input-corpus resources/openalex/data/dump_preprocessed \
+  --output resources/rdf/papers_graph.ttl
+```
+
+- input: `resources/openalex/data/dump_preprocessed`
+- output: `resources/rdf/papers_graph.ttl`
 
 ## Keyword Extraction
 

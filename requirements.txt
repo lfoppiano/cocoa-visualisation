@@ -18,3 +18,4 @@ pandas
 wordcloud
 matplotlib
 numpy
+rdflib
